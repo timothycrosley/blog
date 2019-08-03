@@ -1,0 +1,7 @@
+__pycache__
+.venv
+output
+*-swp
+.directory
+lovelicton_deploy
+attila
