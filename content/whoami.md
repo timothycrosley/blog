@@ -103,5 +103,5 @@ Today is the beginning of my story. After all, I'm almost 30, not almost dead.
 
 I'm hoping to explore ways to simplify and automate development. To enable new developers, experienced developers, and teams alike, to solve their problems. And to do so more quickly and sustainably. Many of my projects will undoubtedly be duds, some of them I hope will help move the industry forward. All of them will be described in detail on this blog.
 
-Over the next 52 weeks, you can expect to read 52 articles posted on this blog. These posts will contain the details of 52 new projects, or project updates. Let's build some great things together. I hope you will be part of my story.
+Over the next 52 weeks, you can expect to read 52 articles posted on this blog. These posts will contain the details of 52 new projects, or project updates. I hope you will be part of my story. Let's build some great things together.
 
