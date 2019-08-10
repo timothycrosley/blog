@@ -9,9 +9,9 @@ og_image: images/mineral_springs/entrance.jpg
 # > whoami
 
 Hi, I'm Timothy! I'm a Principal Software Engineer and Open Source Evangelist working on technologies to keep the web safe at [DomainTools](https://www.domaintools.com/).
-I live with my wife and our daughter Penny in the Licton Springs Neighborhood of Seattle.
+I live with my wife Amanda and our daughter Penny in the Licton Springs Neighborhood of Seattle.
 
-You may know from one my Python projects, such as:
+You may know me from one of my Python projects, such as:
 
 - [isort](https://github.com/timothycrosley/isort/)
 - [Hug](https://github.com/hugapi/hug)
