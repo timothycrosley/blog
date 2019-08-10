@@ -8,6 +8,29 @@ og_image: images/mineral_springs/entrance.jpg
 
 # > whoami
 
+Hi, I'm Timothy! I'm a Principal Software Engineer and Open Source Evangelist working on technologies to keep the web safe at [DomainTools](https://www.domaintools.com/).
+I live with my wife and our daughter Penny in the Licton Springs Neighborhood of Seattle.
+
+You may know from one my Python projects, such as:
+
+- [isort](https://github.com/timothycrosley/isort/)
+- [Hug](https://github.com/hugapi/hug)
+- [Concentration](https://github.com/timothycrosley/concentration)
+- [Jiphy](https://github.com/timothycrosley/jiphy)
+
+Or, from one of my older, now deprecated Projects:
+- [WebBot Web Application Framework](https://www.youtube.com/watch?v=0L8TsmrZPLg)
+- HoneyDo.es social to-do list.
+
+Or, you may know me from one of the many talks I've given at regional Python meetups or conferences.
+Finally, you may know me from my local community involvement. The [neighborhood's blog](https://lovelicton.com/) I run, the cleanups and events I've helped to lead, or North Seattle's Open Source Hackathon.
+
+I've crossed path with many people, both directly and indirectly. But, I've felt connected to so few.
+I hope this blog can help build connections with more of you.
+Because the few of you I have directly interacted with have left a profoundly positive impact in my life.
+
+--
+
 As I get close to my 30th Birthday, I've decided to make a home for personal reflection and project updates.
 This website is that new home. To begin this journey, I thought I would reflect on how I got here. In particular, how I got into technology,
 what my specific interests are and what things I aim to explore in the future.
