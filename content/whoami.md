@@ -27,7 +27,7 @@ Finally, you may know me from my local community involvement: the [neighborhood 
 
 I've crossed paths with many people, both directly and indirectly. But, I've felt connected to so few.
 I hope this blog can help build connections with more of you.
-Because the few of you I have directly interacted with have left a profoundly positive impact on my life.
+After all, the few of you I have directly interacted with have left a profoundly positive impact on my life.
 
 --
 
