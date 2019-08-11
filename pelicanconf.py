@@ -12,6 +12,8 @@ PATH = 'content'
 TIMEZONE = 'US/Pacific'
 
 DEFAULT_LANG = 'en'
+TITLE = "Timothy Crosley"
+TAGLINE = "I love Amanda"
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
@@ -35,7 +37,7 @@ SHOW_FULL_ARTICLE = True
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = False
 
-THEME = 'attila'
+THEME = 'utterson'
 COLOR_SCHEME_CSS = 'monokai.css'
 SITESUBTITLE = 'My Personal Homepage and Blog'
 SITE_DESCRIPTION = ('The Blog and Homepage for Timothy Crosley.')

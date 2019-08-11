@@ -1,0 +1,6 @@
+language: python
+python: 3.7
+script: bash ./deploy.sh
+before_install:
+  - openssl aes-256-cbc -K $encrypted_305cc8dc1adf_key -iv $encrypted_305cc8dc1adf_iv
+  -in deploy_key.enc -out deploy_key -d
