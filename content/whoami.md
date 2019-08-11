@@ -22,7 +22,7 @@ Or, from one of my older, now deprecated Projects:
 - [WebBot Web Application Framework](https://www.youtube.com/watch?v=0L8TsmrZPLg)
 - HoneyDo.es social to-do list.
 
-Or, you may know me from one of the many talks I've given at regional Python meetups or conferences.
+Or, you may know me from one of the many talks I've given at regional Python meetups and conferences.
 Finally, you may know me from my local community involvement: the [neighborhood blog](https://lovelicton.com/) I run, the cleanups and events I've helped to lead, or [North Seattle's Open Source Hackathon](https://www.meetup.com/North-Seattle-Tech-Talks/events/258053538/).
 
 I've crossed paths with many people, both directly and indirectly. But, I've felt connected to so few.
