@@ -3,12 +3,9 @@ Date: 2019-08-11 08:00
 Author: timothycrosley
 Category: Introduction
 Tags: General, Personal, Introduction, History
-slug: whois-timothy-crosley
-og_image: images/mineral_springs/entrance.jpg
+slug: whoami
 
-<!--
 [![My Wife and I at the Space Needle](images/amanda_and_i.jpg)](images/amanda_and_i.jpg)
-!-->
 
 Hi, I'm Timothy! I'm a Principal Software Engineer and Open Source Evangelist working on technologies to keep the web safe at [DomainTools](https://www.domaintools.com/).
 I live with my wife Amanda and our daughter Penny in the Licton Springs Neighborhood of Seattle.
