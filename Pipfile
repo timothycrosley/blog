@@ -10,6 +10,7 @@ bs4 = "*"
 pelican = "*"
 markdown = "*"
 ghp-import = "*"
+post-stats = "*"
 
 [requires]
 python_version = "3.7"

@@ -1,11 +1,15 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
-from __future__ import unicode_literals
+from datetime import datetime
+
+NOW = datetime.now()
+YEAR = NOW.year
 
 AUTHOR = 'Timothy Edmund Crosley'
 SITENAME = 'TimothyCrosley.com'
 SITEURL = 'https://timothycrosley.com'
-SITEURL = ''
+
+DESCRIPTION_SIDEBAR = 'Software Engineer and Open Source Enthusiast. Creator of <a href="https://github.com/timothycrosley/isort">isort</a>, <a href="https://github.com/hugapi/hug">hug</a>, <a href="https://github.com/timothycrosley/concentration">concentration</a>, and many other Python tools and libraries.'
 
 PATH = 'content'
 
@@ -32,7 +36,7 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 
 DEFAULT_PAGINATION = 5
 GOOGLE_ANALYTICS = 'UA-144936423-1'
-DISQUS_SITENAME = 'timothycrosley.com'
+DISQUS_SITENAME = 'timothycrosley-com'
 SHOW_FULL_ARTICLE = True
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = False
@@ -74,8 +78,8 @@ SOCIAL = (('github', 'https://github.com/timothycrosley'),
           ('hacker-news', 'https://news.ycombinator.com/user?id=timothycrosley'),
           ('python', 'https://pypi.org/user/timothycrosley/'),
           ('gitter', 'https://gitter.im/timothycrosley'),
-          ('youtube', 'https://www.youtube.com/user/timothycrosley/videos'),
-          ('google', 'mailto:timothycrosley@gmail.com'))
+          ('youtube', 'https://www.youtube.com/user/timothycrosley/videos'))
 
-# Uncomment following line if you want document-relative URLs when developing
+# Uncomment following lines only for testing development changes
 #RELATIVE_URLS = True
+#SITEURL = ''
