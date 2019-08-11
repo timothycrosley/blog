@@ -23,7 +23,7 @@ Or, from one of my older, now deprecated Projects:
 - HoneyDo.es social to-do list.
 
 Or, you may know me from one of the many talks I've given at regional Python meetups or conferences.
-Finally, you may know me from my local community involvement. The [neighborhood's blog](https://lovelicton.com/) I run, the cleanups and events I've helped to lead, or North Seattle's Open Source Hackathon.
+Finally, you may know me from my local community involvement: the [neighborhood blog](https://lovelicton.com/) I run, the cleanups and events I've helped to lead, or North Seattle's Open Source Hackathon.
 
 I've crossed path with many people, both directly and indirectly. But, I've felt connected to so few.
 I hope this blog can help build connections with more of you.
