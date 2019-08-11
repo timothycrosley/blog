@@ -66,9 +66,12 @@ PLUGINS = ["tipue_search", "sitemap", "extract_toc"]
 SITEMAP = {'format': 'xml'}
 THEME_TEMPLATES_OVERRIDES = ['templates', ]
 
-SOCIAL = (('twitter', 'https://twitter.com/timothycrosley'),
-          ('facebook','https://facebook.com/timothycrosley'),
-          ('envelope','mailto:timothycrosley@gmail.com'))
+GITHUB_URL = "https://github.com/timothycrosley/blog"
+SOCIAL = (('github', 'https://github.com/timothycrosley'),
+          ('twitter', 'https://twitter.com/timothycrosley'),
+          ('linkedin', 'https://www.linkedin.com/in/timothycrosley/'),
+          ('facebook', 'https://facebook.com/timothycrosley'),
+          ('at', 'mailto:timothycrosley@gmail.com'))
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
