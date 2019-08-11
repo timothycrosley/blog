@@ -32,7 +32,7 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 
 DEFAULT_PAGINATION = 5
 GOOGLE_ANALYTICS = 'UA-144936423-1'
-DISQUS_SITENAME = 'timothycrosley'
+DISQUS_SITENAME = 'timothycrosley-com'
 SHOW_FULL_ARTICLE = True
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = False
