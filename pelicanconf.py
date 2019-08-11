@@ -9,7 +9,7 @@ AUTHOR = 'Timothy Edmund Crosley'
 SITENAME = 'TimothyCrosley.com'
 SITEURL = 'https://timothycrosley.com'
 
-DESCRIPTION_SIDEBAR = 'Software Engineer and Open Source Enthusiast. Creator of <a href="https://github.com/timothycrosley/isort">isort</a>, <a href="https://github.com/hugapi/hug">hug</a>, <a href="https://github.com/timothycrosley/concentration">concentration</a>, and many other Python tools and libraries.'
+DESCRIPTION_SIDEBAR = 'Software Engineer and Open Source Enthusiast. Creator of <a href="https://github.com/timothycrosley/isort">isort</a>, <a href="https://github.com/hugapi/hug">Hug</a>, <a href="https://github.com/timothycrosley/concentration">Concentration</a>, and many other Python tools and libraries.'
 
 PATH = 'content'
 
