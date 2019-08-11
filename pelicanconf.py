@@ -70,8 +70,13 @@ GITHUB_URL = "https://github.com/timothycrosley/blog"
 SOCIAL = (('github', 'https://github.com/timothycrosley'),
           ('twitter', 'https://twitter.com/timothycrosley'),
           ('linkedin', 'https://www.linkedin.com/in/timothycrosley/'),
+          ('reddit', 'https://www.reddit.com/user/timothycrosley'),
+          ('hackernews', 'https://news.ycombinator.com/user?id=timothycrosley'),
+          ('python', 'https://pypi.org/user/timothycrosley/'),
           ('facebook', 'https://facebook.com/timothycrosley'),
-          ('at', 'mailto:timothycrosley@gmail.com'))
+          ('gitter', 'https://gitter.im/timothycrosley'),
+          ('youtube', 'https://www.youtube.com/user/timothycrosley/videos'),
+          ('google', 'mailto:timothycrosley@gmail.com'))
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
