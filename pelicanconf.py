@@ -33,7 +33,8 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
          ('Jinja2', 'http://jinja.pocoo.org/'),
          ('You can modify those links in your config file', '#'),)
-
+TINYLETTER_USERNAME = "timothycrosley"
+TINYLETTER_NEWSLETTER = "Latest from Timothy Crosley"
 DEFAULT_PAGINATION = 5
 GOOGLE_ANALYTICS = 'UA-144936423-1'
 DISQUS_SITENAME = 'timothycrosley-com'
