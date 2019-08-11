@@ -66,8 +66,8 @@ EXTRA_PATH_METADATA = {
     'extra/CNAME': {'path': 'CNAME'}
 }
 
-PLUGIN_PATHS = ["plugins"]
-PLUGINS = ["tipue_search", "sitemap", "extract_toc"]
+PLUGIN_PATHS = ["pelican-plugins"]
+PLUGINS = ["tipue_search", "sitemap", "extract_toc", "post_stats"]
 
 SITEMAP = {'format': 'xml'}
 THEME_TEMPLATES_OVERRIDES = ['templates', ]

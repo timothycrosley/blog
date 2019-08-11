@@ -1,0 +1,6 @@
+[submodule "pelican-plugins"]
+	path = pelican-plugins
+	url = https://github.com/getpelican/pelican-plugins
+[submodule "utterson"]
+	path = utterson
+	url = https://github.com/timothycrosley/utterson
