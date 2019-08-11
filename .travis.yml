@@ -1,0 +1,10 @@
+language: python
+python: 3.7
+script: bash ./deploy.sh
+install:
+  - 'pip install pipenv'
+  - 'pipenv sync'
+env:
+  global:
+    - ENCRYPTION_LABEL: "305cc8dc1adf"
+    - COMMIT_AUTHOR_EMAIL: "timothy.crosley@gmail.com"
