@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>TimothyCrosley.com</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2019-08-11T08:00:00-07:00</updated><subtitle>My Personal Homepage and Blog</subtitle><entry><title>whoami</title><link href="/whois-timothy-crosley.html" rel="alternate"></link><published>2019-08-11T08:00:00-07:00</published><updated>2019-08-11T08:00:00-07:00</updated><author><name>timothycrosley</name></author><id>tag:None,2019-08-11:/whois-timothy-crosley.html</id><summary type="html">&lt;!--
-[![My Wife and I at the Space Needle](images/amanda_and_i.jpg)](images/amanda_and_i.jpg)
-!--&gt;
-
+<feed xmlns="http://www.w3.org/2005/Atom"><title>TimothyCrosley.com</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2019-08-11T08:00:00-07:00</updated><subtitle>My Personal Homepage and Blog</subtitle><entry><title>whoami</title><link href="/whoami.html" rel="alternate"></link><published>2019-08-11T08:00:00-07:00</published><updated>2019-08-11T08:00:00-07:00</updated><author><name>timothycrosley</name></author><id>tag:None,2019-08-11:/whoami.html</id><summary type="html">&lt;p&gt;&lt;a href="images/amanda_and_i.jpg"&gt;&lt;img alt="My Wife and I at the Space Needle" src="images/amanda_and_i.jpg"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Hi, I'm Timothy! I'm a Principal Software Engineer and Open Source Evangelist working on technologies to keep the web safe at &lt;a href="https://www.domaintools.com/"&gt;DomainTools&lt;/a&gt;.
 I live with my wife Amanda and our daughter Penny in the Licton Springs Neighborhood of Seattle.&lt;/p&gt;
-&lt;p&gt;You may know me from one of my Python projects, such …&lt;/p&gt;</summary><content type="html">&lt;!--
-[![My Wife and I at the Space Needle](images/amanda_and_i.jpg)](images/amanda_and_i.jpg)
-!--&gt;
-
+&lt;p&gt;You may know me from one of my Python projects, such …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a href="images/amanda_and_i.jpg"&gt;&lt;img alt="My Wife and I at the Space Needle" src="images/amanda_and_i.jpg"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Hi, I'm Timothy! I'm a Principal Software Engineer and Open Source Evangelist working on technologies to keep the web safe at &lt;a href="https://www.domaintools.com/"&gt;DomainTools&lt;/a&gt;.
 I live with my wife Amanda and our daughter Penny in the Licton Springs Neighborhood of Seattle.&lt;/p&gt;
 &lt;p&gt;You may know me from one of my Python projects, such as:&lt;/p&gt;
