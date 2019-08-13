@@ -18,7 +18,7 @@ TIMEZONE = 'US/Pacific'
 
 DEFAULT_LANG = 'en'
 TITLE = "Timothy Crosley"
-TAGLINE = "I love Amanda"
+TAGLINE = "Home Page of Timothy Crosley. Software Engineer and Open Source Enthusiast. Creator of isort, Hug, Concentration, and more."
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
