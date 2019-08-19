@@ -60,7 +60,7 @@ json.dumps(uuid1(), default=fallback_conversion)
 
 The above works great when you have one type you need to convert, and one place where you serialize data.
 It works particularly badly if you are serializing data which you don't necessarily have full control of in multiple places.
-Many web frameworks, including hug, provide mechanisms to get around this. They allow you to extend JSON serialization cleanly and provide built-in default serialization for most common types.
+Many web frameworks, including [hug](http://www.hug.rest/), provide mechanisms to get around this. They allow you to extend JSON serialization cleanly and provide built-in default serialization for most common types.
 
 My friend, Brandon, suggested this shouldn't be hidden within the walls of a framework. Everywhere `json`, or another serializer is used, it should be trivial
 to expand with custom types and handle common ones right out of the gate. I agreed, and preconvert was born.
@@ -118,9 +118,9 @@ It's simplified approach is perfect for small projects. The only downside I enco
 
 ## Static Analysis
 I'm a huge fan of static analysis, code formatters, and any tool that aims to raise the bar for code-quality on a project automatically.
-This project included all the ones I've used in the past, but also, [mypy](http://mypy-lang.org/). For the most part, it just worked.
-As someone who is very comfortable with dynamically typed languages, I was surprised how little it impacted my productivity, and how it did even in this
-small project find real errors.
+This project included [all the ones I've used in the past](https://github.com/hugapi/HOPE/blob/master/all/HOPE-8--Style-Guide-for-Hug-Code.md#automated-code-cleaners), but also, [mypy](http://mypy-lang.org/). For the most part, it just worked.
+As someone who is very comfortable with dynamically typed languages, I was surprised how little it impacted my productivity, and how even in this
+small project it found real errors.
 
 # Thanks For Reading
 
