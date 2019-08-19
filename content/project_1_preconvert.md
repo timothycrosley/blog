@@ -104,12 +104,12 @@ me to write more expressive doc strings and better organize my project.
 [mkdocs](https://www.mkdocs.org/) on the other hand has beautiful templates, integrates very well with the existing Markdown documentation I tend to include in GitHub repos,
 and has built in search capabilities. However, mkdocs noticeably lacks any auto-documentation abilities at the current time.
 To get around this, I created a build step that included customized [pdoc3](https://pdoc3.github.io/pdoc/) output that was compatible with what is expected by mkdocs.
-I think it works fairly well, but I was disappointed with the lack of a simple but robust all-in-one solution for simple projects.
+I think it works fairly well, but I was disappointed with the lack of a robust all-in-one solution for simple projects.
 
 ## Local Environment Management
 I gave [PipEnv](https://docs.pipenv.org/en/latest/) its first serious try. It worked alright, but I found it surprisingly slow.
 It often was slow enough to make up for any time benefit it could have provided. I also found `pipenv run` and `pipenv shell` clunky to use.
-Finally, I found it's lockfile to be confused when I switched machines constantly, my best guess is because of wheels for different platforms. Still, I'm glad to project environment management become an increased area of focus.
+Finally, I found it's lockfile to be confused when I switched machines constantly, my best guess is because of wheels for different platforms. Still, I'm glad to see project environment management become an increased area of focus.
 For my next project, I intend to give [poetry](https://poetry.eustace.io/) a try.
 
 ## Packaging
@@ -118,7 +118,7 @@ It's simplified approach is perfect for small projects. The only downside I enco
 
 ## Static Analysis
 I'm a huge fan of static analysis, code formatters, and any tool that aims to raise the bar for code-quality on a project automatically.
-This project included all the ones I've used in the past, but also, I added [mypy](http://mypy-lang.org/). For the most part, it just worked.
+This project included all the ones I've used in the past, but also, [mypy](http://mypy-lang.org/). For the most part, it just worked.
 As someone who is very comfortable with dynamically typed languages, I was surprised how little it impacted my productivity, and how it did even in this
 small project find real errors.
 
