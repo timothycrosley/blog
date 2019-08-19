@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>TimothyCrosley.com - New Project</title><link>https://timothycrosley.com/</link><description>My Personal Homepage and Blog</description><lastBuildDate>Sun, 18 Aug 2019 23:00:00 -0700</lastBuildDate><item><title>Project 1/52: preconvert - Supercharge Your Serialization!</title><link>https://timothycrosley.com/project-1-preconvert</link><description>&lt;p&gt;&lt;a href="https://timothycrosley.github.io/preconvert/"&gt;&lt;img alt="preconvert Logo" src="https://raw.githubusercontent.com/timothycrosley/preconvert/master/art/logo_large.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Project:&lt;/td&gt;
+&lt;td&gt;1/52&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Title/Link:&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://timothycrosley.github.io/preconvert/"&gt;preconvert&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Pitch:&lt;/td&gt;
+&lt;td&gt;No more &lt;code&gt;is not JSON serializable&lt;/code&gt; errors&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Read if:&lt;/td&gt;
+&lt;td&gt;You use JSON, MessagePack, BSON, or similar. Or, you are interested in the state of developing Python projects.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Skip if:&lt;/td&gt;
+&lt;td&gt;You don't use serialization, only use it with basic built-in types, or only use …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">timothycrosley</dc:creator><pubDate>Sun, 18 Aug 2019 23:00:00 -0700</pubDate><guid isPermaLink="false">tag:timothycrosley.com,2019-08-18:/project-1-preconvert</guid><category>Projects</category><category>52</category><category>Introduction</category></item></channel></rss>

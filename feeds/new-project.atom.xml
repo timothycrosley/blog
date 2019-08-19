@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>TimothyCrosley.com - New Project</title><link href="https://timothycrosley.com/" rel="alternate"></link><link href="https://timothycrosley.com/feeds/new-project.atom.xml" rel="self"></link><id>https://timothycrosley.com/</id><updated>2019-08-18T23:00:00-07:00</updated><subtitle>My Personal Homepage and Blog</subtitle><entry><title>Project 1/52: preconvert - Supercharge Your Serialization!</title><link href="https://timothycrosley.com/project-1-preconvert" rel="alternate"></link><published>2019-08-18T23:00:00-07:00</published><updated>2019-08-18T23:00:00-07:00</updated><author><name>timothycrosley</name></author><id>tag:timothycrosley.com,2019-08-18:/project-1-preconvert</id><summary type="html">&lt;p&gt;&lt;a href="https://timothycrosley.github.io/preconvert/"&gt;&lt;img alt="preconvert Logo" src="https://raw.githubusercontent.com/timothycrosley/preconvert/master/art/logo_large.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Project:&lt;/td&gt;
+&lt;td&gt;1/52&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Title/Link:&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://timothycrosley.github.io/preconvert/"&gt;preconvert&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Pitch:&lt;/td&gt;
+&lt;td&gt;No more &lt;code&gt;is not JSON serializable&lt;/code&gt; errors&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Read if:&lt;/td&gt;
+&lt;td&gt;You use JSON, MessagePack, BSON, or similar. Or, you are interested in the state of developing Python projects.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Skip if:&lt;/td&gt;
+&lt;td&gt;You don't use serialization, only use it with basic built-in types, or only use …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</summary><content type="html">&lt;p&gt;&lt;a href="https://timothycrosley.github.io/preconvert/"&gt;&lt;img alt="preconvert Logo" src="https://raw.githubusercontent.com/timothycrosley/preconvert/master/art/logo_large.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Project:&lt;/td&gt;
+&lt;td&gt;1/52&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Title/Link:&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://timothycrosley.github.io/preconvert/"&gt;preconvert&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Pitch:&lt;/td&gt;
+&lt;td&gt;No more &lt;code&gt;is not JSON serializable&lt;/code&gt; errors&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Read if:&lt;/td&gt;
+&lt;td&gt;You use JSON, MessagePack, BSON, or similar. Or, you are interested in the state of developing Python projects.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Skip if:&lt;/td&gt;
+&lt;td&gt;You don't use serialization, only use it with basic built-in types, or only use it from the context of a framework that handles it well already.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Prior Work:&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://hynek.me/articles/serialization/"&gt;https://hynek.me/articles/serialization/&lt;/a&gt;, &lt;a href="https://pypi.org/project/json-default/"&gt;json-defaults&lt;/a&gt;, and probably many more.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1&gt;What Problem Does preconvert Solve?&lt;/h1&gt;
+&lt;p&gt;My first project is a small one that comes the way of a goods friends request made at OSCON.
+Many of us use Python's built-in &lt;code&gt;json&lt;/code&gt; module or one of the similar serialization libraries available on PyPI.
+These are trivially easy to use, and generally, work great. You pass in your native Python objects to &lt;code&gt;json.dumps&lt;/code&gt; and your done:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;json&lt;/span&gt;
+
+&lt;span class="n"&gt;json&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;dumps&lt;/span&gt;&lt;span class="p"&gt;({&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;project&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;preconvert&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;})&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;They even tend to follow the same loose specification (a &lt;code&gt;dumps&lt;/code&gt; and corresponding &lt;code&gt;loads&lt;/code&gt; method) making switching between them
+for any reason equally straight forward.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;simplejson&lt;/span&gt; &lt;span class="kn"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;json&lt;/span&gt;
+
+&lt;span class="n"&gt;json&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;dumps&lt;/span&gt;&lt;span class="p"&gt;({&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;project&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;preconvert&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;})&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;This is pretty awesome! It's made even more so by the years of optimization these JSON libraries have received.
+Not only is outputting JSON easy, but it's also fast.&lt;/p&gt;
+&lt;p&gt;Problems occur when you start going beyond the basic built-in types.
+Search for &lt;code&gt;is not JSON serializable&lt;/code&gt; and countless stack-overflow questions will appear with many workarounds for the problem.
+The simplest of which is to override the &lt;code&gt;default&lt;/code&gt; callback method provided by handling just the type that failed:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;json&lt;/span&gt;
+&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;uuid&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;UUID&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;uuid1&lt;/span&gt;
+
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;fallback_conversion&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;item&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="nb"&gt;type&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;item&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="n"&gt;UUID&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="nb"&gt;str&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;item&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
+
+&lt;span class="n"&gt;json&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;dumps&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;uuid1&lt;/span&gt;&lt;span class="p"&gt;(),&lt;/span&gt; &lt;span class="n"&gt;default&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;fallback_conversion&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;The above works great when you have one type you need to convert, and one place where you serialize data.
+It works particularly badly if you are serializing data which you don't necessarily have full control of in multiple places.
+Many web frameworks, including hug, provide mechanisms to get around this. They allow you to extend JSON serialization cleanly and provide built-in default serialization for most common types.&lt;/p&gt;
+&lt;p&gt;My friend, Brandon, suggested this shouldn't be hidden within the walls of a framework. Everywhere &lt;code&gt;json&lt;/code&gt;, or another serializer is used, it should be trivial
+to expand with custom types and handle common ones right out of the gate. I agreed, and preconvert was born.&lt;/p&gt;
+&lt;h1&gt;What's the Proposed Solution?&lt;/h1&gt;
+&lt;p&gt;&lt;a href="https://timothycrosley.github.io/preconvert/"&gt;preconvert&lt;/a&gt; is a small, framework independent, extendable Python library that aims to solve the above problems by:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Providing an easy way to specify custom type serializers&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;preconvert&lt;/span&gt;
+
+&lt;span class="nd"&gt;@preconvert.always&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;UUID&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;convert_UUID_to_str&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;uuid_instance&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="nb"&gt;str&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;uuid_instance&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Using this ability to automatically handle common types (UUID, dataclasses, etc)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;Adding an easy mechanism to extend this further using entrypoint powered plugins&lt;/li&gt;
+&lt;li&gt;Exposing the same interface defined by existing serializers to make preconvert an easy drop-in replacement.&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;preconvert.output&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;simplejson&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="n"&gt;json&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;preconvert currently works out-of-the-box with &lt;code&gt;bson&lt;/code&gt;, &lt;code&gt;json&lt;/code&gt;, &lt;code&gt;simplejson&lt;/code&gt;, and &lt;code&gt;msgpack&lt;/code&gt;.
+Currently, there is one &lt;a href="https://github.com/timothycrosley/preconvert_numpy"&gt;plugin to handle numpy types&lt;/a&gt;, that can be enabled simply by adding it to the projects
+package requirements.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="o"&gt;`&lt;/span&gt;&lt;span class="n"&gt;pip&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt; &lt;span class="n"&gt;preconvert_numpy&lt;/span&gt;&lt;span class="o"&gt;`&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;For more information about the project, browse the &lt;a href="https://timothycrosley.github.io/preconvert/"&gt;documentation website&lt;/a&gt;.&lt;/p&gt;
+&lt;h1&gt;State of Python Project Creation&lt;/h1&gt;
+&lt;p&gt;One of the reasons I wanted to challenge myself to create 52 projects over this next year, was because I genuinely believe it shouldn't be hard to create projects.
+While Python makes many things easy, it's surprising the number of things that should be considered for even a simple project.&lt;/p&gt;
+&lt;h2&gt;Documentation&lt;/h2&gt;
+&lt;p&gt;For this project I used both &lt;a href="https://pdoc3.github.io/pdoc/"&gt;pdoc3&lt;/a&gt; and &lt;a href="https://www.mkdocs.org/"&gt;mkdocs&lt;/a&gt; for the first time.
+&lt;a href="https://pdoc3.github.io/pdoc/"&gt;pdoc3&lt;/a&gt; is probably the easiest route to document a Python project and I appreciated how it encouraged
+me to write more expressive doc strings and better organize my project.
+&lt;a href="https://www.mkdocs.org/"&gt;mkdocs&lt;/a&gt; on the other hand has beautiful templates, integrates very well with the existing Markdown documentation I tend to include in GitHub repos,
+and has built in search capabilities. However, mkdocs noticeably lacks any auto-documentation abilities at the current time.
+To get around this, I created a build step that included customized &lt;a href="https://pdoc3.github.io/pdoc/"&gt;pdoc3&lt;/a&gt; output that was compatible with what is expected by mkdocs.
+I think it works fairly well, but I was disappointed with the lack of a simple but robust all-in-one solution for simple projects.&lt;/p&gt;
+&lt;h2&gt;Local Environment Management&lt;/h2&gt;
+&lt;p&gt;I gave &lt;a href="https://docs.pipenv.org/en/latest/"&gt;PipEnv&lt;/a&gt; its first serious try. It worked alright, but I found it surprisingly slow.
+It often was slow enough to make up for any time benefit it could have provided. I also found &lt;code&gt;pipenv run&lt;/code&gt; and &lt;code&gt;pipenv shell&lt;/code&gt; clunky to use.
+Finally, I found it's lockfile to be confused when I switched machines constantly, my best guess is because of wheels for different platforms. Still, I'm glad to project environment management become an increased area of focus.
+For my next project, I intend to give &lt;a href="https://poetry.eustace.io/"&gt;poetry&lt;/a&gt; a try.&lt;/p&gt;
+&lt;h2&gt;Packaging&lt;/h2&gt;
+&lt;p&gt;I found &lt;a href="https://github.com/takluyver/flit"&gt;flit&lt;/a&gt; to be an absolute joy to use. For the most part, it just worked and got out of my way.
+It's simplified approach is perfect for small projects. The only downside I encountered, which unfortunately for me is a major one, is the lack of Cython support.&lt;/p&gt;
+&lt;h2&gt;Static Analysis&lt;/h2&gt;
+&lt;p&gt;I'm a huge fan of static analysis, code formatters, and any tool that aims to raise the bar for code-quality on a project automatically.
+This project included all the ones I've used in the past, but also, I added &lt;a href="http://mypy-lang.org/"&gt;mypy&lt;/a&gt;. For the most part, it just worked.
+As someone who is very comfortable with dynamically typed languages, I was surprised how little it impacted my productivity, and how it did even in this
+small project find real errors.&lt;/p&gt;
+&lt;h1&gt;Thanks For Reading&lt;/h1&gt;
+&lt;p&gt;Thanks for taking the time to read about this new project!
+What do you think of preconvert? Any projects you would like to see in the future? Any projects I should try out?&lt;/p&gt;
+&lt;p&gt;~Timothy Crosley&lt;/p&gt;</content><category term="Projects"></category><category term="52"></category><category term="Introduction"></category></entry></feed>
