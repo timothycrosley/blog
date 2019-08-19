@@ -227,18 +227,18 @@ me to write more expressive doc strings and better organize my project.
 <a href="https://www.mkdocs.org/">mkdocs</a> on the other hand has beautiful templates, integrates very well with the existing Markdown documentation I tend to include in GitHub repos,
 and has built in search capabilities. However, mkdocs noticeably lacks any auto-documentation abilities at the current time.
 To get around this, I created a build step that included customized <a href="https://pdoc3.github.io/pdoc/">pdoc3</a> output that was compatible with what is expected by mkdocs.
-I think it works fairly well, but I was disappointed with the lack of a simple but robust all-in-one solution for simple projects.</p>
+I think it works fairly well, but I was disappointed with the lack of a robust all-in-one solution for simple projects.</p>
 <h2>Local Environment Management</h2>
 <p>I gave <a href="https://docs.pipenv.org/en/latest/">PipEnv</a> its first serious try. It worked alright, but I found it surprisingly slow.
 It often was slow enough to make up for any time benefit it could have provided. I also found <code>pipenv run</code> and <code>pipenv shell</code> clunky to use.
-Finally, I found it's lockfile to be confused when I switched machines constantly, my best guess is because of wheels for different platforms. Still, I'm glad to project environment management become an increased area of focus.
+Finally, I found it's lockfile to be confused when I switched machines constantly, my best guess is because of wheels for different platforms. Still, I'm glad to see project environment management become an increased area of focus.
 For my next project, I intend to give <a href="https://poetry.eustace.io/">poetry</a> a try.</p>
 <h2>Packaging</h2>
 <p>I found <a href="https://github.com/takluyver/flit">flit</a> to be an absolute joy to use. For the most part, it just worked and got out of my way.
 It's simplified approach is perfect for small projects. The only downside I encountered, which unfortunately for me is a major one, is the lack of Cython support.</p>
 <h2>Static Analysis</h2>
 <p>I'm a huge fan of static analysis, code formatters, and any tool that aims to raise the bar for code-quality on a project automatically.
-This project included all the ones I've used in the past, but also, I added <a href="http://mypy-lang.org/">mypy</a>. For the most part, it just worked.
+This project included all the ones I've used in the past, but also, <a href="http://mypy-lang.org/">mypy</a>. For the most part, it just worked.
 As someone who is very comfortable with dynamically typed languages, I was surprised how little it impacted my productivity, and how it did even in this
 small project find real errors.</p>
 <h1>Thanks For Reading</h1>
