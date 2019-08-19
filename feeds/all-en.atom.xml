@@ -135,7 +135,7 @@ package requirements.&lt;/p&gt;
 
 &lt;p&gt;For more information about the project, browse the &lt;a href="https://timothycrosley.github.io/preconvert/"&gt;documentation website&lt;/a&gt;.&lt;/p&gt;
 &lt;h1&gt;State of Python Project Creation&lt;/h1&gt;
-&lt;p&gt;One of the reasons I wanted to challenge myself to create 52 projects over this next year, was because I genuinely believe it shouldn't be hard to create projects.
+&lt;p&gt;One of the reasons I wanted to challenge myself to create 52 projects over this next year was because I genuinely believe it shouldn't be hard to create projects.
 While Python makes many things easy, it's surprising the number of things that should be considered for even a simple project.&lt;/p&gt;
 &lt;h2&gt;Documentation&lt;/h2&gt;
 &lt;p&gt;For this project I used both &lt;a href="https://pdoc3.github.io/pdoc/"&gt;pdoc3&lt;/a&gt; and &lt;a href="https://www.mkdocs.org/"&gt;mkdocs&lt;/a&gt; for the first time.
