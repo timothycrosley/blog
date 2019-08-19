@@ -94,7 +94,7 @@ For more information about the project, browse the [documentation website](https
 
 # State of Python Project Creation
 
-One of the reasons I wanted to challenge myself to create 52 projects over this next year, was because I genuinely believe it shouldn't be hard to create projects.
+One of the reasons I wanted to challenge myself to create 52 projects over this next year was because I genuinely believe it shouldn't be hard to create projects.
 While Python makes many things easy, it's surprising the number of things that should be considered for even a simple project.
 
 ## Documentation
