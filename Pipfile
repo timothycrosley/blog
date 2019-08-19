@@ -10,6 +10,7 @@ pelican = "*"
 markdown = "*"
 ghp-import = "*"
 beautifulsoup4 = "*"
+ipython = "*"
 
 [requires]
 python_version = "3.7"
