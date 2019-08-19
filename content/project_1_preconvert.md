@@ -114,13 +114,15 @@ For my next project, I intend to give [poetry](https://poetry.eustace.io/) a try
 
 ## Packaging
 I found [flit](https://github.com/takluyver/flit) to be an absolute joy to use. For the most part, it just worked and got out of my way.
-It's simplified approach is perfect for small projects. The only downside I encountered, which unfortunately for me is a major one, is the lack of Cython support.
+It's simplified approach is perfect for small projects. The only downside I encountered, which unfortunately for me is a major one, is the lack of [Cython](https://cython.org/) support.
 
 ## Static Analysis
 I'm a huge fan of static analysis, code formatters, and any tool that aims to raise the bar for code-quality on a project automatically.
 This project included [all the ones I've used in the past](https://github.com/hugapi/HOPE/blob/master/all/HOPE-8--Style-Guide-for-Hug-Code.md#automated-code-cleaners), but also, [mypy](http://mypy-lang.org/). For the most part, it just worked.
 As someone who is very comfortable with dynamically typed languages, I was surprised how little it impacted my productivity, and how even in this
 small project it found real errors.
+
+I'm hoping to make my next projects ones that simplify these steps if only to give me more time to devote to each individual project.
 
 # Thanks For Reading
 
