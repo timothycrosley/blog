@@ -99,7 +99,7 @@ The simplest of which is to override the &lt;code&gt;default&lt;/code&gt; callba
 
 &lt;p&gt;The above works great when you have one type you need to convert, and one place where you serialize data.
 It works particularly badly if you are serializing data which you don't necessarily have full control of in multiple places.
-Many web frameworks, including hug, provide mechanisms to get around this. They allow you to extend JSON serialization cleanly and provide built-in default serialization for most common types.&lt;/p&gt;
+Many web frameworks, including &lt;a href="http://www.hug.rest/"&gt;hug&lt;/a&gt;, provide mechanisms to get around this. They allow you to extend JSON serialization cleanly and provide built-in default serialization for most common types.&lt;/p&gt;
 &lt;p&gt;My friend, Brandon, suggested this shouldn't be hidden within the walls of a framework. Everywhere &lt;code&gt;json&lt;/code&gt;, or another serializer is used, it should be trivial
 to expand with custom types and handle common ones right out of the gate. I agreed, and preconvert was born.&lt;/p&gt;
 &lt;h1&gt;What's the Proposed Solution?&lt;/h1&gt;
@@ -155,9 +155,9 @@ For my next project, I intend to give &lt;a href="https://poetry.eustace.io/"&gt
 It's simplified approach is perfect for small projects. The only downside I encountered, which unfortunately for me is a major one, is the lack of Cython support.&lt;/p&gt;
 &lt;h2&gt;Static Analysis&lt;/h2&gt;
 &lt;p&gt;I'm a huge fan of static analysis, code formatters, and any tool that aims to raise the bar for code-quality on a project automatically.
-This project included all the ones I've used in the past, but also, &lt;a href="http://mypy-lang.org/"&gt;mypy&lt;/a&gt;. For the most part, it just worked.
-As someone who is very comfortable with dynamically typed languages, I was surprised how little it impacted my productivity, and how it did even in this
-small project find real errors.&lt;/p&gt;
+This project included &lt;a href="https://github.com/hugapi/HOPE/blob/master/all/HOPE-8--Style-Guide-for-Hug-Code.md#automated-code-cleaners"&gt;all the ones I've used in the past&lt;/a&gt;, but also, &lt;a href="http://mypy-lang.org/"&gt;mypy&lt;/a&gt;. For the most part, it just worked.
+As someone who is very comfortable with dynamically typed languages, I was surprised how little it impacted my productivity, and how even in this
+small project it found real errors.&lt;/p&gt;
 &lt;h1&gt;Thanks For Reading&lt;/h1&gt;
 &lt;p&gt;Thanks for taking the time to read about this new project!
 What do you think of preconvert? Any projects you would like to see in the future? Any projects I should try out?&lt;/p&gt;
