@@ -88,7 +88,7 @@ preconvert currently works out-of-the-box with `bson`, `json`, `simplejson`, and
 Currently, there is one [plugin to handle numpy types](https://github.com/timothycrosley/preconvert_numpy), that can be enabled simply by adding it to the projects
 package requirements.
 
-    `pip install preconvert_numpy`
+    pip install preconvert_numpy
 
 For more information about the project, browse the [documentation website](https://timothycrosley.github.io/preconvert/).
 
