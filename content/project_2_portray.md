@@ -67,7 +67,7 @@ In the end, what I've always wanted was a documentation generator that put both 
 
 I encourage you to look through the projects self-produced [documentation website](https://timothycrosley.github.io/portray/). I believe that website is the best overview I can give of `portray` as a documentation solution.
 
-# Thinks I Experimented with When Making portray
+# Things I Experimented with When Making portray
 
 Continuing from my last project, I wanted to explore a few new tools when making portray itself:
 
