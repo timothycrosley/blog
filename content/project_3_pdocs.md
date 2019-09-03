@@ -10,7 +10,7 @@ slug: project-3-pdocs
 | | |
 | ------------| -----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | project: | 3/52 |
-| Title/Link: | [pdocs](https://timothycrosley.github.io/portray/) |
+| Title/Link: | [pdocs](https://timothycrosley.github.io/pdocs/) |
 | Pitch: | Modern MIT fork of pdoc. Automatic Documentation from Python code. |
 | Read if: | You want to use pdoc but not AGPL OR are interested in documenting Python projects. |
 | Skip if: | You don't create Python projects. Or, you've already created documentation sites for your Python projects and are happy with the tooling around them. |
