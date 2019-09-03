@@ -18,7 +18,7 @@ slug: project-3-pdocs
 
 # Sometimes We Don't Pick our Projects
 
-This next project isn't one I chose. I had many different ideas of what to work on after `portray,` but after that project unexpectedly [reached the top of hackernews](https://news.ycombinator.com/item?id=20800157), priorities changed.
+This next project isn't one I chose. I had many different ideas of what to work on after `portray,` but after that project unexpectedly [reached the top of Hacker News](https://news.ycombinator.com/item?id=20800157), priorities changed.
 I work on these projects with the hope that some of them will not only scratch an itch that I have but one that's shared with many other developers.
 So I saw the interest shown in that post as a confirmation that I was on the right track. The most immediate fallout of this where improvements made to `portray` in the days following the post,
 as can be seen in [portray's changelog](https://timothycrosley.github.io/portray/CHANGELOG/#changelog).
