@@ -20,15 +20,15 @@ slug: project-3-pdocs
 
 This next project isn't one I chose. I had many different ideas of what to work on after `portray,` but after that project unexpectedly [reached the top of Hacker News](https://news.ycombinator.com/item?id=20800157), priorities changed.
 I work on these projects with the hope that some of them will not only scratch an itch that I have but one that's shared with many other developers.
-So I saw the interest shown in that post as a confirmation that I was on the right track. The most immediate fallout of this where improvements made to `portray` in the days following the post,
+So I saw the interest shown in that post as a confirmation that I was on the right track. The most immediate fallout of this was improvements made to `portray` in the days following the post,
 as can be seen in [portray's changelog](https://timothycrosley.github.io/portray/CHANGELOG/#changelog).
 I was thrilled to be able to solve the most immediate pieces of user feedback quickly.
 
 However, one thread brought up a controversy I noticed late into the project: [https://news.ycombinator.com/item?id=20803008](https://news.ycombinator.com/item?id=20803008).
 I had hoped I could quickly pivot to using the original [pdoc](https://github.com/mitmproxy/pdoc) that pdoc3 was based on. If only to be able to bring the focus back to the problems I was trying to solve.
 However, as I researched, I realized things wouldn't be quite so easy. [pdoc](https://github.com/mitmproxy/pdoc) hadn't seen a release since **2016**. It had, however, received code contribution up until
-last year. Upon investigation, much of this work was broken, leading to the lack of a PyPI release. I was tempted to give up, but then I reread the GitHub conversation between the original pdoc maintainer
-and the pdoc3 maintainer, and I knew I couldn't. When `pdoc` was forked into `pdoc3` the license was changed from ["Unlicensed"](https://unlicense.org/) to AGPL.
+last year. Upon investigation, much of this work was broken, leading to the lack of a PyPI release. I was tempted to give up, but then I reread the [GitHub conversation between the original pdoc maintainer
+and the pdoc3 maintainer](https://github.com/pdoc3/pdoc/issues/64), and I knew I couldn't. When `pdoc` was forked into `pdoc3` the license was changed from ["Unlicensed"](https://unlicense.org/) to AGPL.
 Because of the confusing naming and forking, when I had started working on portray, I saw the unlicense of pdoc and the MIT of mkdocs and missed the AGPL of pdoc3.
 The license incompatibility of an MIT project using an AGPL project forced my hand. My next project would be a fork of the original pdoc.
 
