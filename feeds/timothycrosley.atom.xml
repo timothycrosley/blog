@@ -1,5 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>TimothyCrosley.com - timothycrosley</title><link href="https://timothycrosley.com/" rel="alternate"></link><link href="https://timothycrosley.com/feeds/timothycrosley.atom.xml" rel="self"></link><id>https://timothycrosley.com/</id><updated>2019-08-26T04:00:00-07:00</updated><subtitle>My Personal Homepage and Blog</subtitle><entry><title>Introducing portray - Your Project with Great Documentation</title><link href="https://timothycrosley.com/project-2-portray" rel="alternate"></link><published>2019-08-26T04:00:00-07:00</published><updated>2019-08-26T04:00:00-07:00</updated><author><name>timothycrosley</name></author><id>tag:timothycrosley.com,2019-08-26:/project-2-portray</id><summary type="html">&lt;p&gt;&lt;a href="https://timothycrosley.github.io/portray/"&gt;&lt;img alt="potray Logo" src="https://raw.githubusercontent.com/timothycrosley/portray/master/art/logo.png"&gt;&lt;/a&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>TimothyCrosley.com - timothycrosley</title><link href="https://timothycrosley.com/" rel="alternate"></link><link href="https://timothycrosley.com/feeds/timothycrosley.atom.xml" rel="self"></link><id>https://timothycrosley.com/</id><updated>2019-09-03T04:00:00-07:00</updated><subtitle>My Personal Homepage and Blog</subtitle><entry><title>Introducing pdocs - Documentation Powered by Your Python Code</title><link href="https://timothycrosley.com/project-3-pdocs" rel="alternate"></link><published>2019-09-03T04:00:00-07:00</published><updated>2019-09-03T04:00:00-07:00</updated><author><name>timothycrosley</name></author><id>tag:timothycrosley.com,2019-09-03:/project-3-pdocs</id><summary type="html">&lt;p&gt;&lt;a href="https://timothycrosley.github.io/pdocs/"&gt;&lt;img alt="pdocs Logo" src="https://raw.githubusercontent.com/timothycrosley/pdocs/master/art/logo.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;project:&lt;/td&gt;
+&lt;td&gt;3/52&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Title/Link:&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://timothycrosley.github.io/portray/"&gt;pdocs&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Pitch:&lt;/td&gt;
+&lt;td&gt;Modern MIT fork of pdoc. Automatic Documentation from Code.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Read if:&lt;/td&gt;
+&lt;td&gt;You want to use pdoc but not AGPL OR are interested in documenting Python projects.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Skip if:&lt;/td&gt;
+&lt;td&gt;You don't create Python projects. Or, you've already created documentation sites for your Python projects …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</summary><content type="html">&lt;p&gt;&lt;a href="https://timothycrosley.github.io/pdocs/"&gt;&lt;img alt="pdocs Logo" src="https://raw.githubusercontent.com/timothycrosley/pdocs/master/art/logo.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;project:&lt;/td&gt;
+&lt;td&gt;3/52&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Title/Link:&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://timothycrosley.github.io/portray/"&gt;pdocs&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Pitch:&lt;/td&gt;
+&lt;td&gt;Modern MIT fork of pdoc. Automatic Documentation from Code.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Read if:&lt;/td&gt;
+&lt;td&gt;You want to use pdoc but not AGPL OR are interested in documenting Python projects.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Skip if:&lt;/td&gt;
+&lt;td&gt;You don't create Python projects. Or, you've already created documentation sites for your Python projects and are happy with the tooling around them.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Prior Work:&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://github.com/mitmproxy/pdoc"&gt;pdoc&lt;/a&gt;, &lt;a href="https://timothycrosley.com/project-2-portray"&gt;portray&lt;/a&gt;.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1&gt;Sometimes We Don't Pick our Projects&lt;/h1&gt;
+&lt;p&gt;You would think one of the great things about working on Open Source projects is that you can pick to work on whatever you want.
+Your projects can reflect what you are most skilled in or passionate about. However, I discovered on my last project; this is not always the case.
+If you want to be a good steward of an Open Source project you manage, you also have to be ready to handle issues with dependencies.&lt;/p&gt;
+&lt;p&gt;After releasing my last project, I was thrilled to see it hit the top of hackernews!
+However, one thread brought up a controversy I noticed late into the project: &lt;a href="https://news.ycombinator.com/item?id=20803008"&gt;https://news.ycombinator.com/item?id=20803008&lt;/a&gt;.
+But just as importantly, looking through the GitHub thread again made me aware an even bigger issue: pdoc3, unlike the original pdoc, is AGPL. All my projects, including portray, are licensed under MIT, which is not compatible with AGPL.&lt;/p&gt;
+&lt;p&gt;This led me to the realization I would need to fork the original pdoc and modernize it so it could handle the requirements set by portray.&lt;/p&gt;
+&lt;h1&gt;Creating pdocs&lt;/h1&gt;
+&lt;p&gt;I decided to call my fork &lt;code&gt;pdocs&lt;/code&gt; as I felt it had nice symmetry with the other portray dependency &lt;code&gt;mkdocs&lt;/code&gt; while holding a dual meaning well:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Python Docs&lt;/li&gt;
+&lt;li&gt;pdoc successor&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Most Open Source developers, my self included, don't look forward to forking an old project with a long history.
+There's tends to be technical debt in old Open Source projects, just as there is in commercial ones. The moment you fork,
+especially if your fork is successful, you own that debt. And, since you likely aren't the creator, you probably don't understand the debt you now possess.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;pdoc&lt;/code&gt; was only partially an exception to this, as it turned out a ton of work had been done on the repository up until about a year ago, most of it being refactoring.
+I still found a lot of dead code paths and was able to clean things up significantly, but at least the house was preparing to come to order.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;pdocs&lt;/code&gt; includes the following improvements over &lt;code&gt;pdoc&lt;/code&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Type hint support.&lt;/li&gt;
+&lt;li&gt;Simple programmatic API.&lt;/li&gt;
+&lt;li&gt;A ton of bug fixes.&lt;/li&gt;
+&lt;li&gt;Markdown generation support.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;All of these were requirements for it to be able to replace &lt;code&gt;pdoc&lt;/code&gt; usage within &lt;code&gt;portray.&lt;/code&gt;&lt;/p&gt;
+&lt;h1&gt;Thanks For Reading&lt;/h1&gt;
+&lt;p&gt;Thanks for taking the time to read about this new project!
+What do you think of pdocs? Any projects you would like to see in the future? Any plans I should try out?&lt;/p&gt;
+&lt;p&gt;~Timothy Crosley&lt;/p&gt;</content><category term="Projects"></category><category term="52"></category><category term="Introduction"></category></entry><entry><title>Introducing portray - Your Project with Great Documentation</title><link href="https://timothycrosley.com/project-2-portray" rel="alternate"></link><published>2019-08-26T04:00:00-07:00</published><updated>2019-08-26T04:00:00-07:00</updated><author><name>timothycrosley</name></author><id>tag:timothycrosley.com,2019-08-26:/project-2-portray</id><summary type="html">&lt;p&gt;&lt;a href="https://timothycrosley.github.io/portray/"&gt;&lt;img alt="potray Logo" src="https://raw.githubusercontent.com/timothycrosley/portray/master/art/logo.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;

@@ -17,22 +17,22 @@
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image" />
   <meta property="twitter:site" content="@">
-  <meta property="twitter:title" content="" />
+  <meta property="twitter:title" content="Introducing pdocs - Documentation Powered by Your Python Code - Timothy Crosley" />
   <meta property="twitter:description" content="" />
   <meta property="twitter:image" content="" />
 
   <!-- Open Graph -->
   <meta property="og:locale" content="en_US" />
-  <meta property="og:type" content="" />
-  <meta property="og:title" content="" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Introducing pdocs - Documentation Powered by Your Python Code - Timothy Crosley" />
   <meta property="og:description" content="  " />
-  <meta property="og:url" content="" />
-  <meta property="og:site_name" content="" />
+  <meta property="og:url" content="https://timothycrosley.com/project-3-pdocs" />
+  <meta property="og:site_name" content="Introducing pdocs - Documentation Powered by Your Python Code - Timothy Crosley" />
   <meta property="og:image" content="" />
   <meta property="og:image:secure_url" content="" />
 
   <title>
-    
+    Introducing pdocs - Documentation Powered by Your Python Code - Timothy Crosley
   </title>
 
   <!-- CSS -->
@@ -106,15 +106,93 @@
   </div>
 </div>
     <div class="content container">
-    <h1>Tags for TimothyCrosley.com</h1>
-    <ul>
-        <li><a href="https://timothycrosley.com/tag/52.html">52</a> (3)</li>
-        <li><a href="https://timothycrosley.com/tag/general.html">General</a> (1)</li>
-        <li><a href="https://timothycrosley.com/tag/history.html">History</a> (1)</li>
-        <li><a href="https://timothycrosley.com/tag/introduction.html">Introduction</a> (4)</li>
-        <li><a href="https://timothycrosley.com/tag/personal.html">Personal</a> (1)</li>
-        <li><a href="https://timothycrosley.com/tag/projects.html">Projects</a> (3)</li>
-    </ul>
+<div class="post">
+  <h1 class="post-title">Introducing pdocs - Documentation Powered by Your Python Code</h1>
+    <span class="post-date">03 September 2019 &middot; 2 min read</span>
+  <p><a href="https://timothycrosley.github.io/pdocs/"><img alt="pdocs Logo" src="https://raw.githubusercontent.com/timothycrosley/pdocs/master/art/logo.png"></a></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>project:</td>
+<td>3/52</td>
+</tr>
+<tr>
+<td>Title/Link:</td>
+<td><a href="https://timothycrosley.github.io/portray/">pdocs</a></td>
+</tr>
+<tr>
+<td>Pitch:</td>
+<td>Modern MIT fork of pdoc. Automatic Documentation from Code.</td>
+</tr>
+<tr>
+<td>Read if:</td>
+<td>You want to use pdoc but not AGPL OR are interested in documenting Python projects.</td>
+</tr>
+<tr>
+<td>Skip if:</td>
+<td>You don't create Python projects. Or, you've already created documentation sites for your Python projects and are happy with the tooling around them.</td>
+</tr>
+<tr>
+<td>Prior Work:</td>
+<td><a href="https://github.com/mitmproxy/pdoc">pdoc</a>, <a href="https://timothycrosley.com/project-2-portray">portray</a>.</td>
+</tr>
+</tbody>
+</table>
+<h1>Sometimes We Don't Pick our Projects</h1>
+<p>You would think one of the great things about working on Open Source projects is that you can pick to work on whatever you want.
+Your projects can reflect what you are most skilled in or passionate about. However, I discovered on my last project; this is not always the case.
+If you want to be a good steward of an Open Source project you manage, you also have to be ready to handle issues with dependencies.</p>
+<p>After releasing my last project, I was thrilled to see it hit the top of hackernews!
+However, one thread brought up a controversy I noticed late into the project: <a href="https://news.ycombinator.com/item?id=20803008">https://news.ycombinator.com/item?id=20803008</a>.
+But just as importantly, looking through the GitHub thread again made me aware an even bigger issue: pdoc3, unlike the original pdoc, is AGPL. All my projects, including portray, are licensed under MIT, which is not compatible with AGPL.</p>
+<p>This led me to the realization I would need to fork the original pdoc and modernize it so it could handle the requirements set by portray.</p>
+<h1>Creating pdocs</h1>
+<p>I decided to call my fork <code>pdocs</code> as I felt it had nice symmetry with the other portray dependency <code>mkdocs</code> while holding a dual meaning well:</p>
+<ol>
+<li>Python Docs</li>
+<li>pdoc successor</li>
+</ol>
+<p>Most Open Source developers, my self included, don't look forward to forking an old project with a long history.
+There's tends to be technical debt in old Open Source projects, just as there is in commercial ones. The moment you fork,
+especially if your fork is successful, you own that debt. And, since you likely aren't the creator, you probably don't understand the debt you now possess.</p>
+<p><code>pdoc</code> was only partially an exception to this, as it turned out a ton of work had been done on the repository up until about a year ago, most of it being refactoring.
+I still found a lot of dead code paths and was able to clean things up significantly, but at least the house was preparing to come to order.</p>
+<p><code>pdocs</code> includes the following improvements over <code>pdoc</code>:</p>
+<ol>
+<li>Type hint support.</li>
+<li>Simple programmatic API.</li>
+<li>A ton of bug fixes.</li>
+<li>Markdown generation support.</li>
+</ol>
+<p>All of these were requirements for it to be able to replace <code>pdoc</code> usage within <code>portray.</code></p>
+<h1>Thanks For Reading</h1>
+<p>Thanks for taking the time to read about this new project!
+What do you think of pdocs? Any projects you would like to see in the future? Any plans I should try out?</p>
+<p>~Timothy Crosley</p>
+</div>
+
+
+<div class="comments">
+  <h2>Comments!</h2>
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_shortname = 'timothycrosley-com';
+    var disqus_identifier = 'project-3-pdocs';
+    var disqus_url = 'https://timothycrosley.com/project-3-pdocs';
+    (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//timothycrosley-com.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the comments.</noscript>
+</div>
     </div>
 
 <script type="text/javascript">
