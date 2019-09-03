@@ -62,9 +62,9 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h1&gt;Sometimes We Don't Pick our Projects&lt;/h1&gt;
-&lt;p&gt;This next project isn't one I chose. I had many different ideas of what to work on after &lt;code&gt;portray,&lt;/code&gt; but after that project unexpectedly &lt;a href="https://news.ycombinator.com/item?id=20800157"&gt;reached the top of Hacker News&lt;/a&gt;, priorities changed.
+&lt;p&gt;This next project isn't one I chose. I had many different ideas of what to work on after&lt;a href="https://timothycrosley.github.io/portray/"&gt; portray&lt;/a&gt;, but after that project unexpectedly &lt;a href="https://news.ycombinator.com/item?id=20800157"&gt;reached the top of Hacker News&lt;/a&gt;, priorities changed.
 I work on these projects with the hope that some of them will not only scratch an itch that I have but one that's shared with many other developers.
-So I saw the interest shown in that post as a confirmation that I was on the right track. The most immediate fallout of this was improvements made to &lt;code&gt;portray&lt;/code&gt; in the days following the post,
+So I saw the interest shown in that post as a confirmation that I was on the right track. The most immediate fallout of this was improvements made to &lt;a href="https://timothycrosley.github.io/portray/"&gt;portray&lt;/a&gt; in the days following the post,
 as can be seen in &lt;a href="https://timothycrosley.github.io/portray/CHANGELOG/#changelog"&gt;portray's changelog&lt;/a&gt;.
 I was thrilled to be able to solve the most immediate pieces of user feedback quickly.&lt;/p&gt;
 &lt;p&gt;However, one thread brought up a controversy I noticed late into the project: &lt;a href="https://news.ycombinator.com/item?id=20803008"&gt;https://news.ycombinator.com/item?id=20803008&lt;/a&gt;.
@@ -72,10 +72,10 @@ I had hoped I could quickly pivot to using the original &lt;a href="https://gith
 However, as I researched, I realized things wouldn't be quite so easy. &lt;a href="https://github.com/mitmproxy/pdoc"&gt;pdoc&lt;/a&gt; hadn't seen a release since &lt;strong&gt;2016&lt;/strong&gt;. It had, however, received code contribution up until
 last year. Upon investigation, much of this work was broken, leading to the lack of a PyPI release. I was tempted to give up, but then I reread the &lt;a href="https://github.com/pdoc3/pdoc/issues/64"&gt;GitHub conversation between the original pdoc maintainer
 and the pdoc3 maintainer&lt;/a&gt;, and I knew I couldn't. When &lt;code&gt;pdoc&lt;/code&gt; was forked into &lt;code&gt;pdoc3&lt;/code&gt; the license was changed from &lt;a href="https://unlicense.org/"&gt;"Unlicensed"&lt;/a&gt; to AGPL.
-Because of the confusing naming and forking, when I had started working on portray, I saw the unlicense of pdoc and the MIT of mkdocs and missed the AGPL of pdoc3.
+Because of the confusing naming and forking, when I had started working on &lt;a href="https://timothycrosley.github.io/portray/"&gt;portray&lt;/a&gt;, I saw the unlicense of pdoc and the MIT of mkdocs and missed the AGPL of pdoc3.
 The license incompatibility of an MIT project using an AGPL project forced my hand. My next project would be a fork of the original pdoc.&lt;/p&gt;
 &lt;h1&gt;Creating pdocs&lt;/h1&gt;
-&lt;p&gt;I decided to call my fork &lt;code&gt;pdocs&lt;/code&gt; as I felt it had nice symmetry with the other portray dependency &lt;code&gt;mkdocs&lt;/code&gt; while holding a dual meaning well:&lt;/p&gt;
+&lt;p&gt;I decided to call my fork &lt;code&gt;pdocs&lt;/code&gt; as I felt it had nice symmetry with the other &lt;a href="https://timothycrosley.github.io/portray/"&gt;portray&lt;/a&gt; dependency &lt;code&gt;mkdocs&lt;/code&gt; while holding a dual meaning well:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Python Docs&lt;/li&gt;
 &lt;li&gt;pdoc successor&lt;/li&gt;
@@ -84,7 +84,7 @@ The license incompatibility of an MIT project using an AGPL project forced my ha
 &lt;ol&gt;
 &lt;li&gt;Fork the original project&lt;/li&gt;
 &lt;li&gt;Fix anything that might be wrong&lt;/li&gt;
-&lt;li&gt;Update portray to use the new fork&lt;/li&gt;
+&lt;li&gt;Update &lt;a href="https://timothycrosley.github.io/portray/"&gt;portray&lt;/a&gt; to use the new fork&lt;/li&gt;
 &lt;li&gt;???&lt;/li&gt;
 &lt;li&gt;Profit&lt;/li&gt;
 &lt;/ol&gt;
@@ -102,7 +102,7 @@ to grasp:&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;The CLI included numerous settings that didn't go anywhere and most simple commands I tried threw an exception, but the groundwork was in-place.&lt;/p&gt;
 &lt;p&gt;Over the next several days, I played whack-a-mole with various bugs as I encountered them.
-Eventually, I took inventory of what I needed for portray, that pdoc even without bugs, didn't have:&lt;/p&gt;
+Eventually, I took inventory of what I needed for &lt;a href="https://timothycrosley.github.io/portray/"&gt;portray&lt;/a&gt;, that pdoc even without bugs, didn't have:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Type Annotation support&lt;/li&gt;
 &lt;li&gt;Markdown output&lt;/li&gt;
@@ -110,9 +110,9 @@ Eventually, I took inventory of what I needed for portray, that pdoc even withou
 &lt;/ul&gt;
 &lt;p&gt;And one bonus:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;A straightforward API for portray to call&lt;/li&gt;
+&lt;li&gt;A straightforward API for &lt;a href="https://timothycrosley.github.io/portray/"&gt;portray&lt;/a&gt; to call&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;To accomplish this, I decided it would be best to split the API from the CLI as I did with &lt;code&gt;portray&lt;/code&gt; while limiting the API and commands
+&lt;p&gt;To accomplish this, I decided it would be best to split the API from the CLI as I did with &lt;a href="https://timothycrosley.github.io/portray/"&gt;portray&lt;/a&gt; while limiting the API and commands
 to the bare minimum to start. I ended up with a stripped-down version of &lt;code&gt;pdoc&lt;/code&gt; that could (given a list of modules):&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Serve documentation locally.&lt;/li&gt;
@@ -120,13 +120,13 @@ to the bare minimum to start. I ended up with a stripped-down version of &lt;cod
 &lt;li&gt;Render documentation to Markdown within a specified directory.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;And, that's it. Of course, it could do so both over HTTP and a simplified Python API.
-By simplifying the scope, I was able to complete the first working fork in a reasonable amount of time, and quickly update &lt;code&gt;portray&lt;/code&gt; to use it.
-&lt;code&gt;pdocs&lt;/code&gt; can't do everything &lt;code&gt;pdoc&lt;/code&gt; could do, but it does everything &lt;code&gt;portray&lt;/code&gt; used.
+By simplifying the scope, I was able to complete the first working fork in a reasonable amount of time, and quickly update &lt;a href="https://timothycrosley.github.io/portray/"&gt;portray&lt;/a&gt; to use it.
+&lt;code&gt;pdocs&lt;/code&gt; can't do everything &lt;code&gt;pdoc&lt;/code&gt; could do, but it does everything &lt;a href="https://timothycrosley.github.io/portray/"&gt;portray&lt;/a&gt; used.
 And, I hope, most of what users of &lt;code&gt;pdoc&lt;/code&gt; use.&lt;/p&gt;
 &lt;h1&gt;Using pdocs from portray&lt;/h1&gt;
-&lt;p&gt;Since I knew my intended use from the beginning, I tested pdocs against portray throughout the development.
-So not only am I able to release pdocs today but also an updated portray that uses it.
-If you currently use portray this change should be transparent to you unless you have manual pdoc3 settings defined.
+&lt;p&gt;Since I knew my intended use from the beginning, I tested pdocs against &lt;a href="https://timothycrosley.github.io/portray/"&gt;portray&lt;/a&gt; throughout the development.
+So not only am I able to release pdocs today but also an updated &lt;a href="https://timothycrosley.github.io/portray/"&gt;portray&lt;/a&gt; that uses it.
+If you currently use &lt;a href="https://timothycrosley.github.io/portray/"&gt;portray&lt;/a&gt; this change should be transparent to you unless you have manual pdoc3 settings defined.
 If so, simply change your settings from living in &lt;code&gt;[tool.portray.pdoc3]&lt;/code&gt; to &lt;code&gt;[tool.portray.pdocs]&lt;/code&gt;&lt;/p&gt;
 &lt;h1&gt;Thanks For Reading&lt;/h1&gt;
 &lt;p&gt;Thanks for taking the time to read about this new project!

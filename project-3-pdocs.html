@@ -145,9 +145,9 @@
 </tbody>
 </table>
 <h1>Sometimes We Don't Pick our Projects</h1>
-<p>This next project isn't one I chose. I had many different ideas of what to work on after <code>portray,</code> but after that project unexpectedly <a href="https://news.ycombinator.com/item?id=20800157">reached the top of Hacker News</a>, priorities changed.
+<p>This next project isn't one I chose. I had many different ideas of what to work on after<a href="https://timothycrosley.github.io/portray/"> portray</a>, but after that project unexpectedly <a href="https://news.ycombinator.com/item?id=20800157">reached the top of Hacker News</a>, priorities changed.
 I work on these projects with the hope that some of them will not only scratch an itch that I have but one that's shared with many other developers.
-So I saw the interest shown in that post as a confirmation that I was on the right track. The most immediate fallout of this was improvements made to <code>portray</code> in the days following the post,
+So I saw the interest shown in that post as a confirmation that I was on the right track. The most immediate fallout of this was improvements made to <a href="https://timothycrosley.github.io/portray/">portray</a> in the days following the post,
 as can be seen in <a href="https://timothycrosley.github.io/portray/CHANGELOG/#changelog">portray's changelog</a>.
 I was thrilled to be able to solve the most immediate pieces of user feedback quickly.</p>
 <p>However, one thread brought up a controversy I noticed late into the project: <a href="https://news.ycombinator.com/item?id=20803008">https://news.ycombinator.com/item?id=20803008</a>.
@@ -155,10 +155,10 @@ I had hoped I could quickly pivot to using the original <a href="https://github.
 However, as I researched, I realized things wouldn't be quite so easy. <a href="https://github.com/mitmproxy/pdoc">pdoc</a> hadn't seen a release since <strong>2016</strong>. It had, however, received code contribution up until
 last year. Upon investigation, much of this work was broken, leading to the lack of a PyPI release. I was tempted to give up, but then I reread the <a href="https://github.com/pdoc3/pdoc/issues/64">GitHub conversation between the original pdoc maintainer
 and the pdoc3 maintainer</a>, and I knew I couldn't. When <code>pdoc</code> was forked into <code>pdoc3</code> the license was changed from <a href="https://unlicense.org/">"Unlicensed"</a> to AGPL.
-Because of the confusing naming and forking, when I had started working on portray, I saw the unlicense of pdoc and the MIT of mkdocs and missed the AGPL of pdoc3.
+Because of the confusing naming and forking, when I had started working on <a href="https://timothycrosley.github.io/portray/">portray</a>, I saw the unlicense of pdoc and the MIT of mkdocs and missed the AGPL of pdoc3.
 The license incompatibility of an MIT project using an AGPL project forced my hand. My next project would be a fork of the original pdoc.</p>
 <h1>Creating pdocs</h1>
-<p>I decided to call my fork <code>pdocs</code> as I felt it had nice symmetry with the other portray dependency <code>mkdocs</code> while holding a dual meaning well:</p>
+<p>I decided to call my fork <code>pdocs</code> as I felt it had nice symmetry with the other <a href="https://timothycrosley.github.io/portray/">portray</a> dependency <code>mkdocs</code> while holding a dual meaning well:</p>
 <ol>
 <li>Python Docs</li>
 <li>pdoc successor</li>
@@ -167,7 +167,7 @@ The license incompatibility of an MIT project using an AGPL project forced my ha
 <ol>
 <li>Fork the original project</li>
 <li>Fix anything that might be wrong</li>
-<li>Update portray to use the new fork</li>
+<li>Update <a href="https://timothycrosley.github.io/portray/">portray</a> to use the new fork</li>
 <li>???</li>
 <li>Profit</li>
 </ol>
@@ -185,7 +185,7 @@ to grasp:</p>
 </ul>
 <p>The CLI included numerous settings that didn't go anywhere and most simple commands I tried threw an exception, but the groundwork was in-place.</p>
 <p>Over the next several days, I played whack-a-mole with various bugs as I encountered them.
-Eventually, I took inventory of what I needed for portray, that pdoc even without bugs, didn't have:</p>
+Eventually, I took inventory of what I needed for <a href="https://timothycrosley.github.io/portray/">portray</a>, that pdoc even without bugs, didn't have:</p>
 <ul>
 <li>Type Annotation support</li>
 <li>Markdown output</li>
@@ -193,9 +193,9 @@ Eventually, I took inventory of what I needed for portray, that pdoc even withou
 </ul>
 <p>And one bonus:</p>
 <ul>
-<li>A straightforward API for portray to call</li>
+<li>A straightforward API for <a href="https://timothycrosley.github.io/portray/">portray</a> to call</li>
 </ul>
-<p>To accomplish this, I decided it would be best to split the API from the CLI as I did with <code>portray</code> while limiting the API and commands
+<p>To accomplish this, I decided it would be best to split the API from the CLI as I did with <a href="https://timothycrosley.github.io/portray/">portray</a> while limiting the API and commands
 to the bare minimum to start. I ended up with a stripped-down version of <code>pdoc</code> that could (given a list of modules):</p>
 <ul>
 <li>Serve documentation locally.</li>
@@ -203,13 +203,13 @@ to the bare minimum to start. I ended up with a stripped-down version of <code>p
 <li>Render documentation to Markdown within a specified directory.</li>
 </ul>
 <p>And, that's it. Of course, it could do so both over HTTP and a simplified Python API.
-By simplifying the scope, I was able to complete the first working fork in a reasonable amount of time, and quickly update <code>portray</code> to use it.
-<code>pdocs</code> can't do everything <code>pdoc</code> could do, but it does everything <code>portray</code> used.
+By simplifying the scope, I was able to complete the first working fork in a reasonable amount of time, and quickly update <a href="https://timothycrosley.github.io/portray/">portray</a> to use it.
+<code>pdocs</code> can't do everything <code>pdoc</code> could do, but it does everything <a href="https://timothycrosley.github.io/portray/">portray</a> used.
 And, I hope, most of what users of <code>pdoc</code> use.</p>
 <h1>Using pdocs from portray</h1>
-<p>Since I knew my intended use from the beginning, I tested pdocs against portray throughout the development.
-So not only am I able to release pdocs today but also an updated portray that uses it.
-If you currently use portray this change should be transparent to you unless you have manual pdoc3 settings defined.
+<p>Since I knew my intended use from the beginning, I tested pdocs against <a href="https://timothycrosley.github.io/portray/">portray</a> throughout the development.
+So not only am I able to release pdocs today but also an updated <a href="https://timothycrosley.github.io/portray/">portray</a> that uses it.
+If you currently use <a href="https://timothycrosley.github.io/portray/">portray</a> this change should be transparent to you unless you have manual pdoc3 settings defined.
 If so, simply change your settings from living in <code>[tool.portray.pdoc3]</code> to <code>[tool.portray.pdocs]</code></p>
 <h1>Thanks For Reading</h1>
 <p>Thanks for taking the time to read about this new project!
