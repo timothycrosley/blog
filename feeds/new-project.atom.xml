@@ -62,7 +62,7 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h1&gt;Sometimes We Don't Pick our Projects&lt;/h1&gt;
-&lt;p&gt;This next project isn't one I chose. I had many different ideas of what to work on after &lt;code&gt;portray,&lt;/code&gt; but after that project unexpectedly &lt;a href="https://news.ycombinator.com/item?id=20800157"&gt;reached the top of hackernews&lt;/a&gt;, priorities changed.
+&lt;p&gt;This next project isn't one I chose. I had many different ideas of what to work on after &lt;code&gt;portray,&lt;/code&gt; but after that project unexpectedly &lt;a href="https://news.ycombinator.com/item?id=20800157"&gt;reached the top of Hacker News&lt;/a&gt;, priorities changed.
 I work on these projects with the hope that some of them will not only scratch an itch that I have but one that's shared with many other developers.
 So I saw the interest shown in that post as a confirmation that I was on the right track. The most immediate fallout of this where improvements made to &lt;code&gt;portray&lt;/code&gt; in the days following the post,
 as can be seen in &lt;a href="https://timothycrosley.github.io/portray/CHANGELOG/#changelog"&gt;portray's changelog&lt;/a&gt;.
