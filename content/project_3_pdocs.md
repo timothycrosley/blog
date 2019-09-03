@@ -5,7 +5,7 @@ Category: New Project
 Tags: Projects, 52, Introduction
 slug: project-3-pdocs
 
-[![pdocs Logo](https://raw.githubusercontent.com/timothycrosley/pdocs/master/art/logo.png)](https://timothycrosley.github.io/pdocs/)
+[![pdocs Logo](https://raw.githubusercontent.com/timothycrosley/pdocs/master/art/logo_large.png)](https://timothycrosley.github.io/pdocs/)
 
 | | |
 | ------------| -----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
