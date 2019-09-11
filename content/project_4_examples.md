@@ -12,7 +12,7 @@ slug: project-4-examples
 | project: | 4/52 |
 | Title/Link: | [eXamples](https://timothycrosley.github.io/examples/) |
 | Pitch: | Examples that double as tests and documentation while enabling interactive discovery. |
-| Read if: | You want your project to have more examples, tests, and documentation - but you limited time to invest in all of them. |
+| Read if: | You want your project to have more examples, tests, and documentation - but you have limited time to invest in all of them. |
 | Skip if: | You are happy with doctest or have the resources to dedicate fully to each area, and discipline to keep them in sync. |
 | Prior Work: | [doctest](https://docs.python.org/3/library/doctest.html), [hug](https://github.com/hugapi/hug). |
 
@@ -40,6 +40,19 @@ Once done, it becomes trivial to reuse examples for multiple purposes. The eXamp
 test cases. And, of course, it makes them programmatically available. This means, that over time, projects like [hug](github.com/timothycrosley/hug) can automatically detect examples
 you have on API endpoint functions. It can then provide them to users of your HTTP or Command Line interfaces. Finally, eXamples, by default, adds your examples to your docstring, in a way that renders beautifully on
 [portray](https://timothycrosley.github.io/portray/) and [pdocs](https://timothycrosley.github.io/pdocs/).
+
+Creating examples using eXamples is as easy as adding an example decorator per example with parameters that match the definition of the attached function:
+
+```python3
+from examples import example
+
+
+@example(1, 1)
+def sum(number_1: int, number_2: int) -> int:
+    return number_1 + number_2
+```
+
+For a full overview of how this works and what it enables, see the projects [documentation website](https://timothycrosley.github.io/examples/).
 
 # Things I Experimented with When Making eXamples
 
