@@ -95,6 +95,6 @@ If so, simply change your settings from living in `[tool.portray.pdoc3]` to `[to
 # Thanks For Reading
 
 Thanks for taking the time to read about this new project!
-What do you think of pdocs? Any projects you would like to see in the future? Any plans I should try out?
+What do you think of pdocs? Any projects you would like to see in the future? Any projects I should try out?
 
 ~Timothy Crosley
