@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>TimothyCrosley.com</title><link href="https://timothycrosley.com/" rel="alternate"></link><link href="https://timothycrosley.com/feeds/all-en.atom.xml" rel="self"></link><id>https://timothycrosley.com/</id><updated>2019-09-11T03:00:00-07:00</updated><subtitle>My Personal Homepage and Blog</subtitle><entry><title>Introducing Examples - Python Tests and Documentation Done by Example</title><link href="https://timothycrosley.com/project-4-examples" rel="alternate"></link><published>2019-09-11T03:00:00-07:00</published><updated>2019-09-11T03:00:00-07:00</updated><author><name>timothycrosley</name></author><id>tag:timothycrosley.com,2019-09-11:/project-4-examples</id><summary type="html">&lt;p&gt;&lt;a href="https://timothycrosley.github.io/examples/"&gt;&lt;img alt="examples Logo" src="https://raw.githubusercontent.com/timothycrosley/examples/master/art/logo_large.png"&gt;&lt;/a&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>TimothyCrosley.com</title><link href="https://timothycrosley.com/" rel="alternate"></link><link href="https://timothycrosley.com/feeds/all-en.atom.xml" rel="self"></link><id>https://timothycrosley.com/</id><updated>2019-09-11T03:00:00-07:00</updated><subtitle>My Personal Homepage and Blog</subtitle><entry><title>Introducing eXamples - Python Tests and Documentation Done by Example</title><link href="https://timothycrosley.com/project-4-examples" rel="alternate"></link><published>2019-09-11T03:00:00-07:00</published><updated>2019-09-11T03:00:00-07:00</updated><author><name>timothycrosley</name></author><id>tag:timothycrosley.com,2019-09-11:/project-4-examples</id><summary type="html">&lt;p&gt;&lt;a href="https://timothycrosley.github.io/examples/"&gt;&lt;img alt="examples Logo" src="https://raw.githubusercontent.com/timothycrosley/examples/master/art/logo_large.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -22,7 +22,7 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Read if:&lt;/td&gt;
-&lt;td&gt;You want your project to have more examples, tests, and documentation - but you have limited time to invest in all of them.&lt;/td&gt;
+&lt;td&gt;You want your project to have more examples, tests, and documentation, but you have limited time to invest in all of them.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Skip if:&lt;/td&gt;
@@ -49,7 +49,7 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Read if:&lt;/td&gt;
-&lt;td&gt;You want your project to have more examples, tests, and documentation - but you have limited time to invest in all of them.&lt;/td&gt;
+&lt;td&gt;You want your project to have more examples, tests, and documentation, but you have limited time to invest in all of them.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Skip if:&lt;/td&gt;
@@ -103,11 +103,11 @@ the provided function.&lt;/p&gt;
 &lt;h2&gt;functools.singledispatch&lt;/h2&gt;
 &lt;p&gt;I wanted to enable eXample's core API functions to be callable from multiple scopes (function, module, global). This seemed like an excellent opportunity to utilize &lt;a href="https://www.python.org/dev/peps/pep-0443/"&gt;singleddispatch&lt;/a&gt; for the first time.
 Overall, it was intuitive and seemed like an excellent way to provide structure around what would otherwise be done in a series of if-else statements.
-I did get tripped up, by the fact that it doesn't allow that single argument to be optional. But, after reflecting, I felt the decorator's limitations were helping to guide me into a better more consistent
+I did get tripped up by the fact that it doesn't allow that single argument to be optional. But, after reflecting, I felt the decorator's limitations were helping to guide me into a better more consistent
 API design.&lt;/p&gt;
 &lt;h1&gt;Thanks For Reading&lt;/h1&gt;
 &lt;p&gt;Thanks for taking the time to read about this new project!
-What do you think of portray? Any projects you would like to see in the future? Any projects I should try out?&lt;/p&gt;
+What do you think of eXamples? Any projects you would like to see in the future? Any projects I should try out?&lt;/p&gt;
 &lt;p&gt;~Timothy Crosley&lt;/p&gt;</content><category term="Projects"></category><category term="52"></category><category term="Introduction"></category></entry><entry><title>Introducing pdocs - Documentation Powered by Your Python Code</title><link href="https://timothycrosley.com/project-3-pdocs" rel="alternate"></link><published>2019-09-03T04:00:00-07:00</published><updated>2019-09-03T04:00:00-07:00</updated><author><name>timothycrosley</name></author><id>tag:timothycrosley.com,2019-09-03:/project-3-pdocs</id><summary type="html">&lt;p&gt;&lt;a href="https://timothycrosley.github.io/pdocs/"&gt;&lt;img alt="pdocs Logo" src="https://raw.githubusercontent.com/timothycrosley/pdocs/master/art/logo_large.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
