@@ -132,7 +132,7 @@
 </tr>
 <tr>
 <td>Read if:</td>
-<td>You want your project to have more examples, tests, and documentation - but you limited time to invest in all of them.</td>
+<td>You want your project to have more examples, tests, and documentation - but you have limited time to invest in all of them.</td>
 </tr>
 <tr>
 <td>Skip if:</td>
@@ -163,6 +163,17 @@ Once done, it becomes trivial to reuse examples for multiple purposes. The eXamp
 test cases. And, of course, it makes them programmatically available. This means, that over time, projects like <a href="github.com/timothycrosley/hug">hug</a> can automatically detect examples
 you have on API endpoint functions. It can then provide them to users of your HTTP or Command Line interfaces. Finally, eXamples, by default, adds your examples to your docstring, in a way that renders beautifully on
 <a href="https://timothycrosley.github.io/portray/">portray</a> and <a href="https://timothycrosley.github.io/pdocs/">pdocs</a>.</p>
+<p>Creating examples using eXamples is as easy as adding an example decorator per example with parameters that match the definition of the attached function:</p>
+<div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">examples</span> <span class="k">import</span> <span class="n">example</span>
+
+
+<span class="nd">@example</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">sum</span><span class="p">(</span><span class="n">number_1</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">number_2</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+    <span class="k">return</span> <span class="n">number_1</span> <span class="o">+</span> <span class="n">number_2</span>
+</pre></div>
+
+
+<p>For a full overview of how this works and what it enables, see the projects <a href="https://timothycrosley.github.io/examples/">documentation website</a>.</p>
 <h1>Things I Experimented with When Making eXamples</h1>
 <p>Since, unlike pdocs, this was a greenfield project, I had some flexibility to try out some new things when building it.</p>
 <h2>pydantic</h2>

@@ -22,11 +22,11 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Read if:&lt;/td&gt;
-&lt;td&gt;You want your project to have more examples, tests, and documentation - but you limited time to invest in all of them.&lt;/td&gt;
+&lt;td&gt;You want your project to have more examples, tests, and documentation - but you have limited time to invest in all of them.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Skip if:&lt;/td&gt;
-&lt;td&gt;You are happy with doctest or have …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</summary><content type="html">&lt;p&gt;&lt;a href="https://timothycrosley.github.io/examples/"&gt;&lt;img alt="examples Logo" src="https://raw.githubusercontent.com/timothycrosley/examples/master/art/logo_large.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;td&gt;You are happy with doctest or …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</summary><content type="html">&lt;p&gt;&lt;a href="https://timothycrosley.github.io/examples/"&gt;&lt;img alt="examples Logo" src="https://raw.githubusercontent.com/timothycrosley/examples/master/art/logo_large.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -49,7 +49,7 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Read if:&lt;/td&gt;
-&lt;td&gt;You want your project to have more examples, tests, and documentation - but you limited time to invest in all of them.&lt;/td&gt;
+&lt;td&gt;You want your project to have more examples, tests, and documentation - but you have limited time to invest in all of them.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Skip if:&lt;/td&gt;
@@ -80,6 +80,17 @@ Once done, it becomes trivial to reuse examples for multiple purposes. The eXamp
 test cases. And, of course, it makes them programmatically available. This means, that over time, projects like &lt;a href="github.com/timothycrosley/hug"&gt;hug&lt;/a&gt; can automatically detect examples
 you have on API endpoint functions. It can then provide them to users of your HTTP or Command Line interfaces. Finally, eXamples, by default, adds your examples to your docstring, in a way that renders beautifully on
 &lt;a href="https://timothycrosley.github.io/portray/"&gt;portray&lt;/a&gt; and &lt;a href="https://timothycrosley.github.io/pdocs/"&gt;pdocs&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Creating examples using eXamples is as easy as adding an example decorator per example with parameters that match the definition of the attached function:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;examples&lt;/span&gt; &lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="n"&gt;example&lt;/span&gt;
+
+
+&lt;span class="nd"&gt;@example&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;sum&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;number_1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;number_2&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;number_1&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;number_2&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;For a full overview of how this works and what it enables, see the projects &lt;a href="https://timothycrosley.github.io/examples/"&gt;documentation website&lt;/a&gt;.&lt;/p&gt;
 &lt;h1&gt;Things I Experimented with When Making eXamples&lt;/h1&gt;
 &lt;p&gt;Since, unlike pdocs, this was a greenfield project, I had some flexibility to try out some new things when building it.&lt;/p&gt;
 &lt;h2&gt;pydantic&lt;/h2&gt;
