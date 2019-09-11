@@ -1,4 +1,4 @@
-Title: Introducing Examples - Python Tests and Documentation Done by Example
+Title: Introducing eXamples - Python Tests and Documentation Done by Example
 Date: 2019-09-11 3:00
 Author: timothycrosley
 Category: New Project
@@ -12,7 +12,7 @@ slug: project-4-examples
 | project: | 4/52 |
 | Title/Link: | [eXamples](https://timothycrosley.github.io/examples/) |
 | Pitch: | Examples that double as tests and documentation while enabling interactive discovery. |
-| Read if: | You want your project to have more examples, tests, and documentation - but you have limited time to invest in all of them. |
+| Read if: | You want your project to have more examples, tests, and documentation, but you have limited time to invest in all of them. |
 | Skip if: | You are happy with doctest or have the resources to dedicate fully to each area, and discipline to keep them in sync. |
 | Prior Work: | [doctest](https://docs.python.org/3/library/doctest.html), [hug](https://github.com/hugapi/hug). |
 
@@ -71,12 +71,12 @@ the provided function.
 
 I wanted to enable eXample's core API functions to be callable from multiple scopes (function, module, global). This seemed like an excellent opportunity to utilize [singleddispatch](https://www.python.org/dev/peps/pep-0443/) for the first time.
 Overall, it was intuitive and seemed like an excellent way to provide structure around what would otherwise be done in a series of if-else statements.
-I did get tripped up, by the fact that it doesn't allow that single argument to be optional. But, after reflecting, I felt the decorator's limitations were helping to guide me into a better more consistent
+I did get tripped up by the fact that it doesn't allow that single argument to be optional. But, after reflecting, I felt the decorator's limitations were helping to guide me into a better more consistent
 API design.
 
 # Thanks For Reading
 
 Thanks for taking the time to read about this new project!
-What do you think of portray? Any projects you would like to see in the future? Any projects I should try out?
+What do you think of eXamples? Any projects you would like to see in the future? Any projects I should try out?
 
 ~Timothy Crosley
