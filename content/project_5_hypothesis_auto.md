@@ -27,7 +27,7 @@ In attempts to reduce the number of bugs on the initial release of a project, I 
 Most projects I've released in the last few years were released with at or close to 100% test coverage. Still came the inevitable bug reports.
 
 Of course, no matter how much we test, there will always be bugs in any sufficiently complex piece of software.
-But, what can be done to reduce the number of genuinely embarrassing ones? Over time, my problem with TDD as the accept primary solution to this problem has been
+But, what can be done to reduce the number of genuinely embarrassing ones? Over time, my problem with TDD as the accepted solution to this problem has been
 that it's too easy for me to fail in the same way twice. Writing the tests first assumes I'm going to pick the right test case to write
 and then write the code in a way that matches the intentions of the test. It's certainly better than no testing. However, I often miss edge cases on either side of that equation. I often feel that my test cases are an attempt to outsmart myself in implementation. But, often it happens that I'm exactly as smart (or not) in similar ways when writing tests as I am implementing features.
 
