@@ -1,4 +1,4 @@
-Title: Introducing hypothesis-auto - An extensions for Hypothesis that provides fully automatic testing for type hinted functions
+Title: Introducing hypothesis-auto - An extension for Hypothesis that provides fully automatic testing for type hinted functions
 Date: 2019-09-19 4:00
 Author: timothycrosley
 Category: New Project
