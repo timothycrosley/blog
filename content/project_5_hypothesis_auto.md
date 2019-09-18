@@ -31,7 +31,7 @@ But, what can be done to reduce the number of genuinely embarrassing ones? Over 
 that it's too easy for me to fail in the same way twice. Writing the tests first assumes I'm going to pick the right test case to write
 and then write the code in a way that matches the intentions of the test. It's certainly better than no testing. However, I often miss edge cases on either side of that equation. I often feel that my test cases are an attempt to outsmart myself in implementation. But, often it happens that I'm exactly as smart (or not) in similar ways when writing tests as I am implementing features.
 
-# A Friend That Writes Test Cases.
+# A Friend That Writes Test Cases
 
 At work, I've often found a way to work around this problem is to ask coworkers what edge-cases concern them.
 The difference in backgrounds and thought processes often leads to their edge-cases being very different from my own.
