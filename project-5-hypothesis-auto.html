@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta name="HandheldFriendly" content="True">
+
+  <!-- Description -->
+  <meta name="robots" content="index,follow">
+  <meta name="description" content=""/>
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:site" content="@">
+  <meta property="twitter:title" content="Introducing hypothesis-auto - An extensions for Hypothesis that provides fully automatic testing for type hinted functions - Timothy Crosley" />
+  <meta property="twitter:description" content="" />
+  <meta property="twitter:image" content="" />
+
+  <!-- Open Graph -->
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Introducing hypothesis-auto - An extensions for Hypothesis that provides fully automatic testing for type hinted functions - Timothy Crosley" />
+  <meta property="og:description" content="  " />
+  <meta property="og:url" content="https://timothycrosley.com/project-5-hypothesis-auto" />
+  <meta property="og:site_name" content="Introducing hypothesis-auto - An extensions for Hypothesis that provides fully automatic testing for type hinted functions - Timothy Crosley" />
+  <meta property="og:image" content="" />
+  <meta property="og:image:secure_url" content="" />
+
+  <title>
+    Introducing hypothesis-auto - An extensions for Hypothesis that provides fully automatic testing for type hinted functions - Timothy Crosley
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://timothycrosley.com/theme/css/poole.css">
+  <link rel="stylesheet" href="https://timothycrosley.com/theme/css/syntax.css">
+  <link rel="stylesheet" href="https://timothycrosley.com/theme/css/hyde.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="shortcut icon" type="image/png" href="https://timothycrosley.com/favicon.ico" />
+
+  <!-- RSS -->
+  <!-- <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml"> -->
+</head>
+  <!-- TODO: Add theme color variable -->
+  <body>
+    <!-- http://tholman.com/github-corners/ -->
+      <a href="https://github.com/timothycrosley/blog" target="_blank" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+
+<div class="sidebar">
+  <div class="container">
+    <div class="sidebar-about">
+      <h1>
+        <a href="https://timothycrosley.com">
+          Timothy Crosley
+        </a>
+      </h1>
+      <p class="lead">Software Engineer and Open Source Enthusiast. Creator of <a href="https://github.com/timothycrosley/isort">isort</a>, <a href="https://github.com/hugapi/hug">Hug</a>, <a href="https://github.com/timothycrosley/concentration">Concentration</a>, and many other Python tools and libraries.</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="https://timothycrosley.com">Home</a>
+    </nav>
+
+    <div class="sidebar-social">
+        <a class="sidebar-social-item" href="https://github.com/timothycrosley" target="_blank">
+          <i class="fab fa-lg fa-github"></i>
+        </a>
+        <a class="sidebar-social-item" href="https://twitter.com/timothycrosley" target="_blank">
+          <i class="fab fa-lg fa-twitter"></i>
+        </a>
+        <a class="sidebar-social-item" href="https://www.linkedin.com/in/timothycrosley/" target="_blank">
+          <i class="fab fa-lg fa-linkedin"></i>
+        </a>
+        <a class="sidebar-social-item" href="https://www.reddit.com/user/timothycrosley" target="_blank">
+          <i class="fab fa-lg fa-reddit"></i>
+        </a>
+        <a class="sidebar-social-item" href="https://news.ycombinator.com/user?id=timothycrosley" target="_blank">
+          <i class="fab fa-lg fa-hacker-news"></i>
+        </a>
+        <a class="sidebar-social-item" href="https://pypi.org/user/timothycrosley/" target="_blank">
+          <i class="fab fa-lg fa-python"></i>
+        </a>
+        <a class="sidebar-social-item" href="https://gitter.im/timothycrosley" target="_blank">
+          <i class="fab fa-lg fa-gitter"></i>
+        </a>
+        <a class="sidebar-social-item" href="https://www.youtube.com/user/timothycrosley/videos" target="_blank">
+          <i class="fab fa-lg fa-youtube"></i>
+        </a>
+    </div>
+
+    <div class="sidebar-newsletter">
+        <p>Subscribe to <a href="https://tinyletter.com/timothycrosley" target="_blank">The latest from Timothy Crosley</a> for updates on upcoming projects and new blog posts.</p>
+      <p>Or, follow along via <a href="/feeds/all.rss.xml">RSS</a>/<a href="/feeds/all.atom.xml">Atom</a> feeds.</p>
+    </div>
+
+    <div class="sidebar-copyright">
+      <p>&copy; <a href="mailto:timothy.crosley@gmail.com">Timothy Edmund Crosley</a> 2019.</p>
+    </div>
+  </div>
+</div>
+    <div class="content container">
+<div class="post">
+  <h1 class="post-title">Introducing hypothesis-auto - An extensions for Hypothesis that provides fully automatic testing for type hinted functions</h1>
+    <span class="post-date">19 September 2019 &middot; 4 min read</span>
+  <p><a href="https://timothycrosley.github.io/hypothesis-auto/"><img alt="hypothesis-auto Logo" src="https://raw.githubusercontent.com/timothycrosley/hypothesis-auto/master/art/logo_large.png"></a></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>project:</td>
+<td>5/52</td>
+</tr>
+<tr>
+<td>Title/Link:</td>
+<td><a href="https://timothycrosley.github.io/hypothesis-auto/">hypothesis-auto</a></td>
+</tr>
+<tr>
+<td>Pitch:</td>
+<td>Have tests automatically generated for you.</td>
+</tr>
+<tr>
+<td>Read if:</td>
+<td>You are interested in increasing test coverage, utilizing property-based testing, or reducing the number of tests you need to write by hand.</td>
+</tr>
+<tr>
+<td>Skip if:</td>
+<td>You already heavily utilize Hypothesis or another property testing system.</td>
+</tr>
+<tr>
+<td>Prior Work:</td>
+<td><a href="https://hypothesis.readthedocs.io/en/latest/">Hypothesis</a>, <a href="http://hackage.haskell.org/package/QuickCheck">QuickTest</a>.</td>
+</tr>
+</tbody>
+</table>
+<h1>Why Do We Even Write Tests?</h1>
+<p>Personally, my two biggest motivators for writing tests are to save time and to save face. Over and over again, I've experienced painless refactors and deploys where there are many useful tests,
+and hours or days of toil picking up the pieces from when there are not. However, I've always felt something was missing from the tests I wrote.
+They did a great job of keeping me from reencountering the same bugs! But, I would still often encounter what seemed later to be glaring issues in real-life usage.
+The cases where there were many good test cases? Those test cases primarily came from issues users of my project had encountered.
+As the number of regression tests grew, so did time before needing to add a new one. However, each regression test represented an error a user <em>already</em> encountered.
+In attempts to reduce the number of bugs on the initial release of a project, I invested more and more into testing upfront.
+Most projects I've released in the last few years were released with at or close to 100% test coverage. Still came the inevitable bug reports.</p>
+<p>Of course, no matter how much we test, there will always be bugs in any sufficiently complex piece of software.
+But, what can be done to reduce the number of genuinely embarrassing ones? Over time, my problem with TDD as the accept primary solution to this problem has been
+that it's too easy for me to fail in the same way twice. Writing the tests first assumes I'm going to pick the right test case to write
+and then write the code in a way that matches the intentions of the test. It's certainly better than no testing. However, I often miss edge cases on either side of that equation. I often feel that my test cases are an attempt to outsmart myself in implementation. But, often it happens that I'm exactly as smart (or not) in similar ways when writing tests as I am implementing features.</p>
+<h1>A Friend That Writes Test Cases.</h1>
+<p>At work, I've often found a way to work around this problem is to ask coworkers what edge-cases concern them.
+The difference in backgrounds and thought processes often leads to their edge-cases being very different from my own.
+Once they've shared their edge cases, I then write up test cases that map to them. Sometimes they even write the test cases for me. I have great coworkers.
+However, this isn't something I can rely on for my own small independent and often experimental projects. I need a friend that writes test cases for me.
+But, I would never impose that on someone I considered a friend.</p>
+<h1>Property-Based Testing</h1>
+<p>Clearly, I had to <em>build</em> such a friend. When researching this, I came across property-based testing, and it seemed like a perfect solution.
+I then remembered a talk at PyCascades that went over the Python implementation of <a href="https://hypothesis.readthedocs.io/en/latest/">Hypothesis</a>,
+and how it could, given a set of strategies, generate virtually infinite test cases for you. Who wouldn't want a friend like that? I was sold.
+However, something felt a little off about using Hypothesis to me. In my newer code, I utilize mypy and type annotations to have well defined and typed public functions. But, when using Hypothesis, it felt like I often needed to repeat these typing definitions:</p>
+<div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">Hypothesis</span> <span class="kn">import</span> <span class="n">given</span>
+<span class="kn">import</span> <span class="nn">hypothesis.strategies</span> <span class="kn">as</span> <span class="nn">st</span>
+
+
+<span class="k">def</span> <span class="nf">add</span><span class="p">(</span><span class="n">number_1</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">number_2</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+    <span class="k">return</span> <span class="n">number_1</span> <span class="o">+</span> <span class="n">number_2</span>
+
+
+<span class="nd">@given</span><span class="p">(</span><span class="n">st</span><span class="o">.</span><span class="n">integers</span><span class="p">(),</span> <span class="n">st</span><span class="o">.</span><span class="n">integers</span><span class="p">())</span>
+<span class="k">def</span> <span class="nf">test_add</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+    <span class="k">assert</span> <span class="nb">type</span><span class="p">(</span><span class="n">add</span><span class="p">(</span><span class="n">x</span><span class="p">))</span> <span class="o">==</span> <span class="nb">int</span>
+</pre></div>
+
+
+<p>There must be a way to take it one step further and automatically generate test cases based on the type annotations?</p>
+<h1>Introducing Hypothesis Auto</h1>
+<p>Rather than build a whole new property-based system from scratch, I decided to create an extension for Hypothesis. This extension would automatically generate test cases using the tested Callables type annotations while allowing any parameters strategy to be replaced.
+With hypothesis-auto, the above test becomes:</p>
+<div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">hypothesis_auto</span> <span class="kn">import</span> <span class="kn">from</span> <span class="nn">hypothesis_auto</span> <span class="kn">import</span> <span class="n">auto_pytest_magic</span>
+
+
+<span class="k">def</span> <span class="nf">add</span><span class="p">(</span><span class="n">number_1</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">number_2</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+    <span class="k">return</span> <span class="n">number_1</span> <span class="o">+</span> <span class="n">number_2</span>
+
+
+<span class="n">auto_pytest_magic</span><span class="p">(</span><span class="n">add</span><span class="p">)</span>
+</pre></div>
+
+
+<p>You can see this project <a href="https://timothycrosley.github.io/hypothesis-auto/">here</a>.</p>
+<p>After building the extension, immediately used it to improve <a href="https://timothycrosley.com/project-2-portray">portray</a>'s test coverage and find/fix additional bugs in preparation for the 1.3.0 release of that project.
+So far it's proving to make it so easy to use against existing type hinted and pure functions, to be a no-brainer addition to my test suites. Combined with <a href="https://timothycrosley.github.io/examples/">Examples</a> to define and document the happy-path, static analysis, and a suite of regression tests as needed, I feel like I now have the tools I need to build code just robust enough not to be embarrassed.</p>
+<h1>Thanks For Reading</h1>
+<p>Thanks for taking the time to read about this new project!
+What do you think of hypothesis-auto? Any projects you would like to see in the future? Any projects I should try out?</p>
+<p>~Timothy Crosley</p>
+</div>
+
+
+<div class="comments">
+  <h2>Comments!</h2>
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_shortname = 'timothycrosley-com';
+    var disqus_identifier = 'project-5-hypothesis-auto';
+    var disqus_url = 'https://timothycrosley.com/project-5-hypothesis-auto';
+    (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//timothycrosley-com.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the comments.</noscript>
+</div>
+    </div>
+
+<script type="text/javascript">
+    var disqus_shortname = 'timothycrosley-com';
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'https://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+
+  </body>
+</html>

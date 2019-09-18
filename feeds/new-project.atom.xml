@@ -1,5 +1,128 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>TimothyCrosley.com - New Project</title><link href="https://timothycrosley.com/" rel="alternate"></link><link href="https://timothycrosley.com/feeds/new-project.atom.xml" rel="self"></link><id>https://timothycrosley.com/</id><updated>2019-09-11T03:00:00-07:00</updated><subtitle>My Personal Homepage and Blog</subtitle><entry><title>Introducing eXamples - Python Tests and Documentation Done by Example</title><link href="https://timothycrosley.com/project-4-examples" rel="alternate"></link><published>2019-09-11T03:00:00-07:00</published><updated>2019-09-11T03:00:00-07:00</updated><author><name>timothycrosley</name></author><id>tag:timothycrosley.com,2019-09-11:/project-4-examples</id><summary type="html">&lt;p&gt;&lt;a href="https://timothycrosley.github.io/examples/"&gt;&lt;img alt="examples Logo" src="https://raw.githubusercontent.com/timothycrosley/examples/master/art/logo_large.png"&gt;&lt;/a&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>TimothyCrosley.com - New Project</title><link href="https://timothycrosley.com/" rel="alternate"></link><link href="https://timothycrosley.com/feeds/new-project.atom.xml" rel="self"></link><id>https://timothycrosley.com/</id><updated>2019-09-19T04:00:00-07:00</updated><subtitle>My Personal Homepage and Blog</subtitle><entry><title>Introducing hypothesis-auto - An extensions for Hypothesis that provides fully automatic testing for type hinted functions</title><link href="https://timothycrosley.com/project-5-hypothesis-auto" rel="alternate"></link><published>2019-09-19T04:00:00-07:00</published><updated>2019-09-19T04:00:00-07:00</updated><author><name>timothycrosley</name></author><id>tag:timothycrosley.com,2019-09-19:/project-5-hypothesis-auto</id><summary type="html">&lt;p&gt;&lt;a href="https://timothycrosley.github.io/hypothesis-auto/"&gt;&lt;img alt="hypothesis-auto Logo" src="https://raw.githubusercontent.com/timothycrosley/hypothesis-auto/master/art/logo_large.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;project:&lt;/td&gt;
+&lt;td&gt;5/52&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Title/Link:&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://timothycrosley.github.io/hypothesis-auto/"&gt;hypothesis-auto&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Pitch:&lt;/td&gt;
+&lt;td&gt;Have tests automatically generated for you.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Read if:&lt;/td&gt;
+&lt;td&gt;You are interested in increasing test coverage, utilizing property-based testing, or reducing the number of tests you need to write by hand.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Skip if:&lt;/td&gt;
+&lt;td&gt;You already heavily utilize Hypothesis or another property testing system.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Prior …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</summary><content type="html">&lt;p&gt;&lt;a href="https://timothycrosley.github.io/hypothesis-auto/"&gt;&lt;img alt="hypothesis-auto Logo" src="https://raw.githubusercontent.com/timothycrosley/hypothesis-auto/master/art/logo_large.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;project:&lt;/td&gt;
+&lt;td&gt;5/52&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Title/Link:&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://timothycrosley.github.io/hypothesis-auto/"&gt;hypothesis-auto&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Pitch:&lt;/td&gt;
+&lt;td&gt;Have tests automatically generated for you.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Read if:&lt;/td&gt;
+&lt;td&gt;You are interested in increasing test coverage, utilizing property-based testing, or reducing the number of tests you need to write by hand.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Skip if:&lt;/td&gt;
+&lt;td&gt;You already heavily utilize Hypothesis or another property testing system.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Prior Work:&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://hypothesis.readthedocs.io/en/latest/"&gt;Hypothesis&lt;/a&gt;, &lt;a href="http://hackage.haskell.org/package/QuickCheck"&gt;QuickTest&lt;/a&gt;.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1&gt;Why Do We Even Write Tests?&lt;/h1&gt;
+&lt;p&gt;Personally, my two biggest motivators for writing tests are to save time and to save face. Over and over again, I've experienced painless refactors and deploys where there are many useful tests,
+and hours or days of toil picking up the pieces from when there are not. However, I've always felt something was missing from the tests I wrote.
+They did a great job of keeping me from reencountering the same bugs! But, I would still often encounter what seemed later to be glaring issues in real-life usage.
+The cases where there were many good test cases? Those test cases primarily came from issues users of my project had encountered.
+As the number of regression tests grew, so did time before needing to add a new one. However, each regression test represented an error a user &lt;em&gt;already&lt;/em&gt; encountered.
+In attempts to reduce the number of bugs on the initial release of a project, I invested more and more into testing upfront.
+Most projects I've released in the last few years were released with at or close to 100% test coverage. Still came the inevitable bug reports.&lt;/p&gt;
+&lt;p&gt;Of course, no matter how much we test, there will always be bugs in any sufficiently complex piece of software.
+But, what can be done to reduce the number of genuinely embarrassing ones? Over time, my problem with TDD as the accept primary solution to this problem has been
+that it's too easy for me to fail in the same way twice. Writing the tests first assumes I'm going to pick the right test case to write
+and then write the code in a way that matches the intentions of the test. It's certainly better than no testing. However, I often miss edge cases on either side of that equation. I often feel that my test cases are an attempt to outsmart myself in implementation. But, often it happens that I'm exactly as smart (or not) in similar ways when writing tests as I am implementing features.&lt;/p&gt;
+&lt;h1&gt;A Friend That Writes Test Cases.&lt;/h1&gt;
+&lt;p&gt;At work, I've often found a way to work around this problem is to ask coworkers what edge-cases concern them.
+The difference in backgrounds and thought processes often leads to their edge-cases being very different from my own.
+Once they've shared their edge cases, I then write up test cases that map to them. Sometimes they even write the test cases for me. I have great coworkers.
+However, this isn't something I can rely on for my own small independent and often experimental projects. I need a friend that writes test cases for me.
+But, I would never impose that on someone I considered a friend.&lt;/p&gt;
+&lt;h1&gt;Property-Based Testing&lt;/h1&gt;
+&lt;p&gt;Clearly, I had to &lt;em&gt;build&lt;/em&gt; such a friend. When researching this, I came across property-based testing, and it seemed like a perfect solution.
+I then remembered a talk at PyCascades that went over the Python implementation of &lt;a href="https://hypothesis.readthedocs.io/en/latest/"&gt;Hypothesis&lt;/a&gt;,
+and how it could, given a set of strategies, generate virtually infinite test cases for you. Who wouldn't want a friend like that? I was sold.
+However, something felt a little off about using Hypothesis to me. In my newer code, I utilize mypy and type annotations to have well defined and typed public functions. But, when using Hypothesis, it felt like I often needed to repeat these typing definitions:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;Hypothesis&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;given&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;hypothesis.strategies&lt;/span&gt; &lt;span class="kn"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;st&lt;/span&gt;
+
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;add&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;number_1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;number_2&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;number_1&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;number_2&lt;/span&gt;
+
+
+&lt;span class="nd"&gt;@given&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;st&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;integers&lt;/span&gt;&lt;span class="p"&gt;(),&lt;/span&gt; &lt;span class="n"&gt;st&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;integers&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;test_add&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+    &lt;span class="k"&gt;assert&lt;/span&gt; &lt;span class="nb"&gt;type&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;add&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;There must be a way to take it one step further and automatically generate test cases based on the type annotations?&lt;/p&gt;
+&lt;h1&gt;Introducing Hypothesis Auto&lt;/h1&gt;
+&lt;p&gt;Rather than build a whole new property-based system from scratch, I decided to create an extension for Hypothesis. This extension would automatically generate test cases using the tested Callables type annotations while allowing any parameters strategy to be replaced.
+With hypothesis-auto, the above test becomes:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;hypothesis_auto&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;hypothesis_auto&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;auto_pytest_magic&lt;/span&gt;
+
+
+&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;add&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;number_1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;number_2&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;number_1&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;number_2&lt;/span&gt;
+
+
+&lt;span class="n"&gt;auto_pytest_magic&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;add&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;You can see this project &lt;a href="https://timothycrosley.github.io/hypothesis-auto/"&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;After building the extension, immediately used it to improve &lt;a href="https://timothycrosley.com/project-2-portray"&gt;portray&lt;/a&gt;'s test coverage and find/fix additional bugs in preparation for the 1.3.0 release of that project.
+So far it's proving to make it so easy to use against existing type hinted and pure functions, to be a no-brainer addition to my test suites. Combined with &lt;a href="https://timothycrosley.github.io/examples/"&gt;Examples&lt;/a&gt; to define and document the happy-path, static analysis, and a suite of regression tests as needed, I feel like I now have the tools I need to build code just robust enough not to be embarrassed.&lt;/p&gt;
+&lt;h1&gt;Thanks For Reading&lt;/h1&gt;
+&lt;p&gt;Thanks for taking the time to read about this new project!
+What do you think of hypothesis-auto? Any projects you would like to see in the future? Any projects I should try out?&lt;/p&gt;
+&lt;p&gt;~Timothy Crosley&lt;/p&gt;</content><category term="Projects"></category><category term="52"></category><category term="Introduction"></category></entry><entry><title>Introducing eXamples - Python Tests and Documentation Done by Example</title><link href="https://timothycrosley.com/project-4-examples" rel="alternate"></link><published>2019-09-11T03:00:00-07:00</published><updated>2019-09-11T03:00:00-07:00</updated><author><name>timothycrosley</name></author><id>tag:timothycrosley.com,2019-09-11:/project-4-examples</id><summary type="html">&lt;p&gt;&lt;a href="https://timothycrosley.github.io/examples/"&gt;&lt;img alt="examples Logo" src="https://raw.githubusercontent.com/timothycrosley/examples/master/art/logo_large.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
