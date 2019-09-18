@@ -64,7 +64,7 @@ There must be a way to take it one step further and automatically generate test 
 
 # Introducing Hypothesis Auto
 
-Rather than build a whole new property-based system from scratch, I decided to create an extension for Hypothesis. This extension would automatically generate test cases using the tested Callables type annotations while allowing any parameters strategy to be replaced.
+Rather than build a whole new property-based system from scratch, I decided to create an extension for Hypothesis. This extension would automatically generate test cases using the tested Callable's type annotations while allowing any parameters strategy to be replaced.
 With hypothesis-auto, the above test becomes:
 
 ```python
