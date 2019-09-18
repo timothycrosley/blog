@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://timothycrosley.com/</loc>
-<lastmod>2019-09-18T10:33:49-00:00</lastmod>
+<lastmod>2019-09-18T10:36:49-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://timothycrosley.com/archives.html</loc>
-<lastmod>2019-09-18T10:33:49-00:00</lastmod>
+<lastmod>2019-09-18T10:36:49-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://timothycrosley.com/tags.html</loc>
-<lastmod>2019-09-18T10:33:49-00:00</lastmod>
+<lastmod>2019-09-18T10:36:49-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://timothycrosley.com/categories.html</loc>
-<lastmod>2019-09-18T10:33:49-00:00</lastmod>
+<lastmod>2019-09-18T10:36:49-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>

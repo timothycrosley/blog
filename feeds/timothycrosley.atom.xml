@@ -103,7 +103,7 @@ However, something felt a little off about using Hypothesis to me. In my newer c
 
 &lt;p&gt;There must be a way to take it one step further and automatically generate test cases based on the type annotations?&lt;/p&gt;
 &lt;h1&gt;Introducing Hypothesis Auto&lt;/h1&gt;
-&lt;p&gt;Rather than build a whole new property-based system from scratch, I decided to create an extension for Hypothesis. This extension would automatically generate test cases using the tested Callables type annotations while allowing any parameters strategy to be replaced.
+&lt;p&gt;Rather than build a whole new property-based system from scratch, I decided to create an extension for Hypothesis. This extension would automatically generate test cases using the tested Callable's type annotations while allowing any parameters strategy to be replaced.
 With hypothesis-auto, the above test becomes:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;hypothesis_auto&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;hypothesis_auto&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;auto_pytest_magic&lt;/span&gt;
 
@@ -117,7 +117,7 @@ With hypothesis-auto, the above test becomes:&lt;/p&gt;
 
 
 &lt;p&gt;You can see this project &lt;a href="https://timothycrosley.github.io/hypothesis-auto/"&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;After building the extension, immediately used it to improve &lt;a href="https://timothycrosley.com/project-2-portray"&gt;portray&lt;/a&gt;'s test coverage and find/fix additional bugs in preparation for the 1.3.0 release of that project.
+&lt;p&gt;After building the extension, I immediately used it to improve &lt;a href="https://timothycrosley.com/project-2-portray"&gt;portray&lt;/a&gt;'s test coverage and find/fix additional bugs in preparation for the 1.3.0 release of that project.
 So far it's proving to be so easy to use against existing type hinted and pure functions, as to be a no-brainer addition to my test suites. Combined with &lt;a href="https://timothycrosley.github.io/examples/"&gt;Examples&lt;/a&gt; to define and document the happy-path, static analysis, and a suite of regression tests as needed, I feel like I now have the tools I need to build code just robust enough not to be embarrassed.&lt;/p&gt;
 &lt;h1&gt;Thanks For Reading&lt;/h1&gt;
 &lt;p&gt;Thanks for taking the time to read about this new project!
