@@ -80,7 +80,7 @@ auto_pytest_magic(add)
 
 You can see this project [here](https://timothycrosley.github.io/hypothesis-auto/).
 
-After building the extension, immediately used it to improve [portray](https://timothycrosley.com/project-2-portray)'s test coverage and find/fix additional bugs in preparation for the 1.3.0 release of that project.
+After building the extension, I immediately used it to improve [portray](https://timothycrosley.com/project-2-portray)'s test coverage and find/fix additional bugs in preparation for the 1.3.0 release of that project.
 So far it's proving to be so easy to use against existing type hinted and pure functions, as to be a no-brainer addition to my test suites. Combined with [Examples](https://timothycrosley.github.io/examples/) to define and document the happy-path, static analysis, and a suite of regression tests as needed, I feel like I now have the tools I need to build code just robust enough not to be embarrassed.
 
 # Thanks For Reading
