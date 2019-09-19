@@ -68,7 +68,7 @@ Rather than build a whole new property-based system from scratch, I decided to c
 With hypothesis-auto, the above test becomes:
 
 ```python
-from hypothesis_auto import from hypothesis_auto import auto_pytest_magic
+from hypothesis_auto import auto_pytest_magic
 
 
 def add(number_1: int, number_2: int = 1) -> int:
