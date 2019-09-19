@@ -185,7 +185,7 @@ However, something felt a little off about using Hypothesis to me. In my newer c
 <h1>Introducing Hypothesis Auto</h1>
 <p>Rather than build a whole new property-based system from scratch, I decided to create an extension for Hypothesis. This extension would automatically generate test cases using the tested Callable's type annotations while allowing any parameters strategy to be replaced.
 With hypothesis-auto, the above test becomes:</p>
-<div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">hypothesis_auto</span> <span class="kn">import</span> <span class="kn">from</span> <span class="nn">hypothesis_auto</span> <span class="kn">import</span> <span class="n">auto_pytest_magic</span>
+<div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">hypothesis_auto</span> <span class="kn">import</span> <span class="n">auto_pytest_magic</span>
 
 
 <span class="k">def</span> <span class="nf">add</span><span class="p">(</span><span class="n">number_1</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">number_2</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
