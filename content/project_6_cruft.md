@@ -63,7 +63,7 @@ cruft is then able to utilize this to help you keep your project in sync with th
 - `cruft check` will return an error if the template has received updates that the project hasn't been updated to include. Perfect for inclusion in a CI/CD pipeline.
 - `cruft update` will present the changes introduced by the template and ask if you want to apply them.
 
-These simple additions allow you to keep your projects in-sync with the template they came from overtime. Even better, they make these changes visible to you, so over time you see the costs associated
+These simple additions allow you to keep your projects in-sync with the template they came from overtime. Even better, they make these changes visible to you, so you see the costs associated
 with large and unwieldy templates, and are encouraged to templatize only the subset of code that makes sense.
 
 Find out more about cruft on its website: [here](https://timothycrosley.github.io/cruft/)
