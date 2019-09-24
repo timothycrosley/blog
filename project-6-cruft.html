@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <meta name="HandheldFriendly" content="True">
+
+  <!-- Description -->
+  <meta name="robots" content="index,follow">
+  <meta name="description" content=""/>
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:site" content="@">
+  <meta property="twitter:title" content="Introducing cruft - A tool to manage project boilerplate - Timothy Crosley" />
+  <meta property="twitter:description" content="" />
+  <meta property="twitter:image" content="" />
+
+  <!-- Open Graph -->
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Introducing cruft - A tool to manage project boilerplate - Timothy Crosley" />
+  <meta property="og:description" content="  " />
+  <meta property="og:url" content="https://timothycrosley.com/project-6-cruft" />
+  <meta property="og:site_name" content="Introducing cruft - A tool to manage project boilerplate - Timothy Crosley" />
+  <meta property="og:image" content="" />
+  <meta property="og:image:secure_url" content="" />
+
+  <title>
+    Introducing cruft - A tool to manage project boilerplate - Timothy Crosley
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://timothycrosley.com/theme/css/poole.css">
+  <link rel="stylesheet" href="https://timothycrosley.com/theme/css/syntax.css">
+  <link rel="stylesheet" href="https://timothycrosley.com/theme/css/hyde.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="shortcut icon" type="image/png" href="https://timothycrosley.com/favicon.ico" />
+
+  <!-- RSS -->
+  <!-- <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml"> -->
+</head>
+  <!-- TODO: Add theme color variable -->
+  <body>
+    <!-- http://tholman.com/github-corners/ -->
+      <a href="https://github.com/timothycrosley/blog" target="_blank" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+
+<div class="sidebar">
+  <div class="container">
+    <div class="sidebar-about">
+      <h1>
+        <a href="https://timothycrosley.com">
+          Timothy Crosley
+        </a>
+      </h1>
+      <p class="lead">Software Engineer and Open Source Enthusiast. Creator of <a href="https://github.com/timothycrosley/isort">isort</a>, <a href="https://github.com/hugapi/hug">Hug</a>, <a href="https://github.com/timothycrosley/concentration">Concentration</a>, and many other Python tools and libraries.</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item" href="https://timothycrosley.com">Home</a>
+    </nav>
+
+    <div class="sidebar-social">
+        <a class="sidebar-social-item" href="https://github.com/timothycrosley" target="_blank">
+          <i class="fab fa-lg fa-github"></i>
+        </a>
+        <a class="sidebar-social-item" href="https://twitter.com/timothycrosley" target="_blank">
+          <i class="fab fa-lg fa-twitter"></i>
+        </a>
+        <a class="sidebar-social-item" href="https://www.linkedin.com/in/timothycrosley/" target="_blank">
+          <i class="fab fa-lg fa-linkedin"></i>
+        </a>
+        <a class="sidebar-social-item" href="https://www.reddit.com/user/timothycrosley" target="_blank">
+          <i class="fab fa-lg fa-reddit"></i>
+        </a>
+        <a class="sidebar-social-item" href="https://news.ycombinator.com/user?id=timothycrosley" target="_blank">
+          <i class="fab fa-lg fa-hacker-news"></i>
+        </a>
+        <a class="sidebar-social-item" href="https://pypi.org/user/timothycrosley/" target="_blank">
+          <i class="fab fa-lg fa-python"></i>
+        </a>
+        <a class="sidebar-social-item" href="https://gitter.im/timothycrosley" target="_blank">
+          <i class="fab fa-lg fa-gitter"></i>
+        </a>
+        <a class="sidebar-social-item" href="https://www.youtube.com/user/timothycrosley/videos" target="_blank">
+          <i class="fab fa-lg fa-youtube"></i>
+        </a>
+    </div>
+
+    <div class="sidebar-newsletter">
+        <p>Subscribe to <a href="https://tinyletter.com/timothycrosley" target="_blank">The latest from Timothy Crosley</a> for updates on upcoming projects and new blog posts.</p>
+      <p>Or, follow along via <a href="/feeds/all.rss.xml">RSS</a>/<a href="/feeds/all.atom.xml">Atom</a> feeds.</p>
+    </div>
+
+    <div class="sidebar-copyright">
+      <p>&copy; <a href="mailto:timothy.crosley@gmail.com">Timothy Edmund Crosley</a> 2019.</p>
+    </div>
+  </div>
+</div>
+    <div class="content container">
+<div class="post">
+  <h1 class="post-title">Introducing cruft - A tool to manage project boilerplate</h1>
+    <span class="post-date">24 September 2019 &middot; 4 min read</span>
+  <p><a href="https://timothycrosley.github.io/cruft/"><img alt="cruft Logo" src="https://raw.githubusercontent.com/timothycrosley/cruft/master/art/logo_large.png"></a></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>project:</td>
+<td>6/52</td>
+</tr>
+<tr>
+<td>Title/Link:</td>
+<td><a href="https://timothycrosley.github.io/cruft/">cruft</a></td>
+</tr>
+<tr>
+<td>Pitch:</td>
+<td>Create projects quickly from templates <em>and</em> keep them up to date against those same templates.</td>
+</tr>
+<tr>
+<td>Read if:</td>
+<td>You use Cookiecutter, or another project templating tool, and have struggled with managing the boilerplate they generate.</td>
+</tr>
+<tr>
+<td>Skip if:</td>
+<td>You don't create enough individual projects to gain value from a project templating system.</td>
+</tr>
+<tr>
+<td>Prior Work:</td>
+<td><a href="https://cookiecutter.readthedocs.io/en/latest/">Cookiecutter</a>, <a href="https://www.youtube.com/watch?v=9EctXzH2dss">Quickly</a>, <a href="https://github.com/timothycrosley/instantly">instantly</a></td>
+</tr>
+</tbody>
+</table>
+<h1>What's Wrong with Cookiecutter?</h1>
+<p>I have to start by saying, I <em>love</em> Cookiecutter. It allows creating standardized project definitions and then makes those standardized definitions the least friction way to create a new project.
+This is a beautiful thing. And not just because it saves time. The ease of Cookiecutter templates has often led to them becoming a central place to define how a kind of project <em>should</em> be structured.
+As a result, popular template repositories receive many pull requests, issues, and improvements over time. What's not to love? Lot's of things. I should mention, I also <em>hate</em> Cookiecutter. In my personal experience, the use of Cookiecutter has directly contributed to hard to maintain graphs of copy-and-pasted code.</p>
+<h1>We've Automated Copying and Pasting</h1>
+<p>Copying and Pasting code as a process is terrible. Most engineers I've talked to agree with this. However, with tools like Cookiecutter, copying-and-pasting code has become so efficient that it can be easy to forget.
+Worse, it is even easier to do so blindly, because you just run the command and the code appears. Why is it so bad? Your project lives after project creation.  Each line of code has costs, copy and pasted or not. Over time you start to feel those costs. Even a simple change, like <a href="https://github.com/timothycrosley/cookiecutter-python/commit/8a65a360d51250221193ed0ec5ed292e72b32b0b">removing a deprecated config option</a>,
+can have rippling changes as you have to update every project by hand to include the improvement. Worse, because Cookiecutter makes it easy to add a lot of structure, smart engineers often get seduced
+into using hard to maintain non-DRY solutions. Have a bunch of queue processing projects that all get built the <em>exact</em> same way that is represented by a hundred or more line Makefile? Without Cookiecutter
+many engineers would do <em>something</em> to automate that and share steps between projects. With Cookiecutter, the cost of that large build file is deferred. So, many will just push the duplicate code approach and then be surprised when down the
+road they have to make the same changes to all their projects. What is this, but starting a project with a significant continued source of technical debt? And this, in the end, is what much of Cookiecutter output
+represents, technical debt. Often, it's technical debt from ecosystems the end-user doesn't control (such as unwieldy and large setup files). Cookiecutter lets you ignore that the upstream system has poor abstractions when you create the project, but those poor abstractions still exist. Sadly, tools like Cookiecutter end up celebrating the automation of project creation but rarely
+highlight to the user the cost associated with this automation.</p>
+<h1>Introducing cruft</h1>
+<p>To help solve the maintenance problem associated with project templates, I've created a tool called <a href="https://timothycrosley.github.io/cruft/">cruft</a>. It's called cruft for the same reason Chrome is called Chrome:
+It's an acknowledgment, to both the end-user and the project, that project templates can quickly become sources of cruft and expanding boilerplate in projects. cruft believes this boilerplate, while often
+necessary, is something to be managed not something to be celebrated. cruft uses Cookiecutter behind the scenes to expand templates, making it fully compatible with existing templates, but it does so in a more maintainable way.
+So how does cruft help solve this problem? When you create a project with cruft, it adds a single additional file to your project <code>.cruft.json</code>:</p>
+<div class="highlight"><pre><span></span>        <span class="p">{</span>
+            <span class="nt">&quot;template&quot;</span><span class="p">:</span> <span class="s2">&quot;https://github.com/timothycrosley/cookiecutter-python&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;commit&quot;</span><span class="p">:</span> <span class="s2">&quot;8a65a360d51250221193ed0ec5ed292e72b32b0b&quot;</span><span class="p">,</span>
+            <span class="nt">&quot;context&quot;</span><span class="p">:</span> <span class="p">{</span>
+                <span class="nt">&quot;cookiecutter&quot;</span><span class="p">:</span> <span class="p">{</span>
+                    <span class="nt">&quot;full_name&quot;</span><span class="p">:</span> <span class="s2">&quot;Timothy Crosley&quot;</span><span class="p">,</span>
+                    <span class="nt">&quot;email&quot;</span><span class="p">:</span> <span class="s2">&quot;timothy.crosley@gmail.com&quot;</span><span class="p">,</span>
+                    <span class="nt">&quot;github_username&quot;</span><span class="p">:</span> <span class="s2">&quot;timothycrosley&quot;</span><span class="p">,</span>
+                    <span class="nt">&quot;project_name&quot;</span><span class="p">:</span> <span class="s2">&quot;cruft&quot;</span><span class="p">,</span>
+                    <span class="nt">&quot;description&quot;</span><span class="p">:</span> <span class="s2">&quot;Allows you to maintain all the necessary cruft for packaging and building projects separate from the code you intentionally write. Built on-top of CookieCutter.&quot;</span><span class="p">,</span>
+                    <span class="nt">&quot;version&quot;</span><span class="p">:</span> <span class="s2">&quot;0.0.1&quot;</span><span class="p">,</span>
+                    <span class="nt">&quot;_template&quot;</span><span class="p">:</span> <span class="s2">&quot;https://github.com/timothycrosley/cookiecutter-python&quot;</span>
+                <span class="p">}</span>
+            <span class="p">}</span>
+        <span class="p">}</span>
+</pre></div>
+
+
+<p>This file contains the template you used to create your project, the git commit hash at time of creation, and every parameter that was passed to Cookiecutter.
+cruft is then able to utilize this to help you keep your project in sync with the parent template.</p>
+<ul>
+<li><code>cruft check</code> will return an error if the template has received updates that the project hasn't been updated to include. Perfect for inclusion in a CI/CD pipeline.</li>
+<li><code>cruft update</code> will present the changes introduced by the template and ask if you want to apply them.</li>
+</ul>
+<p>These simple additions allow you to keep your projects in-sync with the template they came from overtime. Even better, they make these changes visible to you, so over time you see the costs associated
+with large and unwieldy templates, and are encouraged to templatize only the subset of code that makes sense.</p>
+<p>Find out more about cruft on its website: <a href="https://timothycrosley.github.io/cruft/">here</a></p>
+<h1>Thanks For Reading</h1>
+<p>Thanks for taking the time to read about this new project!
+What do you think of cruft? Any projects you would like to see in the future? Any projects I should try out?</p>
+<p>~Timothy Crosley</p>
+</div>
+
+
+<div class="comments">
+  <h2>Comments!</h2>
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+    var disqus_shortname = 'timothycrosley-com';
+    var disqus_identifier = 'project-6-cruft';
+    var disqus_url = 'https://timothycrosley.com/project-6-cruft';
+    (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//timothycrosley-com.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the comments.</noscript>
+</div>
+    </div>
+
+<script type="text/javascript">
+    var disqus_shortname = 'timothycrosley-com';
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = 'https://' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+</script>
+
+  </body>
+</html>

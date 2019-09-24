@@ -1,5 +1,115 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>TimothyCrosley.com - New Project</title><link href="https://timothycrosley.com/" rel="alternate"></link><link href="https://timothycrosley.com/feeds/new-project.atom.xml" rel="self"></link><id>https://timothycrosley.com/</id><updated>2019-09-19T04:00:00-07:00</updated><subtitle>My Personal Homepage and Blog</subtitle><entry><title>Introducing hypothesis-auto - An extension for Hypothesis that provides fully automatic testing for type hinted functions</title><link href="https://timothycrosley.com/project-5-hypothesis-auto" rel="alternate"></link><published>2019-09-19T04:00:00-07:00</published><updated>2019-09-19T04:00:00-07:00</updated><author><name>timothycrosley</name></author><id>tag:timothycrosley.com,2019-09-19:/project-5-hypothesis-auto</id><summary type="html">&lt;p&gt;&lt;a href="https://timothycrosley.github.io/hypothesis-auto/"&gt;&lt;img alt="hypothesis-auto Logo" src="https://raw.githubusercontent.com/timothycrosley/hypothesis-auto/master/art/logo_large.png"&gt;&lt;/a&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>TimothyCrosley.com - New Project</title><link href="https://timothycrosley.com/" rel="alternate"></link><link href="https://timothycrosley.com/feeds/new-project.atom.xml" rel="self"></link><id>https://timothycrosley.com/</id><updated>2019-09-24T09:30:00-07:00</updated><subtitle>My Personal Homepage and Blog</subtitle><entry><title>Introducing cruft - A tool to manage project boilerplate</title><link href="https://timothycrosley.com/project-6-cruft" rel="alternate"></link><published>2019-09-24T09:30:00-07:00</published><updated>2019-09-24T09:30:00-07:00</updated><author><name>timothycrosley</name></author><id>tag:timothycrosley.com,2019-09-24:/project-6-cruft</id><summary type="html">&lt;p&gt;&lt;a href="https://timothycrosley.github.io/cruft/"&gt;&lt;img alt="cruft Logo" src="https://raw.githubusercontent.com/timothycrosley/cruft/master/art/logo_large.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;project:&lt;/td&gt;
+&lt;td&gt;6/52&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Title/Link:&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://timothycrosley.github.io/cruft/"&gt;cruft&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Pitch:&lt;/td&gt;
+&lt;td&gt;Create projects quickly from templates &lt;em&gt;and&lt;/em&gt; keep them up to date against those same templates.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Read if:&lt;/td&gt;
+&lt;td&gt;You use Cookiecutter, or another project templating tool, and have struggled with managing the boilerplate they generate.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Skip if:&lt;/td&gt;
+&lt;td&gt;You don't create enough individual projects to …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</summary><content type="html">&lt;p&gt;&lt;a href="https://timothycrosley.github.io/cruft/"&gt;&lt;img alt="cruft Logo" src="https://raw.githubusercontent.com/timothycrosley/cruft/master/art/logo_large.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;project:&lt;/td&gt;
+&lt;td&gt;6/52&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Title/Link:&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://timothycrosley.github.io/cruft/"&gt;cruft&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Pitch:&lt;/td&gt;
+&lt;td&gt;Create projects quickly from templates &lt;em&gt;and&lt;/em&gt; keep them up to date against those same templates.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Read if:&lt;/td&gt;
+&lt;td&gt;You use Cookiecutter, or another project templating tool, and have struggled with managing the boilerplate they generate.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Skip if:&lt;/td&gt;
+&lt;td&gt;You don't create enough individual projects to gain value from a project templating system.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Prior Work:&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://cookiecutter.readthedocs.io/en/latest/"&gt;Cookiecutter&lt;/a&gt;, &lt;a href="https://www.youtube.com/watch?v=9EctXzH2dss"&gt;Quickly&lt;/a&gt;, &lt;a href="https://github.com/timothycrosley/instantly"&gt;instantly&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1&gt;What's Wrong with Cookiecutter?&lt;/h1&gt;
+&lt;p&gt;I have to start by saying, I &lt;em&gt;love&lt;/em&gt; Cookiecutter. It allows creating standardized project definitions and then makes those standardized definitions the least friction way to create a new project.
+This is a beautiful thing. And not just because it saves time. The ease of Cookiecutter templates has often led to them becoming a central place to define how a kind of project &lt;em&gt;should&lt;/em&gt; be structured.
+As a result, popular template repositories receive many pull requests, issues, and improvements over time. What's not to love? Lot's of things. I should mention, I also &lt;em&gt;hate&lt;/em&gt; Cookiecutter. In my personal experience, the use of Cookiecutter has directly contributed to hard to maintain graphs of copy-and-pasted code.&lt;/p&gt;
+&lt;h1&gt;We've Automated Copying and Pasting&lt;/h1&gt;
+&lt;p&gt;Copying and Pasting code as a process is terrible. Most engineers I've talked to agree with this. However, with tools like Cookiecutter, copying-and-pasting code has become so efficient that it can be easy to forget.
+Worse, it is even easier to do so blindly, because you just run the command and the code appears. Why is it so bad? Your project lives after project creation.  Each line of code has costs, copy and pasted or not. Over time you start to feel those costs. Even a simple change, like &lt;a href="https://github.com/timothycrosley/cookiecutter-python/commit/8a65a360d51250221193ed0ec5ed292e72b32b0b"&gt;removing a deprecated config option&lt;/a&gt;,
+can have rippling changes as you have to update every project by hand to include the improvement. Worse, because Cookiecutter makes it easy to add a lot of structure, smart engineers often get seduced
+into using hard to maintain non-DRY solutions. Have a bunch of queue processing projects that all get built the &lt;em&gt;exact&lt;/em&gt; same way that is represented by a hundred or more line Makefile? Without Cookiecutter
+many engineers would do &lt;em&gt;something&lt;/em&gt; to automate that and share steps between projects. With Cookiecutter, the cost of that large build file is deferred. So, many will just push the duplicate code approach and then be surprised when down the
+road they have to make the same changes to all their projects. What is this, but starting a project with a significant continued source of technical debt? And this, in the end, is what much of Cookiecutter output
+represents, technical debt. Often, it's technical debt from ecosystems the end-user doesn't control (such as unwieldy and large setup files). Cookiecutter lets you ignore that the upstream system has poor abstractions when you create the project, but those poor abstractions still exist. Sadly, tools like Cookiecutter end up celebrating the automation of project creation but rarely
+highlight to the user the cost associated with this automation.&lt;/p&gt;
+&lt;h1&gt;Introducing cruft&lt;/h1&gt;
+&lt;p&gt;To help solve the maintenance problem associated with project templates, I've created a tool called &lt;a href="https://timothycrosley.github.io/cruft/"&gt;cruft&lt;/a&gt;. It's called cruft for the same reason Chrome is called Chrome:
+It's an acknowledgment, to both the end-user and the project, that project templates can quickly become sources of cruft and expanding boilerplate in projects. cruft believes this boilerplate, while often
+necessary, is something to be managed not something to be celebrated. cruft uses Cookiecutter behind the scenes to expand templates, making it fully compatible with existing templates, but it does so in a more maintainable way.
+So how does cruft help solve this problem? When you create a project with cruft, it adds a single additional file to your project &lt;code&gt;.cruft.json&lt;/code&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;        &lt;span class="p"&gt;{&lt;/span&gt;
+            &lt;span class="nt"&gt;&amp;quot;template&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;https://github.com/timothycrosley/cookiecutter-python&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+            &lt;span class="nt"&gt;&amp;quot;commit&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;8a65a360d51250221193ed0ec5ed292e72b32b0b&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+            &lt;span class="nt"&gt;&amp;quot;context&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+                &lt;span class="nt"&gt;&amp;quot;cookiecutter&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+                    &lt;span class="nt"&gt;&amp;quot;full_name&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Timothy Crosley&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+                    &lt;span class="nt"&gt;&amp;quot;email&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;timothy.crosley@gmail.com&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+                    &lt;span class="nt"&gt;&amp;quot;github_username&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;timothycrosley&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+                    &lt;span class="nt"&gt;&amp;quot;project_name&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;cruft&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+                    &lt;span class="nt"&gt;&amp;quot;description&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;Allows you to maintain all the necessary cruft for packaging and building projects separate from the code you intentionally write. Built on-top of CookieCutter.&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+                    &lt;span class="nt"&gt;&amp;quot;version&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;0.0.1&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+                    &lt;span class="nt"&gt;&amp;quot;_template&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;https://github.com/timothycrosley/cookiecutter-python&amp;quot;&lt;/span&gt;
+                &lt;span class="p"&gt;}&lt;/span&gt;
+            &lt;span class="p"&gt;}&lt;/span&gt;
+        &lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;This file contains the template you used to create your project, the git commit hash at time of creation, and every parameter that was passed to Cookiecutter.
+cruft is then able to utilize this to help you keep your project in sync with the parent template.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;cruft check&lt;/code&gt; will return an error if the template has received updates that the project hasn't been updated to include. Perfect for inclusion in a CI/CD pipeline.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;cruft update&lt;/code&gt; will present the changes introduced by the template and ask if you want to apply them.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These simple additions allow you to keep your projects in-sync with the template they came from overtime. Even better, they make these changes visible to you, so over time you see the costs associated
+with large and unwieldy templates, and are encouraged to templatize only the subset of code that makes sense.&lt;/p&gt;
+&lt;p&gt;Find out more about cruft on its website: &lt;a href="https://timothycrosley.github.io/cruft/"&gt;here&lt;/a&gt;&lt;/p&gt;
+&lt;h1&gt;Thanks For Reading&lt;/h1&gt;
+&lt;p&gt;Thanks for taking the time to read about this new project!
+What do you think of cruft? Any projects you would like to see in the future? Any projects I should try out?&lt;/p&gt;
+&lt;p&gt;~Timothy Crosley&lt;/p&gt;</content><category term="Projects"></category><category term="52"></category><category term="Introduction"></category></entry><entry><title>Introducing hypothesis-auto - An extension for Hypothesis that provides fully automatic testing for type hinted functions</title><link href="https://timothycrosley.com/project-5-hypothesis-auto" rel="alternate"></link><published>2019-09-19T04:00:00-07:00</published><updated>2019-09-19T04:00:00-07:00</updated><author><name>timothycrosley</name></author><id>tag:timothycrosley.com,2019-09-19:/project-5-hypothesis-auto</id><summary type="html">&lt;p&gt;&lt;a href="https://timothycrosley.github.io/hypothesis-auto/"&gt;&lt;img alt="hypothesis-auto Logo" src="https://raw.githubusercontent.com/timothycrosley/hypothesis-auto/master/art/logo_large.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
