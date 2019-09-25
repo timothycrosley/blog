@@ -18,7 +18,7 @@ slug: project-6-cruft
 
 # What's Wrong with Cookiecutter?
 
-I have to start by saying, I *love* [Cookiecutter](https://cookiecutter.readthedocs.io/en/latest/). It allows creating standardized project definitions and then makes those standardized definitions the least friction way to create a new project.
+I have to start by saying, I *love* [Cookiecutter](https://cookiecutter.readthedocs.io/en/latest/). It allows you to create standardized project definitions and then makes those standardized definitions the least friction way to create a new project.
 This is a beautiful thing. And not just because it saves time. The ease of Cookiecutter templates has often led to them becoming a central place to define how a kind of project *should* be structured.
 As a result, popular template repositories receive many pull requests, issues, and improvements over time. What's not to love? Lot's of things. I should mention, I also *hate* Cookiecutter. In my personal experience, the use of Cookiecutter has directly contributed to hard to maintain graphs of copy-and-pasted code.
 
