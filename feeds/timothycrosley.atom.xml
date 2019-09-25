@@ -62,7 +62,7 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h1&gt;What's Wrong with Cookiecutter?&lt;/h1&gt;
-&lt;p&gt;I have to start by saying, I &lt;em&gt;love&lt;/em&gt; &lt;a href="https://cookiecutter.readthedocs.io/en/latest/"&gt;Cookiecutter&lt;/a&gt;. It allows creating standardized project definitions and then makes those standardized definitions the least friction way to create a new project.
+&lt;p&gt;I have to start by saying, I &lt;em&gt;love&lt;/em&gt; &lt;a href="https://cookiecutter.readthedocs.io/en/latest/"&gt;Cookiecutter&lt;/a&gt;. It allows you to create standardized project definitions and then makes those standardized definitions the least friction way to create a new project.
 This is a beautiful thing. And not just because it saves time. The ease of Cookiecutter templates has often led to them becoming a central place to define how a kind of project &lt;em&gt;should&lt;/em&gt; be structured.
 As a result, popular template repositories receive many pull requests, issues, and improvements over time. What's not to love? Lot's of things. I should mention, I also &lt;em&gt;hate&lt;/em&gt; Cookiecutter. In my personal experience, the use of Cookiecutter has directly contributed to hard to maintain graphs of copy-and-pasted code.&lt;/p&gt;
 &lt;h1&gt;We've Automated Copying and Pasting&lt;/h1&gt;
