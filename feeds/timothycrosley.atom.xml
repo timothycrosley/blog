@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>TimothyCrosley.com - timothycrosley</title><link href="https://timothycrosley.com/" rel="alternate"></link><link href="https://timothycrosley.com/feeds/timothycrosley.atom.xml" rel="self"></link><id>https://timothycrosley.com/</id><updated>2019-10-08T04:30:00-07:00</updated><subtitle>My Personal Homepage and Blog</subtitle><entry><title>Introducing streamdeck_ui</title><link href="https://timothycrosley.com/project-7-streamdeck_ui" rel="alternate"></link><published>2019-10-08T04:30:00-07:00</published><updated>2019-10-08T04:30:00-07:00</updated><author><name>timothycrosley</name></author><id>tag:timothycrosley.com,2019-10-08:/project-7-streamdeck_ui</id><summary type="html">&lt;p&gt;&lt;a href="https://timothycrosley.github.io/streamdeck-ui/"&gt;&lt;img alt="streamdeck_ui Logo" src="https://raw.githubusercontent.com/timothycrosley/streamdeck-ui/master/art/logo_large.png"&gt;&lt;/a&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>TimothyCrosley.com - timothycrosley</title><link href="https://timothycrosley.com/" rel="alternate"></link><link href="https://timothycrosley.com/feeds/timothycrosley.atom.xml" rel="self"></link><id>https://timothycrosley.com/</id><updated>2020-02-05T08:00:00-08:00</updated><subtitle>My Personal Homepage and Blog</subtitle><entry><title>Sign-up for PyCascade Sprints!</title><link href="https://timothycrosley.com/pycascades-sprints" rel="alternate"></link><published>2020-02-05T08:00:00-08:00</published><updated>2020-02-05T08:00:00-08:00</updated><author><name>timothycrosley</name></author><id>tag:timothycrosley.com,2020-02-05:/pycascades-sprints</id><summary type="html">&lt;p&gt;&lt;a href="images/pycascades.png"&gt;&lt;img alt="PyCascades Logo" src="images/pycascades.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Coming up VERY soon (this weekend), is my favorite yearly conference: &lt;a href="https://2020.pycascades.com/"&gt;PyCascades&lt;/a&gt;!
+It's a regional conference that takes place in the PNW, this year in Portland, covering all things Python.
+If you haven't signed up yet, and live in the PNW, I encourage you to check it out!
+You'll meet …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a href="images/pycascades.png"&gt;&lt;img alt="PyCascades Logo" src="images/pycascades.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Coming up VERY soon (this weekend), is my favorite yearly conference: &lt;a href="https://2020.pycascades.com/"&gt;PyCascades&lt;/a&gt;!
+It's a regional conference that takes place in the PNW, this year in Portland, covering all things Python.
+If you haven't signed up yet, and live in the PNW, I encourage you to check it out!
+You'll meet so many other great Pythonistas, learn about the latest technologies, and maybe even make some friends.&lt;/p&gt;
+&lt;p&gt;For the third year in a row, I'll be doing my part to help out by acting as the Sprints Lead.
+Sprints occur on the Monday following the main conference.
+They provide a venue for Open Source project leads/maintainers, and users to collaborate.
+Many attendees have made their first-ever contribution at one of these events.
+And, just as many maintainers have benefited from the growth of the contributor community.&lt;/p&gt;
+&lt;p&gt;If you are going to the conference, I also hope to see you at the Sprints!
+You can sign up &lt;a href="https://ti.to/pycascades/pycascades-2020/with/dob2f4v367i"&gt;here&lt;/a&gt;.
+The sprints will be the best opportunity to collaborate on projects,
+ask any aching questions about one of my projects, or have fun building something new.
+Additionally, if you have any desire to become a co-maintainer for any of the projects I've created,
+this is the best venue for me to vet you and add you to the project.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Project Leads / Maintainers&lt;/strong&gt;: If you would like to lead a project,
+please submit the project &lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSezL57617QWX84oosEYIHSr8yOfCCsYQli4LYDYvvbC6e1JPw/viewform"&gt;here&lt;/a&gt;.
+This year I'll be given all leads a special gift packet, including a YubiKey and other goodies, to acknowledge all the hard work you take on.
+Additionally, before the event, I'll send you my tips on how to best prepare for new contributors, independent of the state of your project.&lt;/p&gt;
+&lt;p&gt;You can find more information about the Sprints on &lt;a href="https://2020.pycascades.com/sprints/"&gt;PyCascade's Website&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Thanks, and I hope to see you there!&lt;/p&gt;
+&lt;p&gt;~Timothy&lt;/p&gt;</content><category term="General"></category><category term="Conference"></category><category term="SignUp"></category><category term="Events"></category></entry><entry><title>Introducing streamdeck_ui</title><link href="https://timothycrosley.com/project-7-streamdeck_ui" rel="alternate"></link><published>2019-10-08T04:30:00-07:00</published><updated>2019-10-08T04:30:00-07:00</updated><author><name>timothycrosley</name></author><id>tag:timothycrosley.com,2019-10-08:/project-7-streamdeck_ui</id><summary type="html">&lt;p&gt;&lt;a href="https://timothycrosley.github.io/streamdeck-ui/"&gt;&lt;img alt="streamdeck_ui Logo" src="https://raw.githubusercontent.com/timothycrosley/streamdeck-ui/master/art/logo_large.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;

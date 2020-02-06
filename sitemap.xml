@@ -5,29 +5,36 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://timothycrosley.com/</loc>
-<lastmod>2019-10-08T11:38:49-00:00</lastmod>
+<lastmod>2020-02-06T07:56:42-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://timothycrosley.com/archives.html</loc>
-<lastmod>2019-10-08T11:38:49-00:00</lastmod>
+<lastmod>2020-02-06T07:56:42-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://timothycrosley.com/tags.html</loc>
-<lastmod>2019-10-08T11:38:49-00:00</lastmod>
+<lastmod>2020-02-06T07:56:42-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://timothycrosley.com/categories.html</loc>
-<lastmod>2019-10-08T11:38:49-00:00</lastmod>
+<lastmod>2020-02-06T07:56:42-00:00</lastmod>
 <changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://timothycrosley.com/pycascades-sprints</loc>
+<lastmod>2020-02-05T08:00:00-08:00</lastmod>
+<changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -89,7 +96,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://timothycrosley.com/category/introduction.html</loc>
-<lastmod>2019-08-11T08:00:00-07:53</lastmod>
+<lastmod>2020-02-05T08:00:00-07:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -97,6 +104,34 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://timothycrosley.com/category/new-project.html</loc>
 <lastmod>2019-10-08T04:30:00-07:53</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://timothycrosley.com/tag/general.html</loc>
+<lastmod>2020-02-05T08:00:00-07:53</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://timothycrosley.com/tag/conference.html</loc>
+<lastmod>2020-02-05T08:00:00-07:53</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://timothycrosley.com/tag/signup.html</loc>
+<lastmod>2020-02-05T08:00:00-07:53</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://timothycrosley.com/tag/events.html</loc>
+<lastmod>2020-02-05T08:00:00-07:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -123,13 +158,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://timothycrosley.com/tag/general.html</loc>
-<lastmod>2019-08-11T08:00:00-07:53</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>https://timothycrosley.com/tag/personal.html</loc>
 <lastmod>2019-08-11T08:00:00-07:53</lastmod>
 <changefreq>daily</changefreq>
@@ -145,7 +173,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://timothycrosley.com/author/timothycrosley.html</loc>
-<lastmod>2019-10-08T04:30:00-07:53</lastmod>
+<lastmod>2020-02-05T08:00:00-07:53</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
