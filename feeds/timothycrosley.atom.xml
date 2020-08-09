@@ -834,7 +834,7 @@ to expand with custom types and handle common ones right out of the gate. I agre
 &lt;p&gt;preconvert currently works out-of-the-box with &lt;code&gt;bson&lt;/code&gt;, &lt;code&gt;json&lt;/code&gt;, &lt;code&gt;simplejson&lt;/code&gt;, and &lt;code&gt;msgpack&lt;/code&gt;.
 Currently, there is one &lt;a href="https://github.com/timothycrosley/preconvert_numpy"&gt;plugin to handle numpy types&lt;/a&gt;, that can be enabled simply by adding it to the projects
 package requirements.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="o"&gt;`&lt;/span&gt;&lt;span class="n"&gt;pip&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt; &lt;span class="n"&gt;preconvert_numpy&lt;/span&gt;&lt;span class="o"&gt;`&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;pip&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt; &lt;span class="n"&gt;preconvert_numpy&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
 
 
