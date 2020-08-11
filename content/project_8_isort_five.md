@@ -1,5 +1,5 @@
 Title: Introducing isort 5: The story of refactoring a widely used 10 year old project.
-Date: 2020-08-09 4:30
+Date: 2020-08-10 4:30
 Author: timothycrosley
 Category: New Project
 Tags: Projects, 52, Introduction
