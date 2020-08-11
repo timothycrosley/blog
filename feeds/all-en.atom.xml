@@ -1,5 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>TimothyCrosley.com</title><link href="https://timothycrosley.com/" rel="alternate"></link><link href="https://timothycrosley.com/feeds/all-en.atom.xml" rel="self"></link><id>https://timothycrosley.com/</id><updated>2020-02-05T08:00:00-08:00</updated><subtitle>My Personal Homepage and Blog</subtitle><entry><title>Sign-up for PyCascade Sprints!</title><link href="https://timothycrosley.com/pycascades-sprints" rel="alternate"></link><published>2020-02-05T08:00:00-08:00</published><updated>2020-02-05T08:00:00-08:00</updated><author><name>timothycrosley</name></author><id>tag:timothycrosley.com,2020-02-05:/pycascades-sprints</id><summary type="html">&lt;p&gt;&lt;a href="images/pycascades.png"&gt;&lt;img alt="PyCascades Logo" src="images/pycascades.png"&gt;&lt;/a&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>TimothyCrosley.com</title><link href="https://timothycrosley.com/" rel="alternate"></link><link href="https://timothycrosley.com/feeds/all-en.atom.xml" rel="self"></link><id>https://timothycrosley.com/</id><updated>2020-08-10T04:30:00-07:00</updated><subtitle>My Personal Homepage and Blog</subtitle><entry><title>Introducing isort 5: The story of refactoring a widely used 10 year old project.</title><link href="https://timothycrosley.com/project-8-isort5" rel="alternate"></link><published>2020-08-10T04:30:00-07:00</published><updated>2020-08-10T04:30:00-07:00</updated><author><name>timothycrosley</name></author><id>tag:timothycrosley.com,2020-08-10:/project-8-isort5</id><summary type="html">&lt;p&gt;&lt;a href="https://timothycrosley.github.io/isort/"&gt;&lt;img alt="isort 5 Logo" src="https://raw.githubusercontent.com/timothycrosley/isort/develop/art/logo_5.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;project:&lt;/td&gt;
+&lt;td&gt;8/52&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Title/Link:&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://timothycrosley.github.io/isort/"&gt;isort&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Pitch:&lt;/td&gt;
+&lt;td&gt;isort your imports, so you don't have to.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Read if:&lt;/td&gt;
+&lt;td&gt;You're interested in Python auto formatters or the challenges of refactoring widely used code that is a decade in the making.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Skip if:&lt;/td&gt;
+&lt;td&gt;You're not interested in auto formatters, or are only interested …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</summary><content type="html">&lt;p&gt;&lt;a href="https://timothycrosley.github.io/isort/"&gt;&lt;img alt="isort 5 Logo" src="https://raw.githubusercontent.com/timothycrosley/isort/develop/art/logo_5.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;project:&lt;/td&gt;
+&lt;td&gt;8/52&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Title/Link:&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://timothycrosley.github.io/isort/"&gt;isort&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Pitch:&lt;/td&gt;
+&lt;td&gt;isort your imports, so you don't have to.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Read if:&lt;/td&gt;
+&lt;td&gt;You're interested in Python auto formatters or the challenges of refactoring widely used code that is a decade in the making.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Skip if:&lt;/td&gt;
+&lt;td&gt;You're not interested in auto formatters, or are only interested in brand new projects.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Prior Work:&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://pypi.org/project/rope/"&gt;rope&lt;/a&gt;, &lt;a href="https://www.reddit.com/r/Python/comments/1lr8gf/automatically_turn_messy_python_imports_into/"&gt;older versions of isort&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;Well, that took longer than expected.&lt;/h2&gt;
+&lt;p&gt;I know. I know—52 projects in a year. A year has likely already passed, and I'm talking about project #8. I've learned a lot over the last year. I've switched jobs (hello Stripe!), celebrated my daughter's 1st birthday, and witnessed the world enter a pandemic. I have, however, NOT finished 52 projects. I knew it was unlikely I would reach the goal from the start, but I was sure either way, I would enjoy the journey, and I have! Hopefully, I've built some useful projects during that time as well. I indeed spent more of that improving one of my oldest projects than expected, but I'm glad I did. However, this put me at a cross-road. Keep the project goal, and give up the time goal. Or, keep the time limit and give up on the number of projects I wished to release. Or, I guess, just give up. I've decided to give up on the time limit. I've just had too much fun to stop now!&lt;/p&gt;
+&lt;h2&gt;The most downloaded auto-formatter for Python ever?&lt;/h2&gt;
+&lt;p&gt;isort, for me, was a great lesson in how the Python community can take projects with very simple initial ambitions and grow them into useful and complete projects. When I created isort ten years ago, and then &lt;a href="https://www.reddit.com/r/Python/comments/1lr8gf/automatically_turn_messy_python_imports_into/"&gt;released it online six years ago&lt;/a&gt;, I envisioned it only as a tool for individual programmers to sort imports. Once. You know, to save a bit of time. Maybe with some editor integration for convenience. I thought I'd release it, get some suggestions for some alternative styles, and be done with it forever. Initially, it was so naive as to auto strip &lt;em&gt;all&lt;/em&gt; comments to make this task easier (for isort not for the user). I mean, if you run it manually as a one-off command, you can always manually add back a couple of comments afterward as well?&lt;/p&gt;
+&lt;p&gt;The community, not me, had much grander ambitions. isort would be included in CI/CD pipelines. It would check every single change to every single Python file committed to master. If possible, it would automatically make those changes as well. And not just for small projects, for some of the largest Python codebases around. All of a sudden, taking such a naive approach as auto stripping all comments, no longer seemed like a good long term strategy. Over time, pull requests after pull request came in that fixed these kinds of problems. Eventually, isort was able to handle not only a large number of styles but also a large number of corner cases. Quickly, its test suite grew to be larger than its codebase. isort became useful. Not perfect. But good enough for many. As of this writing, isort has been downloaded 116 million times. Which AFAIK makes it the most downloaded auto-formatting tool for Python by at least 4x:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://pepy.tech/project/isort"&gt;&lt;img alt="auto formatter downloads" src="images/isort_downloads.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This doesn't mean as much as it might at first seem. After all, the other tools on this list encompass a much broader scope than just the formatting of imports. Part of it may be that isort's unique focus allows it to be used alongside any of these other formatters. Still reaching 100+ million downloads for my little import sorter, was something I never expected to see.&lt;/p&gt;
+&lt;h2&gt;The problem with isort's organic growth&lt;/h2&gt;
+&lt;p&gt;Over a hundred people (180 as of this writing) have helped improve isort over the years. Fixing hundreds of bugs and introducing dozens of features. But what never changed, until isort 5, was the internal structure of isort. A structure that each fix and improvement, while pushing the project ahead, seemed to ingrain further.&lt;/p&gt;
+&lt;p&gt;From the beginning of isort, the core and bulk of functionality happened within the &lt;code&gt;__init__&lt;/code&gt; method of a single class: &lt;code&gt;SortImports.&lt;/code&gt; While always arguably a sub-optimal design decision, as a new Python programmer at the time, it didn't seem too bad when that core logic was only dozens of lines long. At the end of the isort 4.x series, that core logic had ballooned to hundreds of lines, with the containing class over a thousand lines long. Everything isort would do, internally, was accomplished by mutating attributes of that single class.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;(input file) -&amp;gt; CLI interface -&amp;gt; SortImports(file, config, everything, as, class, init, **arguments) -&amp;gt; (output to same)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Another pain point was isort's initial design, only being centered around an individual developer running it on their machine.
+As isort became a part of CI/CD systems, its initial trade-off to using as much magic as possible to determine what section an import belonged to, no longer fit the reality of how isort was run. This kind of magic led isort to work correctly on one machine while failing to categorize imports on another—a very frustrating experience when isort is acting as a gatekeeper for a codebase.&lt;/p&gt;
+&lt;p&gt;I'm still amazed by how far isort went with this approach. Eventually, however, I no longer even felt like I could take pride in the project I had created. Issues piled up that the current architecture couldn't solve. Corner case after corner case had been worked around, but these workarounds had been pegged onto the initial architecture. An architecture that was never planned.&lt;/p&gt;
+&lt;h2&gt;Refactoring the 10-year-old codebase&lt;/h2&gt;
+&lt;p&gt;There were some initial attempts, from various brave souls, to refactor the isort code base, usually, around the usage of an AST. All of them failed. According to those who had tried, the major problem was that it was tough to keep all the existing configuration options, formats, etc. while also rebuilding the core from the ground up. So, when I finally decided I needed to clean up the code base, and solve the many issues that had been hanging over it, I decided to take a different tact.&lt;/p&gt;
+&lt;p&gt;To me, the biggest problem wasn't the lack of the usage of a traditional AST, that was actually a feature. isort didn't care about anything but imports. A traditional AST parsing approach would have isort parse an entire file, produce the Abstract Syntax Tree, identify the imports, mutate that tree as needed to sort them, and then output the tree into well-formatted code. Straight forward enough. But, that means isort would be parsing syntax it never cared about. Not only would this waste processor cycles and memory, but it would also unnecessarily make isort brittle, especially for editor based usage. One excellent advantage of isort from an integration perspective has always been that you can run it from any version of Python against any other. When things like the walrus operator came out, this broke many formatters, but isort would keep chugging along.&lt;/p&gt;
+&lt;p&gt;To me, the biggest problem with isorts internal structure was shared state and the associated lack of separation between concerns. You couldn't parse separately from formatting, and both actions freely mutated the same variables. This behavior resulted in tickets piling up, which desired things like sorting imports within functions, and no clear path for implementing them. So I started there. I would fully separate the parsing from the formatting, clearly defining the boundaries between both.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;(input file) -&amp;gt; CLI interface -&amp;gt; parse.file_contents(file_contents) -&amp;gt; output.sorted_imports(parsed) -&amp;gt; (output file)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Much better! Immediately after finishing this separation, however, I noticed something else concerning. Parsing and output formatting both used the same config, which is fine. Maybe even expected. What wasn't anticipated was that both &lt;em&gt;mutated&lt;/em&gt; this same config. This made it very hard to call them repeatedly with the same configuration, and just felt wrong. So, I decided to make the config creation happen first and separately, ensuring the configuration was immutable.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;(input file) -&amp;gt; CLI interface -&amp;gt; ImmutableConfig(**options) -&amp;gt; parse.file_contents(file_contents, config) -&amp;gt; output.sorted_imports(parsed, config) -&amp;gt; (output file)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Finally, things that seemed out of reach before were easy. I was able to create a core function that simply identified groups of contiguous imports and parsed and then sorted them. I then put this new internal functionality behind dedicated Python APIs for common operations (such as formatting files and streams). Suddenly, I was able to work through the hundreds of issues open on isort's Github issue page at a steady pace. Still, while the initial refactor was relatively quick, finishing enough clean up that I felt proud of the project again took months. It was the first time in a while that I undertook a big project an open-source project, literally, one day at a time.&lt;/p&gt;
+&lt;h2&gt;Thanks For Reading&lt;/h2&gt;
+&lt;p&gt;Thanks for taking the time to read about the making of isort 5!
+What do you think of isort? Any projects you would like to see in the future? Any projects I should try out?&lt;/p&gt;
+&lt;p&gt;~Timothy Crosley&lt;/p&gt;</content><category term="New Project"></category><category term="Projects"></category><category term="52"></category><category term="Introduction"></category></entry><entry><title>Sign-up for PyCascade Sprints!</title><link href="https://timothycrosley.com/pycascades-sprints" rel="alternate"></link><published>2020-02-05T08:00:00-08:00</published><updated>2020-02-05T08:00:00-08:00</updated><author><name>timothycrosley</name></author><id>tag:timothycrosley.com,2020-02-05:/pycascades-sprints</id><summary type="html">&lt;p&gt;&lt;a href="images/pycascades.png"&gt;&lt;img alt="PyCascades Logo" src="images/pycascades.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Coming up VERY soon (this weekend), is my favorite yearly conference: &lt;a href="https://2020.pycascades.com/"&gt;PyCascades&lt;/a&gt;!
 It's a regional conference that takes place in the PNW, this year in Portland, covering all things Python.
 If you haven't signed up yet, and live in the PNW, I encourage you to check it out!
@@ -25,7 +121,7 @@ This year I'll be giving all leads a special gift packet, including a YubiKey an
 Additionally, before the event, I'll send you my tips on how to best prepare for new contributors, independent of the state of your project.&lt;/p&gt;
 &lt;p&gt;You can find more information about the Sprints on &lt;a href="https://2020.pycascades.com/sprints/"&gt;PyCascade's Website&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Thanks, and I hope to see you there!&lt;/p&gt;
-&lt;p&gt;~Timothy&lt;/p&gt;</content><category term="General"></category><category term="Conference"></category><category term="SignUp"></category><category term="Events"></category></entry><entry><title>Introducing streamdeck_ui</title><link href="https://timothycrosley.com/project-7-streamdeck_ui" rel="alternate"></link><published>2019-10-08T04:30:00-07:00</published><updated>2019-10-08T04:30:00-07:00</updated><author><name>timothycrosley</name></author><id>tag:timothycrosley.com,2019-10-08:/project-7-streamdeck_ui</id><summary type="html">&lt;p&gt;&lt;a href="https://timothycrosley.github.io/streamdeck-ui/"&gt;&lt;img alt="streamdeck_ui Logo" src="https://raw.githubusercontent.com/timothycrosley/streamdeck-ui/master/art/logo_large.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;~Timothy&lt;/p&gt;</content><category term="Introduction"></category><category term="General"></category><category term="Conference"></category><category term="SignUp"></category><category term="Events"></category></entry><entry><title>Introducing streamdeck_ui</title><link href="https://timothycrosley.com/project-7-streamdeck_ui" rel="alternate"></link><published>2019-10-08T04:30:00-07:00</published><updated>2019-10-08T04:30:00-07:00</updated><author><name>timothycrosley</name></author><id>tag:timothycrosley.com,2019-10-08:/project-7-streamdeck_ui</id><summary type="html">&lt;p&gt;&lt;a href="https://timothycrosley.github.io/streamdeck-ui/"&gt;&lt;img alt="streamdeck_ui Logo" src="https://raw.githubusercontent.com/timothycrosley/streamdeck-ui/master/art/logo_large.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -112,7 +208,7 @@ However, if you think of any ways to save just a few more seconds, by writing up
 &lt;h1&gt;Thanks For Reading&lt;/h1&gt;
 &lt;p&gt;Thanks for taking the time to read about this new project!
 What do you think of streamdeck_ui? Any projects you would like to see in the future? Any projects I should try out?&lt;/p&gt;
-&lt;p&gt;~Timothy Crosley&lt;/p&gt;</content><category term="Projects"></category><category term="52"></category><category term="Introduction"></category></entry><entry><title>Introducing cruft - A tool to manage project boilerplate</title><link href="https://timothycrosley.com/project-6-cruft" rel="alternate"></link><published>2019-09-24T09:30:00-07:00</published><updated>2019-09-24T09:30:00-07:00</updated><author><name>timothycrosley</name></author><id>tag:timothycrosley.com,2019-09-24:/project-6-cruft</id><summary type="html">&lt;p&gt;&lt;a href="https://timothycrosley.github.io/cruft/"&gt;&lt;img alt="cruft Logo" src="https://raw.githubusercontent.com/timothycrosley/cruft/master/art/logo_large.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;~Timothy Crosley&lt;/p&gt;</content><category term="New Project"></category><category term="Projects"></category><category term="52"></category><category term="Introduction"></category></entry><entry><title>Introducing cruft - A tool to manage project boilerplate</title><link href="https://timothycrosley.com/project-6-cruft" rel="alternate"></link><published>2019-09-24T09:30:00-07:00</published><updated>2019-09-24T09:30:00-07:00</updated><author><name>timothycrosley</name></author><id>tag:timothycrosley.com,2019-09-24:/project-6-cruft</id><summary type="html">&lt;p&gt;&lt;a href="https://timothycrosley.github.io/cruft/"&gt;&lt;img alt="cruft Logo" src="https://raw.githubusercontent.com/timothycrosley/cruft/master/art/logo_large.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -192,7 +288,7 @@ highlight to the user the cost associated with this automation.&lt;/p&gt;
 It's an acknowledgment, to both the end-user and the project, that project templates can quickly become sources of cruft and expanding boilerplate in projects. cruft believes this boilerplate, while often
 necessary, is something to be managed not something to be celebrated. cruft uses Cookiecutter behind the scenes to expand templates, making it fully compatible with existing templates, but it does so in a more maintainable way.
 So how does cruft help solve this problem? When you create a project with cruft, it adds a single additional file to your project &lt;code&gt;.cruft.json&lt;/code&gt;:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;        &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;        &lt;span class="p"&gt;{&lt;/span&gt;
             &lt;span class="nt"&gt;&amp;quot;template&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;https://github.com/timothycrosley/cookiecutter-python&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
             &lt;span class="nt"&gt;&amp;quot;commit&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;8a65a360d51250221193ed0ec5ed292e72b32b0b&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
             &lt;span class="nt"&gt;&amp;quot;context&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
@@ -207,7 +303,7 @@ So how does cruft help solve this problem? When you create a project with cruft,
                 &lt;span class="p"&gt;}&lt;/span&gt;
             &lt;span class="p"&gt;}&lt;/span&gt;
         &lt;span class="p"&gt;}&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;This file contains the template you used to create your project, the git commit hash at time of creation, and every parameter that was passed to Cookiecutter.
@@ -222,7 +318,7 @@ with large and unwieldy templates, and are encouraged to templatize only the sub
 &lt;h1&gt;Thanks For Reading&lt;/h1&gt;
 &lt;p&gt;Thanks for taking the time to read about this new project!
 What do you think of cruft? Any projects you would like to see in the future? Any projects I should try out?&lt;/p&gt;
-&lt;p&gt;~Timothy Crosley&lt;/p&gt;</content><category term="Projects"></category><category term="52"></category><category term="Introduction"></category></entry><entry><title>Introducing hypothesis-auto - An extension for Hypothesis that provides fully automatic testing for type hinted functions</title><link href="https://timothycrosley.com/project-5-hypothesis-auto" rel="alternate"></link><published>2019-09-19T04:00:00-07:00</published><updated>2019-09-19T04:00:00-07:00</updated><author><name>timothycrosley</name></author><id>tag:timothycrosley.com,2019-09-19:/project-5-hypothesis-auto</id><summary type="html">&lt;p&gt;&lt;a href="https://timothycrosley.github.io/hypothesis-auto/"&gt;&lt;img alt="hypothesis-auto Logo" src="https://raw.githubusercontent.com/timothycrosley/hypothesis-auto/master/art/logo_large.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;~Timothy Crosley&lt;/p&gt;</content><category term="New Project"></category><category term="Projects"></category><category term="52"></category><category term="Introduction"></category></entry><entry><title>Introducing hypothesis-auto - An extension for Hypothesis that provides fully automatic testing for type hinted functions</title><link href="https://timothycrosley.com/project-5-hypothesis-auto" rel="alternate"></link><published>2019-09-19T04:00:00-07:00</published><updated>2019-09-19T04:00:00-07:00</updated><author><name>timothycrosley</name></author><id>tag:timothycrosley.com,2019-09-19:/project-5-hypothesis-auto</id><summary type="html">&lt;p&gt;&lt;a href="https://timothycrosley.github.io/hypothesis-auto/"&gt;&lt;img alt="hypothesis-auto Logo" src="https://raw.githubusercontent.com/timothycrosley/hypothesis-auto/master/art/logo_large.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -310,8 +406,8 @@ But, I would never impose that on someone I considered a friend.&lt;/p&gt;
 I then remembered a talk at PyCascades that went over the Python implementation of &lt;a href="https://hypothesis.readthedocs.io/en/latest/"&gt;Hypothesis&lt;/a&gt;,
 and how it could, given a set of strategies, generate virtually infinite test cases for you. Who wouldn't want a friend like that? I was sold.
 However, something felt a little off about using Hypothesis to me. In my newer code, I utilize mypy and type annotations to have well defined and typed public functions. But, when using Hypothesis, it felt like I often needed to repeat these typing definitions:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;Hypothesis&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;given&lt;/span&gt;
-&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;hypothesis.strategies&lt;/span&gt; &lt;span class="kn"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;st&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;Hypothesis&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;given&lt;/span&gt;
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;hypothesis.strategies&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;st&lt;/span&gt;
 
 
 &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;add&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;number_1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;number_2&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
@@ -321,14 +417,14 @@ However, something felt a little off about using Hypothesis to me. In my newer c
 &lt;span class="nd"&gt;@given&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;st&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;integers&lt;/span&gt;&lt;span class="p"&gt;(),&lt;/span&gt; &lt;span class="n"&gt;st&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;integers&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;
 &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;test_add&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;y&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
     &lt;span class="k"&gt;assert&lt;/span&gt; &lt;span class="nb"&gt;type&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;add&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;There must be a way to take it one step further and automatically generate test cases based on the type annotations?&lt;/p&gt;
 &lt;h1&gt;Introducing Hypothesis Auto&lt;/h1&gt;
 &lt;p&gt;Rather than build a whole new property-based system from scratch, I decided to create an extension for Hypothesis. This extension would automatically generate test cases using the tested Callable's type annotations while allowing any parameters strategy to be replaced.
 With hypothesis-auto, the above test becomes:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;hypothesis_auto&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;auto_pytest_magic&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;hypothesis_auto&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;auto_pytest_magic&lt;/span&gt;
 
 
 &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;add&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;number_1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;number_2&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
@@ -336,7 +432,7 @@ With hypothesis-auto, the above test becomes:&lt;/p&gt;
 
 
 &lt;span class="n"&gt;auto_pytest_magic&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;add&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;You can see this project &lt;a href="https://timothycrosley.github.io/hypothesis-auto/"&gt;here&lt;/a&gt;.&lt;/p&gt;
@@ -345,7 +441,7 @@ So far it's proving to be so easy to use against existing type hinted and pure f
 &lt;h1&gt;Thanks For Reading&lt;/h1&gt;
 &lt;p&gt;Thanks for taking the time to read about this new project!
 What do you think of hypothesis-auto? Any projects you would like to see in the future? Any projects I should try out?&lt;/p&gt;
-&lt;p&gt;~Timothy Crosley&lt;/p&gt;</content><category term="Projects"></category><category term="52"></category><category term="Introduction"></category></entry><entry><title>Introducing eXamples - Python Tests and Documentation Done by Example</title><link href="https://timothycrosley.com/project-4-examples" rel="alternate"></link><published>2019-09-11T03:00:00-07:00</published><updated>2019-09-11T03:00:00-07:00</updated><author><name>timothycrosley</name></author><id>tag:timothycrosley.com,2019-09-11:/project-4-examples</id><summary type="html">&lt;p&gt;&lt;a href="https://timothycrosley.github.io/examples/"&gt;&lt;img alt="examples Logo" src="https://raw.githubusercontent.com/timothycrosley/examples/master/art/logo_large.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;~Timothy Crosley&lt;/p&gt;</content><category term="New Project"></category><category term="Projects"></category><category term="52"></category><category term="Introduction"></category></entry><entry><title>Introducing eXamples - Python Tests and Documentation Done by Example</title><link href="https://timothycrosley.com/project-4-examples" rel="alternate"></link><published>2019-09-11T03:00:00-07:00</published><updated>2019-09-11T03:00:00-07:00</updated><author><name>timothycrosley</name></author><id>tag:timothycrosley.com,2019-09-11:/project-4-examples</id><summary type="html">&lt;p&gt;&lt;a href="https://timothycrosley.github.io/examples/"&gt;&lt;img alt="examples Logo" src="https://raw.githubusercontent.com/timothycrosley/examples/master/art/logo_large.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -427,13 +523,13 @@ test cases. And, of course, it makes them programmatically available. This means
 you have on API endpoint functions. It can then provide them to users of your HTTP or Command Line interfaces. Finally, eXamples, by default, adds your examples to your docstring, in a way that renders beautifully on
 &lt;a href="https://timothycrosley.github.io/portray/"&gt;portray&lt;/a&gt; and &lt;a href="https://timothycrosley.github.io/pdocs/"&gt;pdocs&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Creating examples using eXamples is as easy as adding an example decorator per example with parameters that match the definition of the attached function:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;examples&lt;/span&gt; &lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="n"&gt;example&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;examples&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;example&lt;/span&gt;
 
 
 &lt;span class="nd"&gt;@example&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;sum&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;number_1&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;number_2&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;-&amp;gt;&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
     &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;number_1&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;number_2&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;For a full overview of how this works and what it enables, see the projects &lt;a href="https://timothycrosley.github.io/examples/"&gt;documentation website&lt;/a&gt;.&lt;/p&gt;
@@ -454,7 +550,7 @@ API design.&lt;/p&gt;
 &lt;h1&gt;Thanks For Reading&lt;/h1&gt;
 &lt;p&gt;Thanks for taking the time to read about this new project!
 What do you think of eXamples? Any projects you would like to see in the future? Any projects I should try out?&lt;/p&gt;
-&lt;p&gt;~Timothy Crosley&lt;/p&gt;</content><category term="Projects"></category><category term="52"></category><category term="Introduction"></category></entry><entry><title>Introducing pdocs - Documentation Powered by Your Python Code</title><link href="https://timothycrosley.com/project-3-pdocs" rel="alternate"></link><published>2019-09-03T04:00:00-07:00</published><updated>2019-09-03T04:00:00-07:00</updated><author><name>timothycrosley</name></author><id>tag:timothycrosley.com,2019-09-03:/project-3-pdocs</id><summary type="html">&lt;p&gt;&lt;a href="https://timothycrosley.github.io/pdocs/"&gt;&lt;img alt="pdocs Logo" src="https://raw.githubusercontent.com/timothycrosley/pdocs/master/art/logo_large.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;~Timothy Crosley&lt;/p&gt;</content><category term="New Project"></category><category term="Projects"></category><category term="52"></category><category term="Introduction"></category></entry><entry><title>Introducing pdocs - Documentation Powered by Your Python Code</title><link href="https://timothycrosley.com/project-3-pdocs" rel="alternate"></link><published>2019-09-03T04:00:00-07:00</published><updated>2019-09-03T04:00:00-07:00</updated><author><name>timothycrosley</name></author><id>tag:timothycrosley.com,2019-09-03:/project-3-pdocs</id><summary type="html">&lt;p&gt;&lt;a href="https://timothycrosley.github.io/pdocs/"&gt;&lt;img alt="pdocs Logo" src="https://raw.githubusercontent.com/timothycrosley/pdocs/master/art/logo_large.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -586,7 +682,7 @@ If so, simply change your settings from living in &lt;code&gt;[tool.portray.pdoc
 &lt;h1&gt;Thanks For Reading&lt;/h1&gt;
 &lt;p&gt;Thanks for taking the time to read about this new project!
 What do you think of pdocs? Any projects you would like to see in the future? Any projects I should try out?&lt;/p&gt;
-&lt;p&gt;~Timothy Crosley&lt;/p&gt;</content><category term="Projects"></category><category term="52"></category><category term="Introduction"></category></entry><entry><title>Introducing portray - Your Project with Great Documentation</title><link href="https://timothycrosley.com/project-2-portray" rel="alternate"></link><published>2019-08-26T04:00:00-07:00</published><updated>2019-08-26T04:00:00-07:00</updated><author><name>timothycrosley</name></author><id>tag:timothycrosley.com,2019-08-26:/project-2-portray</id><summary type="html">&lt;p&gt;&lt;a href="https://timothycrosley.github.io/portray/"&gt;&lt;img alt="potray Logo" src="https://raw.githubusercontent.com/timothycrosley/portray/master/art/logo.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;~Timothy Crosley&lt;/p&gt;</content><category term="New Project"></category><category term="Projects"></category><category term="52"></category><category term="Introduction"></category></entry><entry><title>Introducing portray - Your Project with Great Documentation</title><link href="https://timothycrosley.com/project-2-portray" rel="alternate"></link><published>2019-08-26T04:00:00-07:00</published><updated>2019-08-26T04:00:00-07:00</updated><author><name>timothycrosley</name></author><id>tag:timothycrosley.com,2019-08-26:/project-2-portray</id><summary type="html">&lt;p&gt;&lt;a href="https://timothycrosley.github.io/portray/"&gt;&lt;img alt="potray Logo" src="https://raw.githubusercontent.com/timothycrosley/portray/master/art/logo.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -704,7 +800,7 @@ projects to poetry. Sébastien, if you happen to read this, kudos your project i
 &lt;h1&gt;Thanks For Reading&lt;/h1&gt;
 &lt;p&gt;Thanks for taking the time to read about this new project!
 What do you think of portray? Any projects you would like to see in the future? Any projects I should try out?&lt;/p&gt;
-&lt;p&gt;~Timothy Crosley&lt;/p&gt;</content><category term="Projects"></category><category term="52"></category><category term="Introduction"></category></entry><entry><title>Project 1/52: preconvert - Supercharge Your Serialization!</title><link href="https://timothycrosley.com/project-1-preconvert" rel="alternate"></link><published>2019-08-18T23:00:00-07:00</published><updated>2019-08-18T23:00:00-07:00</updated><author><name>timothycrosley</name></author><id>tag:timothycrosley.com,2019-08-18:/project-1-preconvert</id><summary type="html">&lt;p&gt;&lt;a href="https://timothycrosley.github.io/preconvert/"&gt;&lt;img alt="preconvert Logo" src="https://raw.githubusercontent.com/timothycrosley/preconvert/master/art/logo_large.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;~Timothy Crosley&lt;/p&gt;</content><category term="New Project"></category><category term="Projects"></category><category term="52"></category><category term="Introduction"></category></entry><entry><title>Project 1/52: preconvert - Supercharge Your Serialization!</title><link href="https://timothycrosley.com/project-1-preconvert" rel="alternate"></link><published>2019-08-18T23:00:00-07:00</published><updated>2019-08-18T23:00:00-07:00</updated><author><name>timothycrosley</name></author><id>tag:timothycrosley.com,2019-08-18:/project-1-preconvert</id><summary type="html">&lt;p&gt;&lt;a href="https://timothycrosley.github.io/preconvert/"&gt;&lt;img alt="preconvert Logo" src="https://raw.githubusercontent.com/timothycrosley/preconvert/master/art/logo_large.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -770,18 +866,18 @@ What do you think of portray? Any projects you would like to see in the future? 
 &lt;p&gt;My first project is a small one that comes the way of a goods friends request made at OSCON.
 Many of us use Python's built-in &lt;code&gt;json&lt;/code&gt; module or one of the similar serialization libraries available on PyPI.
 These are trivially easy to use, and generally, work great. You pass in your native Python objects to &lt;code&gt;json.dumps&lt;/code&gt; and your done:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;json&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;json&lt;/span&gt;
 
 &lt;span class="n"&gt;json&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;dumps&lt;/span&gt;&lt;span class="p"&gt;({&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;project&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;preconvert&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;})&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;They even tend to follow the same loose specification (a &lt;code&gt;dumps&lt;/code&gt; and corresponding &lt;code&gt;loads&lt;/code&gt; method) making switching between them
 for any reason equally straight forward.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;simplejson&lt;/span&gt; &lt;span class="kn"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;json&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;simplejson&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;json&lt;/span&gt;
 
 &lt;span class="n"&gt;json&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;dumps&lt;/span&gt;&lt;span class="p"&gt;({&lt;/span&gt;&lt;span class="s2"&gt;&amp;quot;project&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="s2"&gt;&amp;quot;preconvert&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;})&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;This is pretty awesome! It's made even more so by the years of optimization these JSON libraries have received.
@@ -789,7 +885,7 @@ Not only is outputting JSON easy, but it's also fast.&lt;/p&gt;
 &lt;p&gt;Problems occur when you start going beyond the basic built-in types.
 Search for &lt;code&gt;is not JSON serializable&lt;/code&gt; and countless stack-overflow questions will appear with many workarounds for the problem.
 The simplest of which is to override the &lt;code&gt;default&lt;/code&gt; callback method provided by handling just the type that failed:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;json&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;json&lt;/span&gt;
 &lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;uuid&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;UUID&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;uuid1&lt;/span&gt;
 
 
@@ -799,7 +895,7 @@ The simplest of which is to override the &lt;code&gt;default&lt;/code&gt; callba
 
 
 &lt;span class="n"&gt;json&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;dumps&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;uuid1&lt;/span&gt;&lt;span class="p"&gt;(),&lt;/span&gt; &lt;span class="n"&gt;default&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;fallback_conversion&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;The above works great when you have one type you need to convert, and one place where you serialize data.
@@ -812,12 +908,12 @@ to expand with custom types and handle common ones right out of the gate. I agre
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Providing an easy way to specify custom type serializers&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;preconvert&lt;/span&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;preconvert&lt;/span&gt;
 
 &lt;span class="nd"&gt;@preconvert.always&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;UUID&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;convert_UUID_to_str&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;uuid_instance&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
     &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="nb"&gt;str&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;uuid_instance&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;/li&gt;
@@ -825,8 +921,8 @@ to expand with custom types and handle common ones right out of the gate. I agre
 &lt;p&gt;Using this ability to automatically handle common types (UUID, dataclasses, etc)&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;Adding an easy mechanism to extend this further using entrypoint powered plugins&lt;/li&gt;
-&lt;li&gt;Exposing the same interface defined by existing serializers to make preconvert an easy drop-in replacement.&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;preconvert.output&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;simplejson&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="n"&gt;json&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;li&gt;Exposing the same interface defined by existing serializers to make preconvert an easy drop-in replacement.&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;preconvert.output&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;simplejson&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="n"&gt;json&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;/li&gt;
@@ -834,8 +930,8 @@ to expand with custom types and handle common ones right out of the gate. I agre
 &lt;p&gt;preconvert currently works out-of-the-box with &lt;code&gt;bson&lt;/code&gt;, &lt;code&gt;json&lt;/code&gt;, &lt;code&gt;simplejson&lt;/code&gt;, and &lt;code&gt;msgpack&lt;/code&gt;.
 Currently, there is one &lt;a href="https://github.com/timothycrosley/preconvert_numpy"&gt;plugin to handle numpy types&lt;/a&gt;, that can be enabled simply by adding it to the projects
 package requirements.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;pip&lt;/span&gt; &lt;span class="n"&gt;install&lt;/span&gt; &lt;span class="n"&gt;preconvert_numpy&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;pip install preconvert_numpy&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;For more information about the project, browse the &lt;a href="https://timothycrosley.github.io/preconvert/"&gt;documentation website&lt;/a&gt;.&lt;/p&gt;
@@ -867,7 +963,7 @@ small project it found real errors.&lt;/p&gt;
 &lt;h1&gt;Thanks For Reading&lt;/h1&gt;
 &lt;p&gt;Thanks for taking the time to read about this new project!
 What do you think of preconvert? Any projects you would like to see in the future? Any projects I should try out?&lt;/p&gt;
-&lt;p&gt;~Timothy Crosley&lt;/p&gt;</content><category term="Projects"></category><category term="52"></category><category term="Introduction"></category></entry><entry><title>whoami</title><link href="https://timothycrosley.com/whoami" rel="alternate"></link><published>2019-08-11T08:00:00-07:00</published><updated>2019-08-11T08:00:00-07:00</updated><author><name>timothycrosley</name></author><id>tag:timothycrosley.com,2019-08-11:/whoami</id><summary type="html">&lt;p&gt;&lt;a href="images/amanda_and_i.jpg"&gt;&lt;img alt="My Wife and I at the Space Needle" src="images/amanda_and_i.jpg"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;~Timothy Crosley&lt;/p&gt;</content><category term="New Project"></category><category term="Projects"></category><category term="52"></category><category term="Introduction"></category></entry><entry><title>whoami</title><link href="https://timothycrosley.com/whoami" rel="alternate"></link><published>2019-08-11T08:00:00-07:00</published><updated>2019-08-11T08:00:00-07:00</updated><author><name>timothycrosley</name></author><id>tag:timothycrosley.com,2019-08-11:/whoami</id><summary type="html">&lt;p&gt;&lt;a href="images/amanda_and_i.jpg"&gt;&lt;img alt="My Wife and I at the Space Needle" src="images/amanda_and_i.jpg"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Hi, I'm Timothy! I'm a Principal Software Engineer and Open Source Evangelist working on technologies to keep the web safe at &lt;a href="https://www.domaintools.com/"&gt;DomainTools&lt;/a&gt;.
 I live with my wife Amanda and our daughter Penny in the Licton Springs Neighborhood of Seattle.&lt;/p&gt;
 &lt;p&gt;You may know me from one of my Python projects, such …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a href="images/amanda_and_i.jpg"&gt;&lt;img alt="My Wife and I at the Space Needle" src="images/amanda_and_i.jpg"&gt;&lt;/a&gt;&lt;/p&gt;
@@ -945,4 +1041,4 @@ But, most importantly, I learned &lt;em&gt;never&lt;/em&gt; to mix tabs and spac
 &lt;p&gt;Over the years, I've taken new jobs, learned new technologies, patterns, and approaches. I've also released countless new Open Source projects. Some have been very successful, others rarely used. All of them have my entire heart put in. And I'm not done.
 Today is the beginning of my story. After all, I'm almost 30, not almost dead.&lt;/p&gt;
 &lt;p&gt;I'm hoping to explore ways to simplify and automate development. To enable new developers, experienced developers, and teams alike, to solve their problems. And to do so more quickly and sustainably. Many of my projects will undoubtedly be duds, some of them I hope will help move the industry forward. All of them will be described in detail on this blog.&lt;/p&gt;
-&lt;p&gt;Over the next 52 weeks, you can expect to read 52 articles posted on this blog. These posts will contain the details of 52 new projects or project updates. I hope you will be part of my story. Let's build some great things together.&lt;/p&gt;</content><category term="General"></category><category term="Personal"></category><category term="Introduction"></category><category term="History"></category></entry></feed>
+&lt;p&gt;Over the next 52 weeks, you can expect to read 52 articles posted on this blog. These posts will contain the details of 52 new projects or project updates. I hope you will be part of my story. Let's build some great things together.&lt;/p&gt;</content><category term="Introduction"></category><category term="General"></category><category term="Personal"></category><category term="Introduction"></category><category term="History"></category></entry></feed>

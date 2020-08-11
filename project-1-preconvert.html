@@ -148,18 +148,18 @@
 <p>My first project is a small one that comes the way of a goods friends request made at OSCON.
 Many of us use Python's built-in <code>json</code> module or one of the similar serialization libraries available on PyPI.
 These are trivially easy to use, and generally, work great. You pass in your native Python objects to <code>json.dumps</code> and your done:</p>
-<div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">json</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">json</span>
 
 <span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">({</span><span class="s2">&quot;project&quot;</span><span class="p">:</span> <span class="s2">&quot;preconvert&quot;</span><span class="p">})</span>
-</pre></div>
+</code></pre></div>
 
 
 <p>They even tend to follow the same loose specification (a <code>dumps</code> and corresponding <code>loads</code> method) making switching between them
 for any reason equally straight forward.</p>
-<div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">simplejson</span> <span class="kn">as</span> <span class="nn">json</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">simplejson</span> <span class="k">as</span> <span class="nn">json</span>
 
 <span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">({</span><span class="s2">&quot;project&quot;</span><span class="p">:</span> <span class="s2">&quot;preconvert&quot;</span><span class="p">})</span>
-</pre></div>
+</code></pre></div>
 
 
 <p>This is pretty awesome! It's made even more so by the years of optimization these JSON libraries have received.
@@ -167,7 +167,7 @@ Not only is outputting JSON easy, but it's also fast.</p>
 <p>Problems occur when you start going beyond the basic built-in types.
 Search for <code>is not JSON serializable</code> and countless stack-overflow questions will appear with many workarounds for the problem.
 The simplest of which is to override the <code>default</code> callback method provided by handling just the type that failed:</p>
-<div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">json</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">json</span>
 <span class="kn">from</span> <span class="nn">uuid</span> <span class="kn">import</span> <span class="n">UUID</span><span class="p">,</span> <span class="n">uuid1</span>
 
 
@@ -177,7 +177,7 @@ The simplest of which is to override the <code>default</code> callback method pr
 
 
 <span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">uuid1</span><span class="p">(),</span> <span class="n">default</span><span class="o">=</span><span class="n">fallback_conversion</span><span class="p">)</span>
-</pre></div>
+</code></pre></div>
 
 
 <p>The above works great when you have one type you need to convert, and one place where you serialize data.
@@ -190,12 +190,12 @@ to expand with custom types and handle common ones right out of the gate. I agre
 <ol>
 <li>
 <p>Providing an easy way to specify custom type serializers</p>
-<div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">preconvert</span>
+<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">preconvert</span>
 
 <span class="nd">@preconvert.always</span><span class="p">(</span><span class="n">UUID</span><span class="p">)</span>
 <span class="k">def</span> <span class="nf">convert_UUID_to_str</span><span class="p">(</span><span class="n">uuid_instance</span><span class="p">):</span>
     <span class="k">return</span> <span class="nb">str</span><span class="p">(</span><span class="n">uuid_instance</span><span class="p">)</span>
-</pre></div>
+</code></pre></div>
 
 
 </li>
@@ -203,8 +203,8 @@ to expand with custom types and handle common ones right out of the gate. I agre
 <p>Using this ability to automatically handle common types (UUID, dataclasses, etc)</p>
 </li>
 <li>Adding an easy mechanism to extend this further using entrypoint powered plugins</li>
-<li>Exposing the same interface defined by existing serializers to make preconvert an easy drop-in replacement.<div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">preconvert.output</span> <span class="kn">import</span> <span class="n">simplejson</span> <span class="k">as</span> <span class="n">json</span>
-</pre></div>
+<li>Exposing the same interface defined by existing serializers to make preconvert an easy drop-in replacement.<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">preconvert.output</span> <span class="kn">import</span> <span class="n">simplejson</span> <span class="k">as</span> <span class="n">json</span>
+</code></pre></div>
 
 
 </li>
@@ -212,8 +212,8 @@ to expand with custom types and handle common ones right out of the gate. I agre
 <p>preconvert currently works out-of-the-box with <code>bson</code>, <code>json</code>, <code>simplejson</code>, and <code>msgpack</code>.
 Currently, there is one <a href="https://github.com/timothycrosley/preconvert_numpy">plugin to handle numpy types</a>, that can be enabled simply by adding it to the projects
 package requirements.</p>
-<div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">preconvert_numpy</span>
-</pre></div>
+<div class="highlight"><pre><span></span><code><span class="err">pip install preconvert_numpy</span>
+</code></pre></div>
 
 
 <p>For more information about the project, browse the <a href="https://timothycrosley.github.io/preconvert/">documentation website</a>.</p>

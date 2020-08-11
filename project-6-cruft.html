@@ -162,7 +162,7 @@ highlight to the user the cost associated with this automation.</p>
 It's an acknowledgment, to both the end-user and the project, that project templates can quickly become sources of cruft and expanding boilerplate in projects. cruft believes this boilerplate, while often
 necessary, is something to be managed not something to be celebrated. cruft uses Cookiecutter behind the scenes to expand templates, making it fully compatible with existing templates, but it does so in a more maintainable way.
 So how does cruft help solve this problem? When you create a project with cruft, it adds a single additional file to your project <code>.cruft.json</code>:</p>
-<div class="highlight"><pre><span></span>        <span class="p">{</span>
+<div class="highlight"><pre><span></span><code>        <span class="p">{</span>
             <span class="nt">&quot;template&quot;</span><span class="p">:</span> <span class="s2">&quot;https://github.com/timothycrosley/cookiecutter-python&quot;</span><span class="p">,</span>
             <span class="nt">&quot;commit&quot;</span><span class="p">:</span> <span class="s2">&quot;8a65a360d51250221193ed0ec5ed292e72b32b0b&quot;</span><span class="p">,</span>
             <span class="nt">&quot;context&quot;</span><span class="p">:</span> <span class="p">{</span>
@@ -177,7 +177,7 @@ So how does cruft help solve this problem? When you create a project with cruft,
                 <span class="p">}</span>
             <span class="p">}</span>
         <span class="p">}</span>
-</pre></div>
+</code></pre></div>
 
 
 <p>This file contains the template you used to create your project, the git commit hash at time of creation, and every parameter that was passed to Cookiecutter.

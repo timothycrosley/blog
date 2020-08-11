@@ -167,8 +167,8 @@ But, I would never impose that on someone I considered a friend.</p>
 I then remembered a talk at PyCascades that went over the Python implementation of <a href="https://hypothesis.readthedocs.io/en/latest/">Hypothesis</a>,
 and how it could, given a set of strategies, generate virtually infinite test cases for you. Who wouldn't want a friend like that? I was sold.
 However, something felt a little off about using Hypothesis to me. In my newer code, I utilize mypy and type annotations to have well defined and typed public functions. But, when using Hypothesis, it felt like I often needed to repeat these typing definitions:</p>
-<div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">Hypothesis</span> <span class="kn">import</span> <span class="n">given</span>
-<span class="kn">import</span> <span class="nn">hypothesis.strategies</span> <span class="kn">as</span> <span class="nn">st</span>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">Hypothesis</span> <span class="kn">import</span> <span class="n">given</span>
+<span class="kn">import</span> <span class="nn">hypothesis.strategies</span> <span class="k">as</span> <span class="nn">st</span>
 
 
 <span class="k">def</span> <span class="nf">add</span><span class="p">(</span><span class="n">number_1</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">number_2</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
@@ -178,14 +178,14 @@ However, something felt a little off about using Hypothesis to me. In my newer c
 <span class="nd">@given</span><span class="p">(</span><span class="n">st</span><span class="o">.</span><span class="n">integers</span><span class="p">(),</span> <span class="n">st</span><span class="o">.</span><span class="n">integers</span><span class="p">())</span>
 <span class="k">def</span> <span class="nf">test_add</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
     <span class="k">assert</span> <span class="nb">type</span><span class="p">(</span><span class="n">add</span><span class="p">(</span><span class="n">x</span><span class="p">))</span> <span class="o">==</span> <span class="nb">int</span>
-</pre></div>
+</code></pre></div>
 
 
 <p>There must be a way to take it one step further and automatically generate test cases based on the type annotations?</p>
 <h1>Introducing Hypothesis Auto</h1>
 <p>Rather than build a whole new property-based system from scratch, I decided to create an extension for Hypothesis. This extension would automatically generate test cases using the tested Callable's type annotations while allowing any parameters strategy to be replaced.
 With hypothesis-auto, the above test becomes:</p>
-<div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">hypothesis_auto</span> <span class="kn">import</span> <span class="n">auto_pytest_magic</span>
+<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">hypothesis_auto</span> <span class="kn">import</span> <span class="n">auto_pytest_magic</span>
 
 
 <span class="k">def</span> <span class="nf">add</span><span class="p">(</span><span class="n">number_1</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">number_2</span><span class="p">:</span> <span class="nb">int</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
@@ -193,7 +193,7 @@ With hypothesis-auto, the above test becomes:</p>
 
 
 <span class="n">auto_pytest_magic</span><span class="p">(</span><span class="n">add</span><span class="p">)</span>
-</pre></div>
+</code></pre></div>
 
 
 <p>You can see this project <a href="https://timothycrosley.github.io/hypothesis-auto/">here</a>.</p>

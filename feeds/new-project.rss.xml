@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>TimothyCrosley.com - New Project</title><link>https://timothycrosley.com/</link><description>My Personal Homepage and Blog</description><lastBuildDate>Tue, 08 Oct 2019 04:30:00 -0700</lastBuildDate><item><title>Introducing streamdeck_ui</title><link>https://timothycrosley.com/project-7-streamdeck_ui</link><description>&lt;p&gt;&lt;a href="https://timothycrosley.github.io/streamdeck-ui/"&gt;&lt;img alt="streamdeck_ui Logo" src="https://raw.githubusercontent.com/timothycrosley/streamdeck-ui/master/art/logo_large.png"&gt;&lt;/a&gt;&lt;/p&gt;
+<rss version="2.0"><channel><title>TimothyCrosley.com - New Project</title><link>https://timothycrosley.com/</link><description>My Personal Homepage and Blog</description><lastBuildDate>Mon, 10 Aug 2020 04:30:00 -0700</lastBuildDate><item><title>Introducing isort 5: The story of refactoring a widely used 10 year old project.</title><link>https://timothycrosley.com/project-8-isort5</link><description>&lt;p&gt;&lt;a href="https://timothycrosley.github.io/isort/"&gt;&lt;img alt="isort 5 Logo" src="https://raw.githubusercontent.com/timothycrosley/isort/develop/art/logo_5.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;project:&lt;/td&gt;
+&lt;td&gt;8/52&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Title/Link:&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://timothycrosley.github.io/isort/"&gt;isort&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Pitch:&lt;/td&gt;
+&lt;td&gt;isort your imports, so you don't have to.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Read if:&lt;/td&gt;
+&lt;td&gt;You're interested in Python auto formatters or the challenges of refactoring widely used code that is a decade in the making.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Skip if:&lt;/td&gt;
+&lt;td&gt;You're not interested in auto formatters, or are only interested …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">timothycrosley</dc:creator><pubDate>Mon, 10 Aug 2020 04:30:00 -0700</pubDate><guid isPermaLink="false">tag:timothycrosley.com,2020-08-10:/project-8-isort5</guid><category>New Project</category><category>Projects</category><category>52</category><category>Introduction</category></item><item><title>Introducing streamdeck_ui</title><link>https://timothycrosley.com/project-7-streamdeck_ui</link><description>&lt;p&gt;&lt;a href="https://timothycrosley.github.io/streamdeck-ui/"&gt;&lt;img alt="streamdeck_ui Logo" src="https://raw.githubusercontent.com/timothycrosley/streamdeck-ui/master/art/logo_large.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -26,7 +53,7 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Skip if:&lt;/td&gt;
-&lt;td&gt;You aren't interested in Stream Decks or other programmable …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">timothycrosley</dc:creator><pubDate>Tue, 08 Oct 2019 04:30:00 -0700</pubDate><guid isPermaLink="false">tag:timothycrosley.com,2019-10-08:/project-7-streamdeck_ui</guid><category>Projects</category><category>52</category><category>Introduction</category></item><item><title>Introducing cruft - A tool to manage project boilerplate</title><link>https://timothycrosley.com/project-6-cruft</link><description>&lt;p&gt;&lt;a href="https://timothycrosley.github.io/cruft/"&gt;&lt;img alt="cruft Logo" src="https://raw.githubusercontent.com/timothycrosley/cruft/master/art/logo_large.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;td&gt;You aren't interested in Stream Decks or other programmable …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">timothycrosley</dc:creator><pubDate>Tue, 08 Oct 2019 04:30:00 -0700</pubDate><guid isPermaLink="false">tag:timothycrosley.com,2019-10-08:/project-7-streamdeck_ui</guid><category>New Project</category><category>Projects</category><category>52</category><category>Introduction</category></item><item><title>Introducing cruft - A tool to manage project boilerplate</title><link>https://timothycrosley.com/project-6-cruft</link><description>&lt;p&gt;&lt;a href="https://timothycrosley.github.io/cruft/"&gt;&lt;img alt="cruft Logo" src="https://raw.githubusercontent.com/timothycrosley/cruft/master/art/logo_large.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -53,7 +80,7 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Skip if:&lt;/td&gt;
-&lt;td&gt;You don't create enough individual projects to …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">timothycrosley</dc:creator><pubDate>Tue, 24 Sep 2019 09:30:00 -0700</pubDate><guid isPermaLink="false">tag:timothycrosley.com,2019-09-24:/project-6-cruft</guid><category>Projects</category><category>52</category><category>Introduction</category></item><item><title>Introducing hypothesis-auto - An extension for Hypothesis that provides fully automatic testing for type hinted functions</title><link>https://timothycrosley.com/project-5-hypothesis-auto</link><description>&lt;p&gt;&lt;a href="https://timothycrosley.github.io/hypothesis-auto/"&gt;&lt;img alt="hypothesis-auto Logo" src="https://raw.githubusercontent.com/timothycrosley/hypothesis-auto/master/art/logo_large.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;td&gt;You don't create enough individual projects to …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">timothycrosley</dc:creator><pubDate>Tue, 24 Sep 2019 09:30:00 -0700</pubDate><guid isPermaLink="false">tag:timothycrosley.com,2019-09-24:/project-6-cruft</guid><category>New Project</category><category>Projects</category><category>52</category><category>Introduction</category></item><item><title>Introducing hypothesis-auto - An extension for Hypothesis that provides fully automatic testing for type hinted functions</title><link>https://timothycrosley.com/project-5-hypothesis-auto</link><description>&lt;p&gt;&lt;a href="https://timothycrosley.github.io/hypothesis-auto/"&gt;&lt;img alt="hypothesis-auto Logo" src="https://raw.githubusercontent.com/timothycrosley/hypothesis-auto/master/art/logo_large.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -83,7 +110,7 @@
 &lt;td&gt;You already heavily utilize Hypothesis or another property testing system.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;Prior …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">timothycrosley</dc:creator><pubDate>Thu, 19 Sep 2019 04:00:00 -0700</pubDate><guid isPermaLink="false">tag:timothycrosley.com,2019-09-19:/project-5-hypothesis-auto</guid><category>Projects</category><category>52</category><category>Introduction</category></item><item><title>Introducing eXamples - Python Tests and Documentation Done by Example</title><link>https://timothycrosley.com/project-4-examples</link><description>&lt;p&gt;&lt;a href="https://timothycrosley.github.io/examples/"&gt;&lt;img alt="examples Logo" src="https://raw.githubusercontent.com/timothycrosley/examples/master/art/logo_large.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;td&gt;Prior …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">timothycrosley</dc:creator><pubDate>Thu, 19 Sep 2019 04:00:00 -0700</pubDate><guid isPermaLink="false">tag:timothycrosley.com,2019-09-19:/project-5-hypothesis-auto</guid><category>New Project</category><category>Projects</category><category>52</category><category>Introduction</category></item><item><title>Introducing eXamples - Python Tests and Documentation Done by Example</title><link>https://timothycrosley.com/project-4-examples</link><description>&lt;p&gt;&lt;a href="https://timothycrosley.github.io/examples/"&gt;&lt;img alt="examples Logo" src="https://raw.githubusercontent.com/timothycrosley/examples/master/art/logo_large.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -110,7 +137,7 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Skip if:&lt;/td&gt;
-&lt;td&gt;You are happy with doctest or …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">timothycrosley</dc:creator><pubDate>Wed, 11 Sep 2019 03:00:00 -0700</pubDate><guid isPermaLink="false">tag:timothycrosley.com,2019-09-11:/project-4-examples</guid><category>Projects</category><category>52</category><category>Introduction</category></item><item><title>Introducing pdocs - Documentation Powered by Your Python Code</title><link>https://timothycrosley.com/project-3-pdocs</link><description>&lt;p&gt;&lt;a href="https://timothycrosley.github.io/pdocs/"&gt;&lt;img alt="pdocs Logo" src="https://raw.githubusercontent.com/timothycrosley/pdocs/master/art/logo_large.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;td&gt;You are happy with doctest or …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">timothycrosley</dc:creator><pubDate>Wed, 11 Sep 2019 03:00:00 -0700</pubDate><guid isPermaLink="false">tag:timothycrosley.com,2019-09-11:/project-4-examples</guid><category>New Project</category><category>Projects</category><category>52</category><category>Introduction</category></item><item><title>Introducing pdocs - Documentation Powered by Your Python Code</title><link>https://timothycrosley.com/project-3-pdocs</link><description>&lt;p&gt;&lt;a href="https://timothycrosley.github.io/pdocs/"&gt;&lt;img alt="pdocs Logo" src="https://raw.githubusercontent.com/timothycrosley/pdocs/master/art/logo_large.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -137,7 +164,7 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Skip if:&lt;/td&gt;
-&lt;td&gt;You don't create Python projects. Or, you've already created documentation sites for your Python …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">timothycrosley</dc:creator><pubDate>Tue, 03 Sep 2019 04:00:00 -0700</pubDate><guid isPermaLink="false">tag:timothycrosley.com,2019-09-03:/project-3-pdocs</guid><category>Projects</category><category>52</category><category>Introduction</category></item><item><title>Introducing portray - Your Project with Great Documentation</title><link>https://timothycrosley.com/project-2-portray</link><description>&lt;p&gt;&lt;a href="https://timothycrosley.github.io/portray/"&gt;&lt;img alt="potray Logo" src="https://raw.githubusercontent.com/timothycrosley/portray/master/art/logo.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;td&gt;You don't create Python projects. Or, you've already created documentation sites for your Python …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">timothycrosley</dc:creator><pubDate>Tue, 03 Sep 2019 04:00:00 -0700</pubDate><guid isPermaLink="false">tag:timothycrosley.com,2019-09-03:/project-3-pdocs</guid><category>New Project</category><category>Projects</category><category>52</category><category>Introduction</category></item><item><title>Introducing portray - Your Project with Great Documentation</title><link>https://timothycrosley.com/project-2-portray</link><description>&lt;p&gt;&lt;a href="https://timothycrosley.github.io/portray/"&gt;&lt;img alt="potray Logo" src="https://raw.githubusercontent.com/timothycrosley/portray/master/art/logo.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -164,7 +191,7 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Skip if:&lt;/td&gt;
-&lt;td&gt;You don't create Python projects. Or, you've already created documentation sites for your Python projects and are …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">timothycrosley</dc:creator><pubDate>Mon, 26 Aug 2019 04:00:00 -0700</pubDate><guid isPermaLink="false">tag:timothycrosley.com,2019-08-26:/project-2-portray</guid><category>Projects</category><category>52</category><category>Introduction</category></item><item><title>Project 1/52: preconvert - Supercharge Your Serialization!</title><link>https://timothycrosley.com/project-1-preconvert</link><description>&lt;p&gt;&lt;a href="https://timothycrosley.github.io/preconvert/"&gt;&lt;img alt="preconvert Logo" src="https://raw.githubusercontent.com/timothycrosley/preconvert/master/art/logo_large.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;td&gt;You don't create Python projects. Or, you've already created documentation sites for your Python projects and are …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">timothycrosley</dc:creator><pubDate>Mon, 26 Aug 2019 04:00:00 -0700</pubDate><guid isPermaLink="false">tag:timothycrosley.com,2019-08-26:/project-2-portray</guid><category>New Project</category><category>Projects</category><category>52</category><category>Introduction</category></item><item><title>Project 1/52: preconvert - Supercharge Your Serialization!</title><link>https://timothycrosley.com/project-1-preconvert</link><description>&lt;p&gt;&lt;a href="https://timothycrosley.github.io/preconvert/"&gt;&lt;img alt="preconvert Logo" src="https://raw.githubusercontent.com/timothycrosley/preconvert/master/art/logo_large.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -191,4 +218,4 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Skip if:&lt;/td&gt;
-&lt;td&gt;You don't use serialization, only use it with basic built-in types, or only use …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">timothycrosley</dc:creator><pubDate>Sun, 18 Aug 2019 23:00:00 -0700</pubDate><guid isPermaLink="false">tag:timothycrosley.com,2019-08-18:/project-1-preconvert</guid><category>Projects</category><category>52</category><category>Introduction</category></item></channel></rss>
+&lt;td&gt;You don't use serialization, only use it with basic built-in types, or only use …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">timothycrosley</dc:creator><pubDate>Sun, 18 Aug 2019 23:00:00 -0700</pubDate><guid isPermaLink="false">tag:timothycrosley.com,2019-08-18:/project-1-preconvert</guid><category>New Project</category><category>Projects</category><category>52</category><category>Introduction</category></item></channel></rss>
