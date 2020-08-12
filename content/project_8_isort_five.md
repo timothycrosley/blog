@@ -5,6 +5,15 @@ Category: New Project
 Tags: Projects, 52, Introduction
 slug: project-8-isort5
 
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script>
+  WebFont.load({
+    google: {
+      families: ['danielbd']
+    }
+  });
+</script>
+
 [![isort 5 Logo](https://raw.githubusercontent.com/timothycrosley/isort/develop/art/logo_5.png)](https://timothycrosley.github.io/isort/)
 
 | | |
@@ -36,9 +45,7 @@ Over a hundred people (180 as of this writing) have helped improve isort over th
 
 From the beginning of isort, the core and bulk of functionality happened within the `__init__` method of a single class: `SortImports.` While always arguably a sub-optimal design decision, as a new Python programmer at the time, it didn't seem too bad when that core logic was only dozens of lines long. At the end of the isort 4.x series, that core logic had ballooned to hundreds of lines, with the containing class over a thousand lines long. Everything isort would do, internally, was accomplished by mutating attributes of that single class.
 
-```
-(input file) -> CLI interface -> SortImports(file, config, everything, as, class, init, **arguments) -> (output to same)
-```
+![isort_initial_structure](images/isort_initial.svg)
 
 Another pain point was isort's initial design, only being centered around an individual developer running it on their machine.
 As isort became a part of CI/CD systems, its initial trade-off to using as much magic as possible to determine what section an import belonged to, no longer fit the reality of how isort was run. This kind of magic led isort to work correctly on one machine while failing to categorize imports on another—a very frustrating experience when isort is acting as a gatekeeper for a codebase.
@@ -53,18 +60,17 @@ To me, the biggest problem wasn't the lack of the usage of a traditional AST, th
 
 To me, the biggest problem with isorts internal structure was shared state and the associated lack of separation between concerns. You couldn't parse separately from formatting, and both actions freely mutated the same variables. This behavior resulted in tickets piling up, which desired things like sorting imports within functions, and no clear path for implementing them. So I started there. I would fully separate the parsing from the formatting, clearly defining the boundaries between both.
 
-```
-(input file) -> CLI interface -> parse.file_contents(file_contents) -> output.sorted_imports(parsed) -> (output file)
-
-```
+![isort_initial_structure](images/isort_refactor1.svg)
 
 Much better! Immediately after finishing this separation, however, I noticed something else concerning. Parsing and output formatting both used the same config, which is fine. Maybe even expected. What wasn't anticipated was that both *mutated* this same config. This made it very hard to call them repeatedly with the same configuration, and just felt wrong. So, I decided to make the config creation happen first and separately, ensuring the configuration was immutable.
 
-```
-(input file) -> CLI interface -> ImmutableConfig(**options) -> parse.file_contents(file_contents, config) -> output.sorted_imports(parsed, config) -> (output file)
-```
+![isort_initial_structure](images/isort_refactor2.svg)
 
-Finally, things that seemed out of reach before were easy. I was able to create a core function that simply identified groups of contiguous imports and parsed and then sorted them. I then put this new internal functionality behind dedicated Python APIs for common operations (such as formatting files and streams). Suddenly, I was able to work through the hundreds of issues open on isort's Github issue page at a steady pace. Still, while the initial refactor was relatively quick, finishing enough clean up that I felt proud of the project again took months. It was the first time in a while that I undertook a big project an open-source project, literally, one day at a time.
+Finally, things that seemed out of reach before were easy. I was able to create a core function that simply identified groups of contiguous imports and parsed and then sorted them. I then put this new internal functionality behind dedicated Python APIs for common operations (such as formatting files and streams).
+
+![isort_initial_structure](images/isort_refactor3.svg)
+
+Suddenly, I was able to work through the hundreds of issues open on isort's Github issue page at a steady pace. Still, while the initial refactor was relatively quick, finishing enough clean up that I felt proud of the project again took months. It was the first time in a while that I undertook a big open-source project, literally, one day at a time.
 
 ## Thanks For Reading
 
