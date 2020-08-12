@@ -1,25 +1,16 @@
-Title: Introducing isort 5: The story of refactoring a widely used 10 year old project.
+Title: Introducing isort 5: The Refactoring of a 10 Year Old Project
 Date: 2020-08-10 4:30
 Author: timothycrosley
 Category: New Project
 Tags: Projects, 52, Introduction
 slug: project-8-isort5
 
-<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-<script>
-  WebFont.load({
-    google: {
-      families: ['danielbd']
-    }
-  });
-</script>
-
 [![isort 5 Logo](https://raw.githubusercontent.com/timothycrosley/isort/develop/art/logo_5.png)](https://timothycrosley.github.io/isort/)
 
 | | |
 | ------------| -----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | project: | 8/52 |
-| Title/Link: | [isort](https://timothycrosley.github.io/isort/) |
+| Title/Link: | [isort5](https://timothycrosley.github.io/isort/docs/major_releases/introducing_isort_5/) |
 | Pitch: | isort your imports, so you don't have to. |
 | Read if: | You're interested in Python auto formatters or the challenges of refactoring widely used code that is a decade in the making. |
 | Skip if: | You're not interested in auto formatters, or are only interested in brand new projects. |
@@ -75,6 +66,7 @@ Suddenly, I was able to work through the hundreds of issues open on isort's Gith
 ## Thanks For Reading
 
 Thanks for taking the time to read about the making of isort 5!
+If you want to learn more about the 5.0.0 release, you can see the [release announcement](https://timothycrosley.github.io/isort/docs/major_releases/introducing_isort_5/) on the official project page.
 What do you think of isort? Any projects you would like to see in the future? Any projects I should try out?
 
 ~Timothy Crosley
