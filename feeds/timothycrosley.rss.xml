@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>TimothyCrosley.com - timothycrosley</title><link>https://timothycrosley.com/</link><description>My Personal Homepage and Blog</description><lastBuildDate>Mon, 10 Aug 2020 04:30:00 -0700</lastBuildDate><item><title>Introducing isort 5: The story of refactoring a widely used 10 year old project.</title><link>https://timothycrosley.com/project-8-isort5</link><description>&lt;p&gt;&lt;a href="https://timothycrosley.github.io/isort/"&gt;&lt;img alt="isort 5 Logo" src="https://raw.githubusercontent.com/timothycrosley/isort/develop/art/logo_5.png"&gt;&lt;/a&gt;&lt;/p&gt;
+<rss version="2.0"><channel><title>TimothyCrosley.com - timothycrosley</title><link>https://timothycrosley.com/</link><description>My Personal Homepage and Blog</description><lastBuildDate>Mon, 10 Aug 2020 04:30:00 -0700</lastBuildDate><item><title>Introducing isort 5: The story of refactoring a widely used 10 year old project.</title><link>https://timothycrosley.com/project-8-isort5</link><description>&lt;script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"&gt;&lt;/script&gt;
+
+&lt;script&gt;
+  WebFont.load({
+    google: {
+      families: ['danielbd']
+    }
+  });
+&lt;/script&gt;
+
+&lt;p&gt;&lt;a href="https://timothycrosley.github.io/isort/"&gt;&lt;img alt="isort 5 Logo" src="https://raw.githubusercontent.com/timothycrosley/isort/develop/art/logo_5.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -26,7 +36,7 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Skip if:&lt;/td&gt;
-&lt;td&gt;You're not interested in auto formatters, or are only interested …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">timothycrosley</dc:creator><pubDate>Mon, 10 Aug 2020 04:30:00 -0700</pubDate><guid isPermaLink="false">tag:timothycrosley.com,2020-08-10:/project-8-isort5</guid><category>New Project</category><category>Projects</category><category>52</category><category>Introduction</category></item><item><title>Sign-up for PyCascade Sprints!</title><link>https://timothycrosley.com/pycascades-sprints</link><description>&lt;p&gt;&lt;a href="images/pycascades.png"&gt;&lt;img alt="PyCascades Logo" src="images/pycascades.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;td&gt;You're not interested in auto …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">timothycrosley</dc:creator><pubDate>Mon, 10 Aug 2020 04:30:00 -0700</pubDate><guid isPermaLink="false">tag:timothycrosley.com,2020-08-10:/project-8-isort5</guid><category>New Project</category><category>Projects</category><category>52</category><category>Introduction</category></item><item><title>Sign-up for PyCascade Sprints!</title><link>https://timothycrosley.com/pycascades-sprints</link><description>&lt;p&gt;&lt;a href="images/pycascades.png"&gt;&lt;img alt="PyCascades Logo" src="images/pycascades.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Coming up VERY soon (this weekend), is my favorite yearly conference: &lt;a href="https://2020.pycascades.com/"&gt;PyCascades&lt;/a&gt;!
 It's a regional conference that takes place in the PNW, this year in Portland, covering all things Python.
 If you haven't signed up yet, and live in the PNW, I encourage you to check it out!

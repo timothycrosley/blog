@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>TimothyCrosley.com</title><link href="https://timothycrosley.com/" rel="alternate"></link><link href="https://timothycrosley.com/feeds/all-en.atom.xml" rel="self"></link><id>https://timothycrosley.com/</id><updated>2020-08-10T04:30:00-07:00</updated><subtitle>My Personal Homepage and Blog</subtitle><entry><title>Introducing isort 5: The story of refactoring a widely used 10 year old project.</title><link href="https://timothycrosley.com/project-8-isort5" rel="alternate"></link><published>2020-08-10T04:30:00-07:00</published><updated>2020-08-10T04:30:00-07:00</updated><author><name>timothycrosley</name></author><id>tag:timothycrosley.com,2020-08-10:/project-8-isort5</id><summary type="html">&lt;p&gt;&lt;a href="https://timothycrosley.github.io/isort/"&gt;&lt;img alt="isort 5 Logo" src="https://raw.githubusercontent.com/timothycrosley/isort/develop/art/logo_5.png"&gt;&lt;/a&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>TimothyCrosley.com</title><link href="https://timothycrosley.com/" rel="alternate"></link><link href="https://timothycrosley.com/feeds/all-en.atom.xml" rel="self"></link><id>https://timothycrosley.com/</id><updated>2020-08-10T04:30:00-07:00</updated><subtitle>My Personal Homepage and Blog</subtitle><entry><title>Introducing isort 5: The story of refactoring a widely used 10 year old project.</title><link href="https://timothycrosley.com/project-8-isort5" rel="alternate"></link><published>2020-08-10T04:30:00-07:00</published><updated>2020-08-10T04:30:00-07:00</updated><author><name>timothycrosley</name></author><id>tag:timothycrosley.com,2020-08-10:/project-8-isort5</id><summary type="html">&lt;script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"&gt;&lt;/script&gt;
+
+&lt;script&gt;
+  WebFont.load({
+    google: {
+      families: ['danielbd']
+    }
+  });
+&lt;/script&gt;
+
+&lt;p&gt;&lt;a href="https://timothycrosley.github.io/isort/"&gt;&lt;img alt="isort 5 Logo" src="https://raw.githubusercontent.com/timothycrosley/isort/develop/art/logo_5.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -26,7 +36,17 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Skip if:&lt;/td&gt;
-&lt;td&gt;You're not interested in auto formatters, or are only interested …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</summary><content type="html">&lt;p&gt;&lt;a href="https://timothycrosley.github.io/isort/"&gt;&lt;img alt="isort 5 Logo" src="https://raw.githubusercontent.com/timothycrosley/isort/develop/art/logo_5.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;td&gt;You're not interested in auto …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</summary><content type="html">&lt;script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"&gt;&lt;/script&gt;
+
+&lt;script&gt;
+  WebFont.load({
+    google: {
+      families: ['danielbd']
+    }
+  });
+&lt;/script&gt;
+
+&lt;p&gt;&lt;a href="https://timothycrosley.github.io/isort/"&gt;&lt;img alt="isort 5 Logo" src="https://raw.githubusercontent.com/timothycrosley/isort/develop/art/logo_5.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -71,10 +91,7 @@
 &lt;h2&gt;The problem with isort's organic growth&lt;/h2&gt;
 &lt;p&gt;Over a hundred people (180 as of this writing) have helped improve isort over the years. Fixing hundreds of bugs and introducing dozens of features. But what never changed, until isort 5, was the internal structure of isort. A structure that each fix and improvement, while pushing the project ahead, seemed to ingrain further.&lt;/p&gt;
 &lt;p&gt;From the beginning of isort, the core and bulk of functionality happened within the &lt;code&gt;__init__&lt;/code&gt; method of a single class: &lt;code&gt;SortImports.&lt;/code&gt; While always arguably a sub-optimal design decision, as a new Python programmer at the time, it didn't seem too bad when that core logic was only dozens of lines long. At the end of the isort 4.x series, that core logic had ballooned to hundreds of lines, with the containing class over a thousand lines long. Everything isort would do, internally, was accomplished by mutating attributes of that single class.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;(input file) -&amp;gt; CLI interface -&amp;gt; SortImports(file, config, everything, as, class, init, **arguments) -&amp;gt; (output to same)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
+&lt;p&gt;&lt;img alt="isort_initial_structure" src="images/isort_initial.svg"&gt;&lt;/p&gt;
 &lt;p&gt;Another pain point was isort's initial design, only being centered around an individual developer running it on their machine.
 As isort became a part of CI/CD systems, its initial trade-off to using as much magic as possible to determine what section an import belonged to, no longer fit the reality of how isort was run. This kind of magic led isort to work correctly on one machine while failing to categorize imports on another—a very frustrating experience when isort is acting as a gatekeeper for a codebase.&lt;/p&gt;
 &lt;p&gt;I'm still amazed by how far isort went with this approach. Eventually, however, I no longer even felt like I could take pride in the project I had created. Issues piled up that the current architecture couldn't solve. Corner case after corner case had been worked around, but these workarounds had been pegged onto the initial architecture. An architecture that was never planned.&lt;/p&gt;
@@ -82,16 +99,12 @@ As isort became a part of CI/CD systems, its initial trade-off to using as much 
 &lt;p&gt;There were some initial attempts, from various brave souls, to refactor the isort code base, usually, around the usage of an AST. All of them failed. According to those who had tried, the major problem was that it was tough to keep all the existing configuration options, formats, etc. while also rebuilding the core from the ground up. So, when I finally decided I needed to clean up the code base, and solve the many issues that had been hanging over it, I decided to take a different tact.&lt;/p&gt;
 &lt;p&gt;To me, the biggest problem wasn't the lack of the usage of a traditional AST, that was actually a feature. isort didn't care about anything but imports. A traditional AST parsing approach would have isort parse an entire file, produce the Abstract Syntax Tree, identify the imports, mutate that tree as needed to sort them, and then output the tree into well-formatted code. Straight forward enough. But, that means isort would be parsing syntax it never cared about. Not only would this waste processor cycles and memory, but it would also unnecessarily make isort brittle, especially for editor based usage. One excellent advantage of isort from an integration perspective has always been that you can run it from any version of Python against any other. When things like the walrus operator came out, this broke many formatters, but isort would keep chugging along.&lt;/p&gt;
 &lt;p&gt;To me, the biggest problem with isorts internal structure was shared state and the associated lack of separation between concerns. You couldn't parse separately from formatting, and both actions freely mutated the same variables. This behavior resulted in tickets piling up, which desired things like sorting imports within functions, and no clear path for implementing them. So I started there. I would fully separate the parsing from the formatting, clearly defining the boundaries between both.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;(input file) -&amp;gt; CLI interface -&amp;gt; parse.file_contents(file_contents) -&amp;gt; output.sorted_imports(parsed) -&amp;gt; (output file)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
+&lt;p&gt;&lt;img alt="isort_initial_structure" src="images/isort_refactor1.svg"&gt;&lt;/p&gt;
 &lt;p&gt;Much better! Immediately after finishing this separation, however, I noticed something else concerning. Parsing and output formatting both used the same config, which is fine. Maybe even expected. What wasn't anticipated was that both &lt;em&gt;mutated&lt;/em&gt; this same config. This made it very hard to call them repeatedly with the same configuration, and just felt wrong. So, I decided to make the config creation happen first and separately, ensuring the configuration was immutable.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class="err"&gt;(input file) -&amp;gt; CLI interface -&amp;gt; ImmutableConfig(**options) -&amp;gt; parse.file_contents(file_contents, config) -&amp;gt; output.sorted_imports(parsed, config) -&amp;gt; (output file)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;Finally, things that seemed out of reach before were easy. I was able to create a core function that simply identified groups of contiguous imports and parsed and then sorted them. I then put this new internal functionality behind dedicated Python APIs for common operations (such as formatting files and streams). Suddenly, I was able to work through the hundreds of issues open on isort's Github issue page at a steady pace. Still, while the initial refactor was relatively quick, finishing enough clean up that I felt proud of the project again took months. It was the first time in a while that I undertook a big project an open-source project, literally, one day at a time.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="isort_initial_structure" src="images/isort_refactor2.svg"&gt;&lt;/p&gt;
+&lt;p&gt;Finally, things that seemed out of reach before were easy. I was able to create a core function that simply identified groups of contiguous imports and parsed and then sorted them. I then put this new internal functionality behind dedicated Python APIs for common operations (such as formatting files and streams).&lt;/p&gt;
+&lt;p&gt;&lt;img alt="isort_initial_structure" src="images/isort_refactor3.svg"&gt;&lt;/p&gt;
+&lt;p&gt;Suddenly, I was able to work through the hundreds of issues open on isort's Github issue page at a steady pace. Still, while the initial refactor was relatively quick, finishing enough clean up that I felt proud of the project again took months. It was the first time in a while that I undertook a big open-source project, literally, one day at a time.&lt;/p&gt;
 &lt;h2&gt;Thanks For Reading&lt;/h2&gt;
 &lt;p&gt;Thanks for taking the time to read about the making of isort 5!
 What do you think of isort? Any projects you would like to see in the future? Any projects I should try out?&lt;/p&gt;
