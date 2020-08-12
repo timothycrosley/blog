@@ -1,15 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>TimothyCrosley.com - New Project</title><link href="https://timothycrosley.com/" rel="alternate"></link><link href="https://timothycrosley.com/feeds/new-project.atom.xml" rel="self"></link><id>https://timothycrosley.com/</id><updated>2020-08-10T04:30:00-07:00</updated><subtitle>My Personal Homepage and Blog</subtitle><entry><title>Introducing isort 5: The story of refactoring a widely used 10 year old project.</title><link href="https://timothycrosley.com/project-8-isort5" rel="alternate"></link><published>2020-08-10T04:30:00-07:00</published><updated>2020-08-10T04:30:00-07:00</updated><author><name>timothycrosley</name></author><id>tag:timothycrosley.com,2020-08-10:/project-8-isort5</id><summary type="html">&lt;script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"&gt;&lt;/script&gt;
-
-&lt;script&gt;
-  WebFont.load({
-    google: {
-      families: ['danielbd']
-    }
-  });
-&lt;/script&gt;
-
-&lt;p&gt;&lt;a href="https://timothycrosley.github.io/isort/"&gt;&lt;img alt="isort 5 Logo" src="https://raw.githubusercontent.com/timothycrosley/isort/develop/art/logo_5.png"&gt;&lt;/a&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>TimothyCrosley.com - New Project</title><link href="https://timothycrosley.com/" rel="alternate"></link><link href="https://timothycrosley.com/feeds/new-project.atom.xml" rel="self"></link><id>https://timothycrosley.com/</id><updated>2020-08-10T04:30:00-07:00</updated><subtitle>My Personal Homepage and Blog</subtitle><entry><title>Introducing isort 5: The Refactoring of a 10 Year Old Project</title><link href="https://timothycrosley.com/project-8-isort5" rel="alternate"></link><published>2020-08-10T04:30:00-07:00</published><updated>2020-08-10T04:30:00-07:00</updated><author><name>timothycrosley</name></author><id>tag:timothycrosley.com,2020-08-10:/project-8-isort5</id><summary type="html">&lt;p&gt;&lt;a href="https://timothycrosley.github.io/isort/"&gt;&lt;img alt="isort 5 Logo" src="https://raw.githubusercontent.com/timothycrosley/isort/develop/art/logo_5.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -24,7 +14,7 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Title/Link:&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://timothycrosley.github.io/isort/"&gt;isort&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://timothycrosley.github.io/isort/docs/major_releases/introducing_isort_5/"&gt;isort5&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Pitch:&lt;/td&gt;
@@ -36,17 +26,7 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Skip if:&lt;/td&gt;
-&lt;td&gt;You're not interested in auto …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</summary><content type="html">&lt;script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"&gt;&lt;/script&gt;
-
-&lt;script&gt;
-  WebFont.load({
-    google: {
-      families: ['danielbd']
-    }
-  });
-&lt;/script&gt;
-
-&lt;p&gt;&lt;a href="https://timothycrosley.github.io/isort/"&gt;&lt;img alt="isort 5 Logo" src="https://raw.githubusercontent.com/timothycrosley/isort/develop/art/logo_5.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;td&gt;You're not interested in auto formatters, or are only interested …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</summary><content type="html">&lt;p&gt;&lt;a href="https://timothycrosley.github.io/isort/"&gt;&lt;img alt="isort 5 Logo" src="https://raw.githubusercontent.com/timothycrosley/isort/develop/art/logo_5.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -61,7 +41,7 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Title/Link:&lt;/td&gt;
-&lt;td&gt;&lt;a href="https://timothycrosley.github.io/isort/"&gt;isort&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href="https://timothycrosley.github.io/isort/docs/major_releases/introducing_isort_5/"&gt;isort5&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Pitch:&lt;/td&gt;
@@ -107,6 +87,7 @@ As isort became a part of CI/CD systems, its initial trade-off to using as much 
 &lt;p&gt;Suddenly, I was able to work through the hundreds of issues open on isort's Github issue page at a steady pace. Still, while the initial refactor was relatively quick, finishing enough clean up that I felt proud of the project again took months. It was the first time in a while that I undertook a big open-source project, literally, one day at a time.&lt;/p&gt;
 &lt;h2&gt;Thanks For Reading&lt;/h2&gt;
 &lt;p&gt;Thanks for taking the time to read about the making of isort 5!
+If you want to learn more about the 5.0.0 release, you can see the &lt;a href="https://timothycrosley.github.io/isort/docs/major_releases/introducing_isort_5/"&gt;release announcement&lt;/a&gt; on the official project page.
 What do you think of isort? Any projects you would like to see in the future? Any projects I should try out?&lt;/p&gt;
 &lt;p&gt;~Timothy Crosley&lt;/p&gt;</content><category term="New Project"></category><category term="Projects"></category><category term="52"></category><category term="Introduction"></category></entry><entry><title>Introducing streamdeck_ui</title><link href="https://timothycrosley.com/project-7-streamdeck_ui" rel="alternate"></link><published>2019-10-08T04:30:00-07:00</published><updated>2019-10-08T04:30:00-07:00</updated><author><name>timothycrosley</name></author><id>tag:timothycrosley.com,2019-10-08:/project-7-streamdeck_ui</id><summary type="html">&lt;p&gt;&lt;a href="https://timothycrosley.github.io/streamdeck-ui/"&gt;&lt;img alt="streamdeck_ui Logo" src="https://raw.githubusercontent.com/timothycrosley/streamdeck-ui/master/art/logo_large.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;table&gt;
