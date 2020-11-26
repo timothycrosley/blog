@@ -17,9 +17,9 @@ slug: project-9-qpython
 | Prior Work: | [QuickBasic](https://en.wikipedia.org/wiki/QBasic) [Turbo Pascal](https://en.wikipedia.org/wiki/Turbo_Pascal) [10 years later, QBasic is still the best](http://www.nicolasbize.com/blog/30-years-later-qbasic-is-still-the-best/) |
 | Hackernews Article: | [Show HN: QuickPYTHON](https://news.ycombinator.com/item?id=25158588)
 
-## One more minute please! I'm almost done!
+## One more minute, please! I'm almost done!
 
-I'm a firm believer that addictions aren't *always* bad. When you find you're self addictive to positive things, some people might even call it being driven. Either way, those of you who have read my [whoami introduction](https://timothycrosley.com/whoami)
-likely know that I became addicted to programming at a very young age. Since then, I've never been able to put it down. QuickBasic was my gateway drug. Any chance I got I would spend hours making simple games, trying to automate
-my homework, or building some crazy DOS UI. I didn't have access to the internet, but QuickBasics built in help, intuitive interaction with one button to start your application, and simple mechanics made it easy to pick up hard to put down.
+I'm a firm believer that addictions aren't *always* negative. When you find you're self addictive to positive things, some people might even call it being driven. Either way, those of you who have read my [whoami introduction](https://timothycrosley.com/whoami)
+likely know that I became addicted to programming at a very young age. Since then, I've never been able to put it down. QuickBasic was my gateway drug. Any chance I got, I would spend hours making simple games, trying to automate
+my homework, or building some crazy DOS UI. I didn't have access to the internet, but QuickBasics built-in help, intuitive interaction with one button to start your application, and simple mechanics made it easy to pick up hard to put down.
 
