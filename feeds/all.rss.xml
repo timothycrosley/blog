@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>TimothyCrosley.com</title><link>https://timothycrosley.com/</link><description>My Personal Homepage and Blog</description><lastBuildDate>Mon, 23 Nov 2020 10:00:00 -0800</lastBuildDate><item><title>Introducing QuickPYTHON: The fun of QBasic meets the power of Python</title><link>https://timothycrosley.com/project-9-qpython</link><description>&lt;p&gt;&lt;a href="https://timothycrosley.github.io/quickpython/"&gt;&lt;img alt="QuickPYTHON Logo" src="https://raw.githubusercontent.com/timothycrosley/quickpython/master/art/logo_large.png"&gt;&lt;/a&gt;&lt;/p&gt;
+<rss version="2.0"><channel><title>TimothyCrosley.com</title><link>https://timothycrosley.com/</link><description>My Personal Homepage and Blog</description><lastBuildDate>Thu, 26 Nov 2020 10:00:00 -0800</lastBuildDate><item><title>Introducing QuickPYTHON: The fun of QBasic meets the power of Python</title><link>https://timothycrosley.com/project-9-qpython</link><description>&lt;p&gt;&lt;a href="https://timothycrosley.github.io/quickpython/"&gt;&lt;img alt="QuickPYTHON Logo" src="https://raw.githubusercontent.com/timothycrosley/quickpython/master/art/logo_large.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -26,7 +26,7 @@
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;Skip if:&lt;/td&gt;
-&lt;td&gt;You've already learned how …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">timothycrosley</dc:creator><pubDate>Mon, 23 Nov 2020 10:00:00 -0800</pubDate><guid isPermaLink="false">tag:timothycrosley.com,2020-11-23:/project-9-qpython</guid><category>New Project</category><category>Projects</category><category>52</category><category>Introduction</category></item><item><title>Introducing isort 5: The Refactoring of a 10 Year Old Project</title><link>https://timothycrosley.com/project-8-isort5</link><description>&lt;p&gt;&lt;a href="https://timothycrosley.github.io/isort/"&gt;&lt;img alt="isort 5 Logo" src="https://raw.githubusercontent.com/timothycrosley/isort/develop/art/logo_5.png"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;td&gt;You've already learned how …&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">timothycrosley</dc:creator><pubDate>Thu, 26 Nov 2020 10:00:00 -0800</pubDate><guid isPermaLink="false">tag:timothycrosley.com,2020-11-26:/project-9-qpython</guid><category>New Project</category><category>Projects</category><category>52</category><category>Introduction</category></item><item><title>Introducing isort 5: The Refactoring of a 10 Year Old Project</title><link>https://timothycrosley.com/project-8-isort5</link><description>&lt;p&gt;&lt;a href="https://timothycrosley.github.io/isort/"&gt;&lt;img alt="isort 5 Logo" src="https://raw.githubusercontent.com/timothycrosley/isort/develop/art/logo_5.png"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
