@@ -5,12 +5,12 @@ Category: New Project
 Tags: Projects, 52, Introduction
 slug: project-9-qpython
 
-[![QuickPYTHON Logo](https://raw.githubusercontent.com/timothycrosley/quickpython/develop/art/qpython.png)](https://timothycrosley.github.io/quickpython/)
+[![QuickPYTHON Logo](https://raw.githubusercontent.com/timothycrosley/quickpython/master/art/logo_large.png)](https://timothycrosley.github.io/quickpython/)
 
 | | |
 | ------------| -----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | project: | 9/52 |
-| Title/Link: | [QuickPYTHON](https://timothycrosley.github.io/quickpython) |
+| Title/Link: | [QuickPYTHON](https://raw.githubusercontent.com/timothycrosley/quickpython/master/art/logo_large.png) |
 | Pitch: | isort your imports, so you don't have to. |
 | Read if: | You learned how to code on an old DOS computer using QuickBasic or TurboPascel, or if you are interested in interesting coding environments.|
 | Skip if: | You've already learned how to code, don't have any kids you want to teach, and aren't interested in unique coding environments. |
