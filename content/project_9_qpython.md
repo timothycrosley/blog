@@ -1,5 +1,5 @@
 Title: Introducing QuickPYTHON: The fun of QBasic meets the power of Python
-Date: 2020-11-23 10:00
+Date: 2020-11-26 10:00
 Author: timothycrosley
 Category: New Project
 Tags: Projects, 52, Introduction
